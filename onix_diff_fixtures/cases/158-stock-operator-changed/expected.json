@@ -1,0 +1,33 @@
+{
+  "id": "158-stock-operator-changed",
+  "title": "Stock given as 'more than'",
+  "description": "The stock of 1500 is reported as 'more than 1500' instead of 'exactly 1500': only Stock/Proximity changes (03 -> 07).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "supply_detail.changed",
+      "changed_fields": [
+        "Stock/Proximity"
+      ],
+      "before": {
+        "Supplier[01]/SupplierIdentifier[23]/IDValue": "PL8821117859",
+        "Supplier[01]/SupplierName": "FORMAT",
+        "ProductAvailability": "21",
+        "Stock/OnHand": "1500",
+        "Stock/Proximity": "03",
+        "PackQuantity": "18"
+      },
+      "after": {
+        "Supplier[01]/SupplierIdentifier[23]/IDValue": "PL8821117859",
+        "Supplier[01]/SupplierName": "FORMAT",
+        "ProductAvailability": "21",
+        "Stock/OnHand": "1500",
+        "Stock/Proximity": "07",
+        "PackQuantity": "18"
+      }
+    }
+  ]
+}

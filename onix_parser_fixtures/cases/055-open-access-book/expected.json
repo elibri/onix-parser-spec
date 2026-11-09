@@ -1,0 +1,245 @@
+{
+  "id": "055-open-access-book",
+  "title": "Open-access e-book",
+  "description": "An open-access e-book (exported as EA) under a Creative Commons licence: EpubLicense, an open-access statement (TextType 20) and a free supply detail without a price. Its main title is Ukrainian; the second distinctive title is Polish but carries language=\"eng\" (the publisher used the English-title field), so it is title_eng - the parser reports what the record says.",
+  "source": {
+    "kind": "record",
+    "product": "open_access_book",
+    "record_references": [
+      "265a6c79a122a571d996"
+    ]
+  },
+  "message": {
+    "release": "3.1",
+    "header": {
+      "sent_date_time": "20261019",
+      "sender": {
+        "sender_name": "Elibri sp. z o. o."
+      }
+    },
+    "products": [
+      {
+        "record_reference": "265a6c79a122a571d996",
+        "notification_type": "03",
+        "deletion_text": null,
+        "isbn13": "9788323569367",
+        "ean": null,
+        "doi": null,
+        "proprietary_identifiers": {},
+        "product_composition": "00",
+        "onix_product_form": "EA",
+        "product_form": "EA",
+        "product_form_name": "EBOOK",
+        "product_form_details": [
+          "E107"
+        ],
+        "cover_type": null,
+        "finishings": [],
+        "finishing_names": [],
+        "finishing_name_descriptions": [],
+        "product_packaging": null,
+        "product_packaging_name": null,
+        "product_packaging_name_description": null,
+        "digital_formats": [
+          "PDF"
+        ],
+        "technical_protections": [],
+        "epub_license": {
+          "name": "Creative Commons Uznanie autorstwa 4.0 (CC BY 4.0)",
+          "link": "https://creativecommons.org/licenses/by/4.0/deed.pl"
+        },
+        "number_of_pieces": null,
+        "players_number_from": null,
+        "players_number_to": null,
+        "playing_time_from": null,
+        "playing_time_to": null,
+        "carries_ce_logo": false,
+        "carries_unsuitable_for_children_below_3_logo": false,
+        "carries_en71_logo": false,
+        "minimum_age_warning": null,
+        "toy_safety_warning": null,
+        "declaration_of_conformity_url": null,
+        "height": null,
+        "width": null,
+        "thickness": null,
+        "weight": null,
+        "map_scale": null,
+        "country_of_manufacture": null,
+        "cn_code": null,
+        "series": [],
+        "issn": null,
+        "issn_with_hyphens": null,
+        "title": "Рукописи Івана Дніпровського та історія Розстріляного відродження",
+        "subtitle": null,
+        "collection_title": null,
+        "collection_part_number": null,
+        "title_eng": "Rękopisy Iwana Dniprowskiego i historia „rozstrzelanego odrodzenia”",
+        "original_title": null,
+        "contributors": [
+          {
+            "id": 498578,
+            "datestamp": "2026-05-11T12:03",
+            "number": 1,
+            "role": "A01",
+            "role_name": "AUTHOR",
+            "from_language": null,
+            "person_name": "Tetiana Trofymenko",
+            "titles_before_names": null,
+            "names_before_key": "Tetiana",
+            "prefix_to_key": null,
+            "key_names": "Trofymenko",
+            "names_after_key": null,
+            "biographical_note": null,
+            "unnamed_persons": null,
+            "ai_generated_voice": false,
+            "ai_voice_description": null,
+            "voice_name": null,
+            "isni": null,
+            "viaf": null,
+            "alternative_names": []
+          }
+        ],
+        "no_contributor": false,
+        "edition_statement": "Polska",
+        "edition_types": [],
+        "edition_type_names": [],
+        "edition_type_descriptions": [],
+        "languages": [
+          {
+            "role": "01",
+            "role_name": "LANGUAGE_OF_TEXT",
+            "code": "ukr",
+            "language": "ukraiński"
+          },
+          {
+            "role": "01",
+            "role_name": "LANGUAGE_OF_TEXT",
+            "code": "eng",
+            "language": "angielski"
+          }
+        ],
+        "number_of_pages": 314,
+        "duration": null,
+        "number_of_characters": null,
+        "number_of_illustrations": null,
+        "thema_subjects": [
+          {
+            "code": "DSB",
+            "heading_texts": [
+              "Biografia, literatura i literaturoznawstwo / Literaturoznawstwo i krytyka literacka / Literaturoznawstwo"
+            ]
+          },
+          {
+            "code": "JPHX",
+            "heading_texts": [
+              "Społeczeństwo i nauki społeczne / Polityka i administracja / Ustroje i instytucje polityczne / Ustroje polityczne – totalitaryzm i dyktatura"
+            ]
+          }
+        ],
+        "thema_version": "1.6",
+        "publisher_categories": [],
+        "keywords": [
+          "Ukraine",
+          "literature",
+          "executed Renaissance",
+          "stalinism"
+        ],
+        "names_as_subject": [],
+        "reading_age_from": null,
+        "reading_age_to": null,
+        "table_of_contents": null,
+        "description": {
+          "id": 308377,
+          "datestamp": "2026-05-11T12:03",
+          "text": "<p>Książka przedstawia wyniki badań naukowych nad biografią i twórczością ukraińskiego pisarza Iwana Dniprowskiego – przedstawiciela „rozstrzelanego odrodzenia” lat 20. i 30. XX wieku. Zawiera również uzupełnioną naukowym komentarzem edycję jego tekstów rozproszonych w archiwach i muzeach Ukrainy. Te egodokumenty oprócz danych autobiograficznych zawierają także galerię portretów charkowskich twórców: Mykoły Chwylowego, Mykoły Kulisza, Ostapa Wyszni, Arkadego Lubczenki i wielu innych. Dzienniki, wspomnienia i inne utwory Iwana Dniprowskiego są ważnym źródłem informacji o życiu kulturalnym tego okresu, zwłaszcza o legendarnym Domu „Słowo”, od którego rozpoczęły się masowe represje wobec ukraińskiej inteligencji.</p>",
+          "text_eng": "<p>This book comprises a presentation of research on the life and work of the writer Ivan Dniprovsky – representative of Ukraine’s Executed Renaissance of the 1920s and 1930s – and an academic edition of his manuscripts scattered around museum and archives throughout Ukraine. Dniprovsky’s egodocuments contain autobiographical information as well as a gallery of portraits of artists active in Kharkiv in that period, including Mykola Khvylovy, Mykola Kulish, Ostap Vyshnia, Arkady Liubchenko, among many others. Dniprovsky diary, memoirs and works of prose constitute an important source of information on the period’s cultural life, especially on the legendary Slovo Building, where mass repression against the Ukrainian intelligentsia first began.</p>"
+        },
+        "short_description": null,
+        "short_collection_description": null,
+        "list_of_contents": null,
+        "open_access_statement": {
+          "id": null,
+          "datestamp": null,
+          "text": "Ta książka jest dostępna bezpłatnie w otwartym dostępie",
+          "text_eng": null
+        },
+        "excerpts": [],
+        "supporting_resources": [],
+        "front_cover": {
+          "id": 464327,
+          "datestamp": "2026-05-11T10:05",
+          "link": "https://www.elibri.com.pl/attachments/265a6c79a122a571d996/cover-35b23728baeac5e6fef83334351e9fec/original.png",
+          "md5": "35b23728baeac5e6fef83334351e9fec",
+          "file_size": 314019
+        },
+        "preview_exists": false,
+        "excerpt_infos": [],
+        "imprint_name": "Wydawnictwa Uniwersytetu Warszawskiego",
+        "imprint_id": 708,
+        "publisher_name": "Wydawnictwa Uniwersytetu Warszawskiego",
+        "publisher_id": 240,
+        "publisher_website": "https://www.wuw.pl/product-pol-20777-%D0%A0%D1%83%D0%BA%D0%BE%D0%BF%D0%B8%D1%81%D0%B8-%D0%86%D0%B2%D0%B0%D0%BD%D0%B0-%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE-%D1%82%D0%B0-%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D0%A0%D0%BE%D0%B7%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8F%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D1%96%D0%B4%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-EBOOK.html?query_id=22",
+        "city_of_publication": "Warszawa",
+        "safety_contact": {
+          "company_name": "Wydawnictwa Uniwersytetu Warszawskiego",
+          "phone": "22 55 31 318",
+          "email": "wuw@uw.edu.pl",
+          "street": "ul. Smyczkowa 5/7",
+          "city": "Warszawa",
+          "postal_code": "02-678",
+          "country_code": "PL"
+        },
+        "publishing_status": "04",
+        "current_state": "published",
+        "publishing_date": {
+          "format": "00",
+          "format_name": "YYYYMMDD",
+          "date": "20250410",
+          "parsed": [
+            "2025",
+            "04",
+            "10"
+          ]
+        },
+        "premiere": "2025-04-10",
+        "distribution_start": null,
+        "licence_limited_to": null,
+        "unlimited_licence": true,
+        "sales_restrictions": false,
+        "sales_restrictions_info": null,
+        "territory_countries": [],
+        "territory_regions": [],
+        "sale_restricted_to_poland": false,
+        "alternative_format_record_references": [],
+        "file_infos": [],
+        "supply_details": [
+          {
+            "supplier": {
+              "role": "11",
+              "role_name": "RETAIL_NON_EXL_DIST",
+              "role_description": "Dystrybutor do klientów końcowych",
+              "vat_id": null,
+              "name": "Elibri",
+              "website": "https://www.elibri.com.pl/open-access/download/265a6c79a122a571d996/352021/рукописи-івана-дніпровського-та-історія-розстріляного-відродження.pdf"
+            },
+            "product_availability": "20",
+            "product_availability_name": "AVAILABLE",
+            "supplier_own_coding": null,
+            "on_hand": null,
+            "proximity": null,
+            "proximity_name": null,
+            "pack_quantity": null,
+            "unpriced_item_type": "01",
+            "prices": []
+          }
+        ],
+        "vat": null,
+        "future_price_from": null,
+        "future_cover_price": null,
+        "current_price_until": null,
+        "cover_price": null,
+        "additional_trade_information": null
+      }
+    ]
+  }
+}

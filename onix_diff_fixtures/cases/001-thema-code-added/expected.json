@@ -1,0 +1,20 @@
+{
+  "id": "001-thema-code-added",
+  "title": "Thema subject code added",
+  "description": "An editor adds a second Thema subject category (FRH, romantic suspense) to an e-book.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "subject.added",
+      "after": {
+        "SubjectSchemeIdentifier": "93",
+        "SubjectSchemeVersion": "1.6",
+        "SubjectCode": "FRH",
+        "SubjectHeadingText": "Proza fabularna / Romans / Romans historyczny"
+      }
+    }
+  ]
+}

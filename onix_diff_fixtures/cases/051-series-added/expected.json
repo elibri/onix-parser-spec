@@ -1,0 +1,18 @@
+{
+  "id": "051-series-added",
+  "title": "Second series added",
+  "description": "The book is additionally put into another of the publisher's series, without a volume number.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "collection.added",
+      "after": {
+        "CollectionType": "10",
+        "TitleDetail[01]/TitleElement[02]/TitleText": "BabyLit®"
+      }
+    }
+  ]
+}

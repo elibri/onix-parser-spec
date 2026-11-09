@@ -1,0 +1,25 @@
+{
+  "id": "077-playing-time-changed",
+  "title": "Playing time changed",
+  "description": "The playing time changes from 20-40 minutes to 30-60 minutes (a range is a ProductFormFeatureDescription).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "product_form_feature.changed",
+      "changed_fields": [
+        "ProductFormFeatureDescription"
+      ],
+      "before": {
+        "ProductFormFeatureType": "24",
+        "ProductFormFeatureDescription": "20-40 min."
+      },
+      "after": {
+        "ProductFormFeatureType": "24",
+        "ProductFormFeatureDescription": "30-60 min."
+      }
+    }
+  ]
+}

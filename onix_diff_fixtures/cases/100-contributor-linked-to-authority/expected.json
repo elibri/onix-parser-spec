@@ -1,0 +1,36 @@
+{
+  "id": "100-contributor-linked-to-authority",
+  "title": "Author identified in library catalogues",
+  "description": "The author is linked to a person record with ISNI and VIAF identifiers and a name variant; NameIdentifier and AlternativeName appear in the contributor.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "NameIdentifier[16]/IDValue",
+        "NameIdentifier[31]/IDValue",
+        "AlternativeName[00]/PersonName"
+      ],
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "J. T. Geissinger",
+        "NamesBeforeKey": "J. T.",
+        "KeyNames": "Geissinger"
+      },
+      "after": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "NameIdentifier[16]/IDValue": "0000000456789012",
+        "NameIdentifier[31]/IDValue": "315529987",
+        "PersonName": "J. T. Geissinger",
+        "NamesBeforeKey": "J. T.",
+        "KeyNames": "Geissinger",
+        "AlternativeName[00]/PersonName": "Jessica Geissinger"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "117-keywords-removed",
+  "title": "All keywords removed",
+  "description": "All keywords are deleted; the keywords Subject (scheme 20) disappears.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "subject.removed",
+      "before": {
+        "SubjectSchemeIdentifier": "20",
+        "SubjectHeadingText": "przygoda; kot; rodzina"
+      }
+    }
+  ]
+}

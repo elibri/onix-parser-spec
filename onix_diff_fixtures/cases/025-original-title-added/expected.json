@@ -1,0 +1,19 @@
+{
+  "id": "025-original-title-added",
+  "title": "Original title added to a translation",
+  "description": "The original (English) title 'Liars Like Us' is filled in.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "title.added",
+      "after": {
+        "TitleType": "03",
+        "TitleElementLevel": "01",
+        "TitleText": "Liars Like Us"
+      }
+    }
+  ]
+}

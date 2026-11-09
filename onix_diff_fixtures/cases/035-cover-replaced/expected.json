@@ -1,0 +1,40 @@
+{
+  "id": "035-cover-replaced",
+  "title": "Cover image replaced",
+  "description": "The publisher uploads a new cover. The SupportingResource gets a new id, link, checksum, size and date.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.changed",
+      "changed_fields": [
+        "ResourceVersionFeature[06]/FeatureValue",
+        "ResourceVersionFeature[07]/FeatureValue",
+        "ResourceLink",
+        "ContentDate[17]/Date"
+      ],
+      "before": {
+        "ResourceContentType": "01",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "119c3a871ef1e47860f5f9f7b40d3122",
+        "ResourceVersionFeature[07]/FeatureValue": "660092",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg",
+        "ContentDate[17]/Date": "20261002T0759Z"
+      },
+      "after": {
+        "ResourceContentType": "01",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "5f0c3d2a9b8e7f6a1c2d3e4f5a6b7c8d",
+        "ResourceVersionFeature[07]/FeatureValue": "1204331",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-5f0c3d2a9b8e7f6a1c2d3e4f5a6b7c8d/original.jpg",
+        "ContentDate[17]/Date": "20261019T1000Z"
+      }
+    }
+  ]
+}

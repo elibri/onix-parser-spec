@@ -1,0 +1,39 @@
+{
+  "id": "104-authorship-collective",
+  "title": "Contributors replaced by 'various authors'",
+  "description": "The authorship is switched to collective: the named contributors are no longer exported and a single Contributor with UnnamedPersons 04 (various authors) appears.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributor.removed",
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "J. T. Geissinger",
+        "NamesBeforeKey": "J. T.",
+        "KeyNames": "Geissinger"
+      }
+    },
+    {
+      "type": "contributor.removed",
+      "before": {
+        "SequenceNumber": "2",
+        "ContributorRole": "B06",
+        "FromLanguage": "eng",
+        "PersonName": "Edyta Misiewicz-Hulewska",
+        "NamesBeforeKey": "Edyta",
+        "KeyNames": "Misiewicz-Hulewska"
+      }
+    },
+    {
+      "type": "contributor.added",
+      "after": {
+        "ContributorRole": "A01",
+        "UnnamedPersons": "04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "024-subtitle-added",
+  "title": "Subtitle added",
+  "description": "The subtitle 'Opowieść graficzna' is added.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "title.changed",
+      "changed_fields": [
+        "Subtitle"
+      ],
+      "before": {
+        "TitleType": "01",
+        "TitleElementLevel": "01",
+        "TitleText": "Dokąd wędrują kamyki"
+      },
+      "after": {
+        "TitleType": "01",
+        "TitleElementLevel": "01",
+        "TitleText": "Dokąd wędrują kamyki",
+        "Subtitle": "Opowieść graficzna"
+      }
+    }
+  ]
+}

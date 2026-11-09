@@ -1,0 +1,27 @@
+{
+  "id": "032-description-changed",
+  "title": "Main description edited",
+  "description": "The publisher appends a sentence to the main description (TextType 03).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "text_content.changed",
+      "changed_fields": [
+        "Text"
+      ],
+      "before": {
+        "TextType": "03",
+        "ContentAudience": "00",
+        "Text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p> <p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p> <p>Obsesja tak potężna, że może zniszczyć oboje.</p> <p>Seks.</p> <p>Kłamstwa.</p> <p>Tajemnice.</p> <p>Namiętność.</p> <p>Callum McCord zawsze dostaje to, czego pragnie.</p> <p>Osiąga cele za wszelką cenę.</p> <p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p> <p>Opis pochodzi od Wydawcy.</p>"
+      },
+      "after": {
+        "TextType": "03",
+        "ContentAudience": "00",
+        "Text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p> <p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p> <p>Obsesja tak potężna, że może zniszczyć oboje.</p> <p>Seks.</p> <p>Kłamstwa.</p> <p>Tajemnice.</p> <p>Namiętność.</p> <p>Callum McCord zawsze dostaje to, czego pragnie.</p> <p>Osiąga cele za wszelką cenę.</p> <p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p> <p>Opis pochodzi od Wydawcy.</p> <p><strong>Pierwszy tom serii Morally Gray.</strong></p>"
+      }
+    }
+  ]
+}

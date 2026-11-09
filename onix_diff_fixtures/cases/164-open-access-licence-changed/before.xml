@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>265a6c79a122a571d996</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9788323569367</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E107</ProductFormDetail>
+      <EpubLicense>
+        <EpubLicenseName>Creative Commons Uznanie autorstwa 4.0 (CC BY 4.0)</EpubLicenseName>
+        <EpubLicenseExpression>
+          <EpubLicenseExpressionType>01</EpubLicenseExpressionType>
+          <EpubLicenseExpressionLink>https://creativecommons.org/licenses/by/4.0/deed.pl</EpubLicenseExpressionLink>
+        </EpubLicenseExpression>
+      </EpubLicense>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="ukr">Рукописи Івана Дніпровського та історія Розстріляного відродження</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="eng">Rękopisy Iwana Dniprowskiego i historia „rozstrzelanego odrodzenia”</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>RUKOPISY IWANA</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor sourcename="contributorid:498578" datestamp="20260511T1203">
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Tetiana Trofymenko</PersonName>
+        <NamesBeforeKey>Tetiana</NamesBeforeKey>
+        <KeyNames>Trofymenko</KeyNames>
+      </Contributor>
+      <EditionStatement>Polska</EditionStatement>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>ukr</LanguageCode>
+      </Language>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>314</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>DSB</SubjectCode>
+        <SubjectHeadingText>Biografia, literatura i literaturoznawstwo / Literaturoznawstwo i krytyka literacka / Literaturoznawstwo</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>JPHX</SubjectCode>
+        <SubjectHeadingText>Społeczeństwo i nauki społeczne / Polityka i administracja / Ustroje i instytucje polityczne / Ustroje polityczne – totalitaryzm i dyktatura</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="eng">Ukraine; literature; executed Renaissance; stalinism</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:308377" datestamp="20260511T1203">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="ukr">
+          <![CDATA[<p>Książka przedstawia wyniki badań naukowych nad biografią i twórczością ukraińskiego pisarza Iwana Dniprowskiego – przedstawiciela „rozstrzelanego odrodzenia” lat 20. i 30. XX wieku. Zawiera również uzupełnioną naukowym komentarzem edycję jego tekstów rozproszonych w archiwach i muzeach Ukrainy. Te egodokumenty oprócz danych autobiograficznych zawierają także galerię portretów charkowskich twórców: Mykoły Chwylowego, Mykoły Kulisza, Ostapa Wyszni, Arkadego Lubczenki i wielu innych. Dzienniki, wspomnienia i inne utwory Iwana Dniprowskiego są ważnym źródłem informacji o życiu kulturalnym tego okresu, zwłaszcza o legendarnym Domu „Słowo”, od którego rozpoczęły się masowe represje wobec ukraińskiej inteligencji.</p>]]>
+        </Text>
+        <Text language="eng">
+          <![CDATA[<p>This book comprises a presentation of research on the life and work of the writer Ivan Dniprovsky – representative of Ukraine’s Executed Renaissance of the 1920s and 1930s – and an academic edition of his manuscripts scattered around museum and archives throughout Ukraine. Dniprovsky’s egodocuments contain autobiographical information as well as a gallery of portraits of artists active in Kharkiv in that period, including Mykola Khvylovy, Mykola Kulish, Ostap Vyshnia, Arkady Liubchenko, among many others. Dniprovsky diary, memoirs and works of prose constitute an important source of information on the period’s cultural life, especially on the legendary Slovo Building, where mass repression against the Ukrainian intelligentsia first began.</p>]]>
+        </Text>
+      </TextContent>
+      <TextContent>
+        <TextType>20</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Ta książka jest dostępna bezpłatnie w otwartym dostępie</Text>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:464327" datestamp="20260511T1005">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>35b23728baeac5e6fef83334351e9fec</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>314019</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/265a6c79a122a571d996/cover-35b23728baeac5e6fef83334351e9fec/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260511T1005Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>708</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Wydawnictwa Uniwersytetu Warszawskiego</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>240</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>Wydawnictwa Uniwersytetu Warszawskiego</PublisherName>
+        <Website>
+          <WebsiteRole>02</WebsiteRole>
+          <WebsiteLink>https://www.wuw.pl/product-pol-20777-%D0%A0%D1%83%D0%BA%D0%BE%D0%BF%D0%B8%D1%81%D0%B8-%D0%86%D0%B2%D0%B0%D0%BD%D0%B0-%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE-%D1%82%D0%B0-%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D0%A0%D0%BE%D0%B7%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8F%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D1%96%D0%B4%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-EBOOK.html?query_id=22</WebsiteLink>
+        </Website>
+      </Publisher>
+      <CityOfPublication>Warszawa</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>Wydawnictwa Uniwersytetu Warszawskiego</ProductContactName>
+        <TelephoneNumber>22 55 31 318</TelephoneNumber>
+        <EmailAddress>wuw@uw.edu.pl</EmailAddress>
+        <StreetAddress>ul. Smyczkowa 5/7</StreetAddress>
+        <LocationName>Warszawa</LocationName>
+        <PostalCode>02-678</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20250410</Date>
+      </PublishingDate>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>11</SupplierRole>
+          <SupplierName>Elibri</SupplierName>
+          <Website>
+            <WebsiteRole>29</WebsiteRole>
+            <WebsiteDescription>direct link to book download</WebsiteDescription>
+            <WebsiteLink>https://www.elibri.com.pl/open-access/download/265a6c79a122a571d996/352021/рукописи-івана-дніпровського-та-історія-розстріляного-відродження.pdf</WebsiteLink>
+          </Website>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <UnpricedItemType>01</UnpricedItemType>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

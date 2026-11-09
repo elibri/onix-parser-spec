@@ -1,0 +1,37 @@
+{
+  "id": "013-price-changed-printed-book",
+  "title": "Printed book price raised",
+  "description": "The cover price of a printed book goes up from 69.99 to 74.99 PLN.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "price.changed",
+      "changed_fields": [
+        "PriceAmount"
+      ],
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "69.99",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "02",
+        "PositionOnProduct": "00"
+      },
+      "after": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "74.99",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "02",
+        "PositionOnProduct": "00"
+      }
+    }
+  ]
+}

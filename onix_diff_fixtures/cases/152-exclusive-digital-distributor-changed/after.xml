@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>260e49e9df9407937371</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9788384180341</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <ProductFormDetail>E127</ProductFormDetail>
+      <EpubTechnicalProtection>02</EpubTechnicalProtection>
+      <Collection>
+        <CollectionType>10</CollectionType>
+        <TitleDetail>
+          <TitleType>01</TitleType>
+          <TitleElement>
+            <TitleElementLevel>02</TitleElementLevel>
+            <PartNumber>1</PartNumber>
+            <TitleText>Morally Gray</TitleText>
+          </TitleElement>
+        </TitleDetail>
+      </Collection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>02</TitleElementLevel>
+          <PartNumber>1</PartNumber>
+          <TitleText language="pol">Morally Gray</TitleText>
+        </TitleElement>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="pol">Kłamcy tacy jak my</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>KŁAMCY TACY JAK MY</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor sourcename="contributorid:515806" datestamp="20261002T0958">
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>J. T. Geissinger</PersonName>
+        <NamesBeforeKey>J. T.</NamesBeforeKey>
+        <KeyNames>Geissinger</KeyNames>
+      </Contributor>
+      <Contributor sourcename="contributorid:515807" datestamp="20261002T0958">
+        <SequenceNumber>2</SequenceNumber>
+        <ContributorRole>B06</ContributorRole>
+        <FromLanguage>eng</FromLanguage>
+        <PersonName>Edyta Misiewicz-Hulewska</PersonName>
+        <NamesBeforeKey>Edyta</NamesBeforeKey>
+        <KeyNames>Misiewicz-Hulewska</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>pol</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>448</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>FRD</SubjectCode>
+        <SubjectHeadingText>Proza fabularna / Romans / Nowoczesny i współczesny romans</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="pol">romans</SubjectHeadingText>
+      </Subject>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>03</AudienceRangePrecision>
+        <AudienceRangeValue>18</AudienceRangeValue>
+      </AudienceRange>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:319378" datestamp="20261002T0958">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p>Młoda kobieta stojąca na skraju bankructwa.</p>
+<p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p>
+<p>Obsesja tak potężna, że może zniszczyć oboje.</p>
+<p>Seks.</p>
+<p>Kłamstwa.</p>
+<p>Tajemnice.</p>
+<p>Namiętność.</p>
+<p>Callum McCord zawsze dostaje to, czego pragnie.</p>
+<p>Osiąga cele za wszelką cenę.</p>
+<p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p>
+<p>Opis pochodzi od Wydawcy.</p>]]>
+        </Text>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:480045" datestamp="20261002T0759">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>119c3a871ef1e47860f5f9f7b40d3122</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>660092</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261002T0759Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource>
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>04</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>01</ResourceVersionFeatureType>
+            <FeatureValue>E101</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>e3c74e50bc2ac48c8b40f1c219b74824</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>2429768</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/excerpt/366961/e3c74e50bc2ac48c8b40f1c219b74824/klamcy-tacy-jak-my-fragment.epub</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261002T0803Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>01</ResourceVersionFeatureType>
+            <FeatureValue>E127</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>92ae53829b2e466a6ff4df06d81951ba</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>4877859</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/excerpt/366960/92ae53829b2e466a6ff4df06d81951ba/klamcy-tacy-jak-my-fragment.mobi</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261002T0803Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>322</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Wydawnictwo NieZwykłe Zagraniczne</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>551</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>Wydawnictwo NieZwykłe</PublisherName>
+      </Publisher>
+      <CityOfPublication>Warszawa</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>Wydawnictwo NieZwykłe</ProductContactName>
+        <TelephoneNumber>220000000</TelephoneNumber>
+        <StreetAddress>Testowa</StreetAddress>
+        <LocationName>Warszawa</LocationName>
+        <PostalCode>04-349</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20261002</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+        <SalesRestriction>
+          <SalesRestrictionType>04</SalesRestrictionType>
+          <SalesOutlet>
+            <SalesOutletIdentifier>
+              <SalesOutletIDType>03</SalesOutletIDType>
+              <IDValue>PLO</IDValue>
+            </SalesOutletIdentifier>
+          </SalesOutlet>
+        </SalesRestriction>
+      </SalesRights>
+    </PublishingDetail>
+    <ProductionDetail>
+      <ProductionManifest>
+        <BodyManifest>
+          <BodyResource>
+            <SequenceNumber>1</SequenceNumber>
+            <ResourceIdentifier>
+              <ResourceIDType>01</ResourceIDType>
+              <IDTypeName>elibri internal numerical ID</IDTypeName>
+              <IDValue>366962</IDValue>
+            </ResourceIdentifier>
+            <ResourceFileFeature>
+              <ResourceFileFeatureType>07</ResourceFileFeatureType>
+              <ResourceFileFeatureValue>2700833</ResourceFileFeatureValue>
+            </ResourceFileFeature>
+            <ResourceFileFeature>
+              <ResourceFileFeatureType>06</ResourceFileFeatureType>
+              <ResourceFileFeatureValue>d51a4e4c0b81fd67c15945d67657a89d</ResourceFileFeatureValue>
+            </ResourceFileFeature>
+            <ResourceFileLink>klamcy-tacy-jak-my.epub</ResourceFileLink>
+            <ResourceFileDate>
+              <ResourceFileDateRole>17</ResourceFileDateRole>
+              <Date dateformat="13">20261002T0803Z</Date>
+            </ResourceFileDate>
+          </BodyResource>
+          <BodyResource>
+            <SequenceNumber>2</SequenceNumber>
+            <ResourceIdentifier>
+              <ResourceIDType>01</ResourceIDType>
+              <IDTypeName>elibri internal numerical ID</IDTypeName>
+              <IDValue>366959</IDValue>
+            </ResourceIdentifier>
+            <ResourceFileFeature>
+              <ResourceFileFeatureType>07</ResourceFileFeatureType>
+              <ResourceFileFeatureValue>6014616</ResourceFileFeatureValue>
+            </ResourceFileFeature>
+            <ResourceFileFeature>
+              <ResourceFileFeatureType>06</ResourceFileFeatureType>
+              <ResourceFileFeatureValue>6b18a0843865095330c207daeb190ccb</ResourceFileFeatureValue>
+            </ResourceFileFeature>
+            <ResourceFileLink>klamcy-tacy-jak-my.mobi</ResourceFileLink>
+            <ResourceFileDate>
+              <ResourceFileDateRole>17</ResourceFileDateRole>
+              <Date dateformat="13">20261002T0803Z</Date>
+            </ResourceFileDate>
+          </BodyResource>
+        </BodyManifest>
+      </ProductionManifest>
+    </ProductionDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>23</SupplierIDType>
+            <IDValue>PL6762445293</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>Wydawnictwo NieZwykłe</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceQualifier>05</PriceQualifier>
+          <PriceAmount>46.9</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRatePercent>5</TaxRatePercent>
+          </Tax>
+          <CurrencyCode>PLN</CurrencyCode>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

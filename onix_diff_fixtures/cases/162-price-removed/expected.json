@@ -1,0 +1,35 @@
+{
+  "id": "162-price-removed",
+  "title": "Price removed",
+  "description": "The price of a pre-order book is cleared until it is set again. Without a price no SupplyDetail is exported at all.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "supply_detail.removed",
+      "before": {
+        "Supplier[01]/SupplierIdentifier[23]/IDValue": "PL7790000847",
+        "Supplier[01]/SupplierName": "REBIS",
+        "ProductAvailability": "21",
+        "Stock/OnHand": "500",
+        "Stock/Proximity": "07",
+        "PackQuantity": "10"
+      }
+    },
+    {
+      "type": "price.removed",
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "99.0",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "02",
+        "PositionOnProduct": "00"
+      }
+    }
+  ]
+}

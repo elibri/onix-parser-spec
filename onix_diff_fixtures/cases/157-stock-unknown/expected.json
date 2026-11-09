@@ -1,0 +1,33 @@
+{
+  "id": "157-stock-unknown",
+  "title": "Stock level no longer reported",
+  "description": "The publisher stops reporting stock: the Stock composite disappears and availability becomes 99 (contact supplier).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "supply_detail.changed",
+      "changed_fields": [
+        "ProductAvailability",
+        "Stock/OnHand",
+        "Stock/Proximity"
+      ],
+      "before": {
+        "Supplier[01]/SupplierIdentifier[23]/IDValue": "PL8821117859",
+        "Supplier[01]/SupplierName": "FORMAT",
+        "ProductAvailability": "21",
+        "Stock/OnHand": "1500",
+        "Stock/Proximity": "03",
+        "PackQuantity": "18"
+      },
+      "after": {
+        "Supplier[01]/SupplierIdentifier[23]/IDValue": "PL8821117859",
+        "Supplier[01]/SupplierName": "FORMAT",
+        "ProductAvailability": "99",
+        "PackQuantity": "18"
+      }
+    }
+  ]
+}

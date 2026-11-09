@@ -1,0 +1,49 @@
+{
+  "id": "058-published-early",
+  "title": "Pre-order published early",
+  "description": "The book goes on sale a week early: the premiere and distribution start dates move to 2026-11-03 and the state changes to published.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "notification_type.changed",
+      "before": "02",
+      "after": "03"
+    },
+    {
+      "type": "publishing_status.changed",
+      "before": "02",
+      "after": "04"
+    },
+    {
+      "type": "publishing_date.changed",
+      "changed_fields": [
+        "Date"
+      ],
+      "before": {
+        "PublishingDateRole": "01",
+        "Date": "20261110"
+      },
+      "after": {
+        "PublishingDateRole": "01",
+        "Date": "20261103"
+      }
+    },
+    {
+      "type": "publishing_date.changed",
+      "changed_fields": [
+        "Date"
+      ],
+      "before": {
+        "PublishingDateRole": "27",
+        "Date": "20261110"
+      },
+      "after": {
+        "PublishingDateRole": "27",
+        "Date": "20261103"
+      }
+    }
+  ]
+}

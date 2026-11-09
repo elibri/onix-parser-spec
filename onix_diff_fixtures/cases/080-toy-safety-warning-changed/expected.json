@@ -1,0 +1,27 @@
+{
+  "id": "080-toy-safety-warning-changed",
+  "title": "Toy safety warning text edited",
+  "description": "The wording of the toy safety warning (ProductFormFeature 13, value 'Warning') changes. Type and value stay, so the feature is matched by identity.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "product_form_feature.changed",
+      "changed_fields": [
+        "ProductFormFeatureDescription"
+      ],
+      "before": {
+        "ProductFormFeatureType": "13",
+        "ProductFormFeatureValue": "04",
+        "ProductFormFeatureDescription": "OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej. Przed podaniem dziecku zabawki należy usunąć opakowanie z folii termokurczliwej. Opakowanie należy zachować ze względu na zawarte na nim informacje."
+      },
+      "after": {
+        "ProductFormFeatureType": "13",
+        "ProductFormFeatureValue": "04",
+        "ProductFormFeatureDescription": "OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej."
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "136-audio-excerpt-replaced",
+  "title": "Audio sample replaced",
+  "description": "A new MP3 sample of the audiobook is uploaded.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.changed",
+      "changed_fields": [
+        "ResourceVersionFeature[06]/FeatureValue",
+        "ResourceVersionFeature[07]/FeatureValue",
+        "ResourceLink",
+        "ContentDate[17]/Date"
+      ],
+      "before": {
+        "ResourceContentType": "15",
+        "ContentAudience": "00",
+        "ResourceMode": "02",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[01]/FeatureValue": "A103",
+        "ResourceVersionFeature[06]/FeatureValue": "f148f206417140358b807aaa0db7be6f",
+        "ResourceVersionFeature[07]/FeatureValue": "5128348",
+        "ResourceLink": "https://www.elibri.com.pl/excerpt/366213/f148f206417140358b807aaa0db7be6f/cukierku-ty-lobuzie-superprodukcja-fragment.mp3",
+        "ContentDate[17]/Date": "20260924T1329Z"
+      },
+      "after": {
+        "ResourceContentType": "15",
+        "ContentAudience": "00",
+        "ResourceMode": "02",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[01]/FeatureValue": "A103",
+        "ResourceVersionFeature[06]/FeatureValue": "6512bd43d9caa6e02c990b0a82652dca",
+        "ResourceVersionFeature[07]/FeatureValue": "1887420",
+        "ResourceLink": "https://www.elibri.com.pl/excerpt/366213/6512bd43d9caa6e02c990b0a82652dca/cukierku-ty-lobuzie-superprodukcja-fragment.mp3",
+        "ContentDate[17]/Date": "20261019T1000Z"
+      }
+    }
+  ]
+}

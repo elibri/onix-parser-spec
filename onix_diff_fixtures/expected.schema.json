@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ONIX diff fixture - expected result",
+  "type": "object",
+  "required": ["id", "title", "description", "product", "changes"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[0-9]{3}-[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "product": {
+      "type": "object",
+      "required": ["kind", "record_reference"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": { "enum": ["printed_book", "preorder_book", "ebook", "audiobook"] },
+        "record_reference": { "type": "string" }
+      }
+    },
+    "changes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/change" }
+    },
+    "elibri_changeset": {
+      "description": "Informational: the eLibri audit-log diff that produced the change, {field: [before, after]}. Not part of the contract.",
+      "type": "object",
+      "additionalProperties": { "type": "array", "minItems": 2, "maxItems": 2 }
+    }
+  },
+  "$defs": {
+    "value": {
+      "description": "Item value: normalised text of a leaf item, or a flat object of leaf paths to normalised text.",
+      "oneOf": [
+        { "type": "string" },
+        { "type": "object", "additionalProperties": { "type": "string" } }
+      ]
+    },
+    "change": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "after"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "type": "string", "pattern": "^[a-z0-9_]+\\.added$" },
+            "after": { "$ref": "#/$defs/value" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "before"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "type": "string", "pattern": "^[a-z0-9_]+\\.removed$" },
+            "before": { "$ref": "#/$defs/value" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "before", "after"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "type": "string", "pattern": "^[a-z0-9_]+\\.changed$" },
+            "changed_fields": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+            "before": { "$ref": "#/$defs/value" },
+            "after": { "$ref": "#/$defs/value" }
+          }
+        }
+      ]
+    }
+  }
+}

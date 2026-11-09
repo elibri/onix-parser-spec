@@ -1,0 +1,34 @@
+{
+  "id": "101-narrator-replaced-by-synthetic-voice",
+  "title": "Narrator marked as a synthetic voice",
+  "description": "One narrator's part was read by a synthetic voice based on his real voice: the contributor gets UnnamedPersons 08 and the name moves to an AlternativeName (fictional name).",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "PersonName",
+        "NamesBeforeKey",
+        "KeyNames",
+        "UnnamedPersons",
+        "AlternativeName[07]/PersonName"
+      ],
+      "before": {
+        "SequenceNumber": "5",
+        "ContributorRole": "E07",
+        "PersonName": "Krzysztof Zatryb",
+        "NamesBeforeKey": "Krzysztof",
+        "KeyNames": "Zatryb"
+      },
+      "after": {
+        "SequenceNumber": "5",
+        "ContributorRole": "E07",
+        "UnnamedPersons": "08",
+        "AlternativeName[07]/PersonName": "Krzysztof Zatryb"
+      }
+    }
+  ]
+}

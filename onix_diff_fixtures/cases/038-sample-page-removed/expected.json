@@ -1,0 +1,24 @@
+{
+  "id": "038-sample-page-removed",
+  "title": "Sample page image removed",
+  "description": "One of seven sample spreads is deleted.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.removed",
+      "before": {
+        "ResourceContentType": "15",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "78ed3b21d657daa19bccac780d7e526d",
+        "ResourceVersionFeature[07]/FeatureValue": "1759595",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477935/original.jpg",
+        "ContentDate[17]/Date": "20260914T1449Z"
+      }
+    }
+  ]
+}

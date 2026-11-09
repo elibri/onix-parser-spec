@@ -1,0 +1,27 @@
+{
+  "id": "079-box-contents-changed",
+  "title": "Box contents changed",
+  "description": "The list of what is in the box (TextType 32) gets an extra item. It has no sourcename, so it is matched by TextType.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "text_content.changed",
+      "changed_fields": [
+        "Text"
+      ],
+      "before": {
+        "TextType": "32",
+        "ContentAudience": "00",
+        "Text": "plansza, 55 kart, pionki, kostka, instrukcja"
+      },
+      "after": {
+        "TextType": "32",
+        "ContentAudience": "00",
+        "Text": "plansza, 55 kart, pionki, kostka, instrukcja, klepsydra"
+      }
+    }
+  ]
+}

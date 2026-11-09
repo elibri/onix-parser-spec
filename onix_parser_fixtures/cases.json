@@ -1,0 +1,840 @@
+[
+  {
+    "id": "001-example-published-product",
+    "title": "Published book, publication month only",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_published_product_example"
+    }
+  },
+  {
+    "id": "002-example-preorder-product",
+    "title": "Pre-order book",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_preorder_product_example"
+    }
+  },
+  {
+    "id": "003-example-announced-product",
+    "title": "Announced book",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_announced_product_example"
+    }
+  },
+  {
+    "id": "004-example-indefinitely-postponed-product",
+    "title": "Postponed book",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_indefinitely_postponed_product_example"
+    }
+  },
+  {
+    "id": "005-example-cancelled-product",
+    "title": "Cancelled book",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_cancelled_product_example"
+    }
+  },
+  {
+    "id": "006-example-out-of-print-product",
+    "title": "Out-of-print book",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_out_of_print_product_example"
+    }
+  },
+  {
+    "id": "007-example-deleted-product",
+    "title": "Deleted record",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_deleted_product_example"
+    }
+  },
+  {
+    "id": "008-example-record-identifiers",
+    "title": "ISBN, EAN and proprietary identifiers",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_record_identifiers_example"
+    }
+  },
+  {
+    "id": "009-example-product-form",
+    "title": "Board game with country of manufacture and CN code",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_product_form_example"
+    }
+  },
+  {
+    "id": "010-example-product-subform",
+    "title": "Paperback with flaps",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_product_subform_example"
+    }
+  },
+  {
+    "id": "011-example-finishing",
+    "title": "Hardback with dust jacket and finishing",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_finishing_example"
+    }
+  },
+  {
+    "id": "012-example-packaging",
+    "title": "Book in a slipcase",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_packaging_example"
+    }
+  },
+  {
+    "id": "013-example-paperback-trade-information",
+    "title": "Paperback with additional trade information",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_elibri_extensions_example"
+    }
+  },
+  {
+    "id": "014-example-epub-details",
+    "title": "E-book formats and protection",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_epub_details_example"
+    }
+  },
+  {
+    "id": "015-example-ebook-with-files",
+    "title": "E-book with excerpts and master files",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_ebook_with_files_example"
+    }
+  },
+  {
+    "id": "016-example-digital-audiobook",
+    "title": "Downloadable audiobook with licence end date",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_digital_audiobook_example"
+    }
+  },
+  {
+    "id": "017-example-audiobook-extent",
+    "title": "Audiobook duration",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_audiobook_extent_example"
+    }
+  },
+  {
+    "id": "018-example-book-extent",
+    "title": "Page count and illustrations",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_book_extent_example"
+    }
+  },
+  {
+    "id": "019-example-measurement",
+    "title": "Map dimensions and scale",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_measurement_example"
+    }
+  },
+  {
+    "id": "020-example-pform-features",
+    "title": "Board game: players and playing time",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_pform_features_example"
+    }
+  },
+  {
+    "id": "021-example-safety-features",
+    "title": "Toy safety warnings",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_safety_features_example"
+    }
+  },
+  {
+    "id": "022-example-titles",
+    "title": "Title, subtitle, original and trade title",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_titles_example"
+    }
+  },
+  {
+    "id": "023-example-title-with-collection",
+    "title": "Title with a collection level",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_title_with_collection_example"
+    }
+  },
+  {
+    "id": "024-example-series-memberships",
+    "title": "Two series",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_series_memberships_example"
+    }
+  },
+  {
+    "id": "025-example-epress",
+    "title": "Magazine issue with ISSN",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_epress_example"
+    }
+  },
+  {
+    "id": "026-example-contributors",
+    "title": "Contributors with name parts and biography",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_contributors_example"
+    }
+  },
+  {
+    "id": "027-example-contributor-identifiers",
+    "title": "Contributor identifiers",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_contributor_identifiers_example"
+    }
+  },
+  {
+    "id": "028-example-collective-work",
+    "title": "Collective work",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_collective_work_example"
+    }
+  },
+  {
+    "id": "029-example-no-contributors",
+    "title": "No contributor",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_no_contributors_example"
+    }
+  },
+  {
+    "id": "030-example-ai-voice",
+    "title": "Audiobook read by a synthetic voice",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_ai_voice_example"
+    }
+  },
+  {
+    "id": "031-example-cloned-ai-voice",
+    "title": "Synthetic voice based on a real voice",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_cloned_ai_voice_example"
+    }
+  },
+  {
+    "id": "032-example-edition",
+    "title": "Edition statement and edition types",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_edition_example"
+    }
+  },
+  {
+    "id": "033-example-languages",
+    "title": "Languages",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_languages_example"
+    }
+  },
+  {
+    "id": "034-example-subjects",
+    "title": "Thema subjects and keywords",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_subjects_example"
+    }
+  },
+  {
+    "id": "035-example-categories",
+    "title": "Publisher's own categories",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_categories_example"
+    }
+  },
+  {
+    "id": "036-example-name-as-subject-person",
+    "title": "Person as subject",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_name_as_subject_person_example"
+    }
+  },
+  {
+    "id": "037-example-name-as-subject-corporate",
+    "title": "Organisation as subject",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_name_as_subject_corporate_example"
+    }
+  },
+  {
+    "id": "038-example-audience-range",
+    "title": "Reading age",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_audience_range_example"
+    }
+  },
+  {
+    "id": "039-example-texts",
+    "title": "Texts",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_texts_example"
+    }
+  },
+  {
+    "id": "040-example-supporting-resources",
+    "title": "Cover, sample and preview widget",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_supporting_resources_example"
+    }
+  },
+  {
+    "id": "041-example-related-products",
+    "title": "Related products",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_related_products_example"
+    }
+  },
+  {
+    "id": "042-example-publisher-info",
+    "title": "Publisher and imprint",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_publisher_info_example"
+    }
+  },
+  {
+    "id": "043-example-territorial-rights",
+    "title": "Sales restricted to Poland",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_territorial_rights_example"
+    }
+  },
+  {
+    "id": "044-example-no-territorial-restrictions",
+    "title": "Sales worldwide",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_no_territorial_restrictions"
+    }
+  },
+  {
+    "id": "045-example-sale-restrictions",
+    "title": "Exclusive sale in one retailer",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_sale_restrictions_example"
+    }
+  },
+  {
+    "id": "046-example-stock-info",
+    "title": "Stock information",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_stock_info_example"
+    }
+  },
+  {
+    "id": "047-example-future-price-change",
+    "title": "Scheduled price change",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_future_price_change_example"
+    }
+  },
+  {
+    "id": "048-printed-book",
+    "title": "Printed picture book",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "049-preorder-book",
+    "title": "Pre-order history book",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "050-ebook",
+    "title": "E-book with files",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "051-audiobook",
+    "title": "Downloadable audiobook",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "052-board-game",
+    "title": "Board game",
+    "source": {
+      "kind": "record",
+      "product": "board_game"
+    }
+  },
+  {
+    "id": "053-puzzle",
+    "title": "Jigsaw puzzle",
+    "source": {
+      "kind": "record",
+      "product": "puzzle"
+    }
+  },
+  {
+    "id": "054-map",
+    "title": "Road map",
+    "source": {
+      "kind": "record",
+      "product": "map"
+    }
+  },
+  {
+    "id": "055-open-access-book",
+    "title": "Open-access e-book",
+    "source": {
+      "kind": "record",
+      "product": "open_access_book"
+    }
+  },
+  {
+    "id": "056-english-title",
+    "title": "English title next to the Polish one",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "057-english-keywords",
+    "title": "Keywords in two languages",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "058-english-description",
+    "title": "Description in two languages",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "059-names-as-subject",
+    "title": "Organisation and person as subjects",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "060-contributor-authority",
+    "title": "Contributor with ISNI, VIAF and a name variant",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "061-contributor-name-parts",
+    "title": "Contributor name parts",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "062-synthetic-voice-narrator",
+    "title": "Narrator replaced by a cloned voice",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "063-collective-authorship",
+    "title": "Various authors",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "064-no-contributor",
+    "title": "No contributor",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "065-deleted",
+    "title": "Deleted e-book",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "066-announced",
+    "title": "Announced book",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "067-cancelled",
+    "title": "Cancelled book",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "068-out-of-print",
+    "title": "Out-of-print book",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "069-ebook-exclusive-retailer",
+    "title": "E-book exclusive to one retailer",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "070-printed-book-exclusive-retailer",
+    "title": "Printed book exclusive to Empik until a date",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "071-future-price",
+    "title": "Scheduled price change",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "072-no-price",
+    "title": "Book without a price",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "073-licence-expiry",
+    "title": "E-book licence expiry date",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "074-collection-with-issn",
+    "title": "Cycle with an ISSN",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "075-finishing-and-packaging",
+    "title": "Cover finishing and packaging",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "076-lcp-protection",
+    "title": "Two technical protections",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "077-stock-more-than",
+    "title": "Stock 'more than'",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "078-publication-year-only",
+    "title": "Publication year only",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "079-review-with-source",
+    "title": "Review with author, source title and link",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "080-table-of-contents-and-excerpt",
+    "title": "Table of contents and text excerpt",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "081-publisher-website-and-trade-info",
+    "title": "Link to the book on the publisher's site and trade information",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "082-edition-types",
+    "title": "Edition types",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "083-language-of-original",
+    "title": "Language of the text and of the original",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "084-english-publication-language",
+    "title": "Text in English, keywords in Polish",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "085-publishing-sheets",
+    "title": "Length in characters",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "086-sales-restricted-to-poland",
+    "title": "E-book sold only in Poland",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "087-several-products",
+    "title": "Message with three products",
+    "source": {
+      "kind": "message"
+    }
+  },
+  {
+    "id": "088-onix-30-namespace",
+    "title": "ONIX 3.0 namespace",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "089-reformatted",
+    "title": "No indentation, escaped HTML instead of CDATA",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "090-unknown-elements",
+    "title": "Elements the parser does not know",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "091-empty-message",
+    "title": "Message without products",
+    "source": {
+      "kind": "message"
+    }
+  },
+  {
+    "id": "092-contributor-isni-only",
+    "title": "Contributor with an ISNI only",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "093-contributor-viaf-only",
+    "title": "Contributor with a VIAF only",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "094-contributors-with-different-identifiers",
+    "title": "Each contributor identified differently",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "095-cycle-part-not-a-number",
+    "title": "Cycle part that is not a number",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "096-cycle-without-part",
+    "title": "Cycle without a part number",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "097-cycle-and-series",
+    "title": "Cycle and series with different names",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "098-cycle-name-ending-with-dot",
+    "title": "Cycle name ending with a dot",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  },
+  {
+    "id": "099-doi",
+    "title": "DOI",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "100-short-collection-description",
+    "title": "Short description of the collection",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "101-cycle-part-in-product-level-element",
+    "title": "Cycle part number in the product-level element",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "102-ai-voice-marker",
+    "title": "AI voice marker only",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "103-ai-voice-male-with-name",
+    "title": "Male AI voice with a name",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "104-ai-voice-female-with-name",
+    "title": "Female AI voice with a name",
+    "source": {
+      "kind": "record",
+      "product": "audiobook"
+    }
+  },
+  {
+    "id": "105-alternative-format-relation-code",
+    "title": "Same book in another format, relation code 06",
+    "source": {
+      "kind": "record",
+      "product": "preorder_book"
+    }
+  }
+]

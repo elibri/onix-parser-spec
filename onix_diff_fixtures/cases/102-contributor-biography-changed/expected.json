@@ -1,0 +1,33 @@
+{
+  "id": "102-contributor-biography-changed",
+  "title": "Author biography edited",
+  "description": "The biographical note of the author is extended with a sentence.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "BiographicalNote"
+      ],
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "Gilles Baum",
+        "NamesBeforeKey": "Gilles",
+        "KeyNames": "Baum",
+        "BiographicalNote": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>"
+      },
+      "after": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "Gilles Baum",
+        "NamesBeforeKey": "Gilles",
+        "KeyNames": "Baum",
+        "BiographicalNote": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p> <p>Mieszka w Strasburgu.</p>"
+      }
+    }
+  ]
+}

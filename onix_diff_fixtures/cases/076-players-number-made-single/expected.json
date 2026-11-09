@@ -1,0 +1,26 @@
+{
+  "id": "076-players-number-made-single",
+  "title": "Range of players replaced by a single value",
+  "description": "The game turns out to be for exactly 2 players: the range '2-5 graczy' (ProductFormFeatureDescription) becomes a value (ProductFormFeatureValue 2).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "product_form_feature.changed",
+      "changed_fields": [
+        "ProductFormFeatureDescription",
+        "ProductFormFeatureValue"
+      ],
+      "before": {
+        "ProductFormFeatureType": "23",
+        "ProductFormFeatureDescription": "2-5 graczy"
+      },
+      "after": {
+        "ProductFormFeatureType": "23",
+        "ProductFormFeatureValue": "2"
+      }
+    }
+  ]
+}

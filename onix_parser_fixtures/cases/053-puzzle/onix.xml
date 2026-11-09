@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>b9fb354a73654c151607</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>5904905917966</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>01</ProductIDType>
+      <IDTypeName>EDGARD</IDTypeName>
+      <IDValue>226012</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>ZJ</ProductForm>
+      <ProductFormFeature>
+        <ProductFormFeatureType>22</ProductFormFeatureType>
+        <ProductFormFeatureValue>60</ProductFormFeatureValue>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>01</ProductFormFeatureValue>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>04</ProductFormFeatureValue>
+        <ProductFormFeatureDescription>Ostrzeżenie! Przed podaniem dziecku zabawki należy usunąć opakowanie z folii termokurczliwej. Do użytku pod bezpośrednim nadzorem osoby dorosłej. Torebka foliowa nie jest zabawką. Opakowanie nie służy co zabawy. Należy je zachować ze względu na zawarte na nim ważne informacje.</ProductFormFeatureDescription>
+      </ProductFormFeature>
+      <Measure>
+        <MeasureType>01</MeasureType>
+        <Measurement>170</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>02</MeasureType>
+        <Measurement>170</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>03</MeasureType>
+        <Measurement>45</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <CountryOfManufacture>PL</CountryOfManufacture>
+      <ProductClassification>
+        <ProductClassificationType>01</ProductClassificationType>
+        <ProductClassificationCode>9503</ProductClassificationCode>
+      </ProductClassification>
+      <Collection>
+        <CollectionType>10</CollectionType>
+        <TitleDetail>
+          <TitleType>01</TitleType>
+          <TitleElement>
+            <TitleElementLevel>02</TitleElementLevel>
+            <TitleText>Puzzle do nauki czytania</TitleText>
+          </TitleElement>
+        </TitleDetail>
+      </Collection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="pol">Sylaby. Puzzle do nauki czytania. Kapitan Nauka</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>SYLABY. PUZZLE DO NAUKI CZYTANIA. KAPITAN NAUKA</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor sourcename="contributorid:483977" datestamp="20260227T1324">
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A12</ContributorRole>
+        <PersonName>Krzysztof Stręcioch</PersonName>
+        <NamesBeforeKey>Krzysztof</NamesBeforeKey>
+        <KeyNames>Stręcioch</KeyNames>
+      </Contributor>
+      <EditionStatement>wydanie 2</EditionStatement>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>pol</LanguageCode>
+      </Language>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YB</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Publikacje dla najmłodszych, książeczki obrazkowe i aktywizujące</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YN</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Publikacje dla dzieci i młodzieży popularnonaukowe i ogólnoinformacyjne</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YP</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Materiały edukacyjne</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YPC</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Materiały edukacyjne / Edukacja – język, literatura, pisanie i czytanie</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>97</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>4CA</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory celów edukacyjnych / Wszystkie poziomy edukacyjne / Nauczanie przedszkolne</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5LC</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Związane z etapami życia / Odnoszący się do dzieciństwa</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5AD</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Wiek / poziom grupy docelowej / Od ok. 4 lat</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="pol">puzzle; nauka czytania; sylaby; czytanie metodą sylabową; Kapitan Nauka </SubjectHeadingText>
+      </Subject>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>03</AudienceRangePrecision>
+        <AudienceRangeValue>4</AudienceRangeValue>
+      </AudienceRange>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>04</AudienceRangePrecision>
+        <AudienceRangeValue>8</AudienceRangeValue>
+      </AudienceRange>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:296427" datestamp="20260303T1538">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p><strong>Naucz się czytać w mig! Zacznij przygodę z czytaniem metodą sylabową. Układaj podpisy do obrazków, wymyślaj i twórz własne wyrazy.</strong></p>
+<p>Puzzle do nauki czytania metodą sylabową pozwalają na niekończącą się zabawę i tworzenie dziesiątek wyrazów dwu-, trzy- i czterosylabowych. Do zabawy w czytanie zachęcają również radosne ilustracje. W zestawie znajdziecie aż 60 dwustronnych elementów. Dzieci ćwiczą umiejętność czytania, stopniowo zwiększając jego trudność, a przy tym bawią się w przyjemny sposób.</p>
+<p><strong>Sylaby</strong> to układanka edukacyjna z ilustracjami i sylabami, dzięki którym przedszkolaki nauczą się czytać w mig. Dziecko może układać podpisy do obrazków lub wymyślać i tworzyć własne wyrazy</p>
+<p><strong>To niekończąca się zabawa:</strong></p>
+<ul>
+<li>lista aż 200 słów, które można ułożyć z 90 sylab – idealna inspiracja do zabaw językowych i materiał, który szybko się nie znudzi;</li>
+<li>barwne ilustracje pojazdów, zwierząt i obiektów dobrze znanych przedszkolakom;</li>
+</ul>
+<ul>
+<li>3 warianty zabaw, które można dostosować do wieku i możliwości dzieci.</li>
+</ul>
+<p></p>
+<p><strong>Kapitan Nauka to marka, która wspiera rozwój i edukację dziecka przez kreatywną zabawę.</strong></p>
+<p>Nasze produkty dostosowane są do potrzeb maluchów, przedszkolaków oraz uczniów i <strong>rozwijają kluczowe umiejętności</strong> m.in. nauki mowy, czytania, liczenia czy mnożenia. Są świetną alternatywą dla smartfona czy komputera, a czas spędzony przy wspólnych rozgrywkach, w gronie rodziny lub rówieśników wzmacnia więzi i umiejętności komunikacyjne. Nad zawartością merytoryczną czuwają eksperci: nauczyciele, pedagodzy, psycholodzy i terapeuci.</p>]]>
+        </Text>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:449845" datestamp="20260227T1219">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>e0dd99b782070a66ab3ef820481c795e</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>700963</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/b9fb354a73654c151607/cover-e0dd99b782070a66ab3ef820481c795e/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260227T1219Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:450302" datestamp="20260303T1308">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>35f5e58c2654c7ef1de4b08bbf80bae6</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>922204</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/b9fb354a73654c151607/450302/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260303T1308Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:450303" datestamp="20260303T1308">
+        <ResourceContentType>02</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>372418f7646c63ebb06f5147cff0dddb</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>152650</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/b9fb354a73654c151607/back_cover-372418f7646c63ebb06f5147cff0dddb/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260303T1308Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>346</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Kapitan Nauka</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>233</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>EDGARD</PublisherName>
+      </Publisher>
+      <CityOfPublication>Warszawa</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>EDGARD PUBLISHING Spółka z o.o.</ProductContactName>
+        <TelephoneNumber>22 853 11 38</TelephoneNumber>
+        <EmailAddress>edgard@edgard.pl</EmailAddress>
+        <StreetAddress>Belgijska 11/6</StreetAddress>
+        <LocationName>Warszawa</LocationName>
+        <PostalCode>02-511</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20260422</Date>
+      </PublishingDate>
+      <PublishingDate>
+        <PublishingDateRole>27</PublishingDateRole>
+        <Date dateformat="00">20260422</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>23</SupplierIDType>
+            <IDValue>PL5214123062</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>EDGARD</SupplierName>
+        </Supplier>
+        <ProductAvailability>99</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceQualifier>05</PriceQualifier>
+          <PriceAmount>34.99</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRatePercent>23</TaxRatePercent>
+          </Tax>
+          <CurrencyCode>PLN</CurrencyCode>
+          <PrintedOnProduct>01</PrintedOnProduct>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

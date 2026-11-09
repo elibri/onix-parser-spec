@@ -1,0 +1,27 @@
+{
+  "id": "124-text-type-changed",
+  "title": "Text moved to a different type",
+  "description": "The text entered as the short description (TextType 02) is really an excerpt from the book; it is reclassified as an excerpt (14). Same sourcename, so it is one changed item with a different TextType.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "text_content.changed",
+      "changed_fields": [
+        "TextType"
+      ],
+      "before": {
+        "TextType": "02",
+        "ContentAudience": "00",
+        "Text": "<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku</strong></p>"
+      },
+      "after": {
+        "TextType": "14",
+        "ContentAudience": "00",
+        "Text": "<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku</strong></p>"
+      }
+    }
+  ]
+}

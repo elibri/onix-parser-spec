@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>c937e645aeb6050c0246</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9788397740839</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>BB</ProductForm>
+      <Measure>
+        <MeasureType>01</MeasureType>
+        <Measurement>300</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>02</MeasureType>
+        <Measurement>240</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>03</MeasureType>
+        <Measurement>1300</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>08</MeasureType>
+        <Measurement>620</Measurement>
+        <MeasureUnitCode>gr</MeasureUnitCode>
+      </Measure>
+      <CountryOfManufacture>PL</CountryOfManufacture>
+      <Collection>
+        <CollectionType>10</CollectionType>
+        <TitleDetail>
+          <TitleType>01</TitleType>
+          <TitleElement>
+            <TitleElementLevel>02</TitleElementLevel>
+            <PartNumber>8</PartNumber>
+            <TitleText>Joanna Concejo</TitleText>
+          </TitleElement>
+        </TitleDetail>
+      </Collection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="pol">Dokąd wędrują kamyki</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>03</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Ricochets</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>DOKĄD WĘDRUJĄ KAMYKI</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor sourcename="contributorid:513210" datestamp="20260914T1632">
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Gilles Baum</PersonName>
+        <NamesBeforeKey>Gilles</NamesBeforeKey>
+        <KeyNames>Baum</KeyNames>
+        <BiographicalNote>&lt;p&gt;Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę&lt;strong&gt;„Fechamos”&lt;/strong&gt;(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.&lt;/p&gt;</BiographicalNote>
+      </Contributor>
+      <Contributor sourcename="contributorid:513211" datestamp="20260914T1632">
+        <SequenceNumber>2</SequenceNumber>
+        <ContributorRole>A12</ContributorRole>
+        <PersonName>Joanna Concejo</PersonName>
+        <NamesBeforeKey>Joanna</NamesBeforeKey>
+        <KeyNames>Concejo</KeyNames>
+        <BiographicalNote>&lt;p&gt;Joanna Concejo – urodziła się w 1971 roku w Słupsku, studiowała na Akademii Sztuk Pięknych w Poznaniu, na Wydziale Grafiki. W 1998 roku z dyplomem z rysunku i ilustracji w kieszeni osiadła na stałe we Francji. Po raz pierwszy jako artystka została zauważona dzięki instalacjom w 2002 roku, kiedy to została zaproszona do udziału w Busan Biennale w Korei. Rok później pokazała swoje prace na wystawie sztuki współczesnej w Chelles (we Francji). W następnych latach odbyło się kilka wystaw jej prac (w Berlinie, w Paryżu). W 2004 roku wysłała swoje rysunki na Międzynarodowe Targi Książki dla Dzieci w Bolonii i została zakwalifikowana na wystawę ilustratorów – to był początek jej pracy w dziedzinie ilustracji książkowej. Uczestniczyła w wielu wystawach zbiorowych, miała wystawy indywidualne: w Bolonii, w Lizbonie, w Seulu, w Paryżu, w Oxfordzie. Joanna Concejo współpracuje regularnie z Le Petit Atelier de Paris (projektowanie użytkowe, ceramika) oraz ze szkołą ilustracji Fabbrica delle Favole – Macerata/Włochy. Laureatka wyróżnienia Bologna Ragazzi Award. Jej książki ukazały się w ponad 20 krajach.&lt;/p&gt;</BiographicalNote>
+      </Contributor>
+      <Contributor sourcename="contributorid:513212" datestamp="20260914T1632">
+        <SequenceNumber>3</SequenceNumber>
+        <ContributorRole>B06</ContributorRole>
+        <FromLanguage>fre</FromLanguage>
+        <PersonName>Dorota Hartwich</PersonName>
+        <NamesBeforeKey>Dorota</NamesBeforeKey>
+        <KeyNames>Hartwich</KeyNames>
+        <BiographicalNote>&lt;p&gt;Dorota Hartwich&lt;/p&gt;
+&lt;p&gt;Autorka, Tłumaczka&lt;/p&gt;
+&lt;p&gt;Z wykształcenia romanistka, studiowała literaturę francuską i filozofię na Uniwersytecie Wrocławskim oraz na Uniwersytecie Charles’a de Gaulle’a w Lille, we Francji. Redaktorka, wydawczyni, tłumaczka, krytyczka sztuki. Autorka kilku książek dla dzieci oraz powieści biograficznej \""Gattora. Życie Leonor Fini\"". Z francuskiego przełożyła m.in. powieści Emmanuelle Pagano, Sophie Daull, Gaëlle Josse, Isabelle Wéry, teksty Tomiego Ungerera, Bernarda Friota, Laëtitii Bourget, Jeana-François Martina. Członkini The International Association of Art Critics (AICA), mianowana przez Ministra Kultury Francji Kawalerem Orderu Sztuki i Literatury.‍&lt;/p&gt;</BiographicalNote>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>pol</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>64</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <NumberOfIllustrations>48</NumberOfIllustrations>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>XAB</SubjectCode>
+        <SubjectHeadingText>Komiks i powieść graficzna i manga / Komiks i powieść graficzna i manga – style i tradycje / Powieść graficzna</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>XQA</SubjectCode>
+        <SubjectHeadingText>Komiks i powieść graficzna i manga / Komiks i powieść graficzna i manga – gatunki / Komiks i powieść graficzna i manga – wspomnienia i literatura faktu</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>XQE</SubjectCode>
+        <SubjectHeadingText>Komiks i powieść graficzna i manga / Komiks i powieść graficzna i manga – gatunki / Komiks i powieść graficzna i manga – społeczne i kulturalne</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YDP</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Poezja, antologie, roczniki dla dzieci i młodzieży / Poezja dla dzieci i młodzieży</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YX</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Problemy osobiste i zagadnienia społeczne dla dzieci i młodzieży</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>94</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>1A</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory miejsca / Świat</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>95</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>2A</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory językowe / Języki indoeuropejskie</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>96</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>3M</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory chronologiczne / od ok. 1500 do dzisiaj</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5AH</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Wiek / poziom grupy docelowej / Od ok. 7 lat</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5AX</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Wiek / poziom grupy docelowej / Dla dorosłych początkujących czytelników</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5LC</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Związane z etapami życia / Odnoszący się do dzieciństwa</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5LK</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Związane z etapami życia / Dotyczący dorosłości</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5LF</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Związane z etapami życia / Dotyczący nastolatków lub dorastania</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5LD</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Związane z etapami życia / Dotyczące okresu przednastoletniego</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5PB</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Odnoszące się do określonych grup i kultur lub interesów społecznych i kulturowych / Związane z mniejszościami i grupami etnicznymi, ludnością rdzenną</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5PD</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Odnoszące się do określonych grup i kultur lub interesów społecznych i kulturowych / Odnoszące się do określonych grup/statusów społeczno-ekonomicznych</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="pol">przemiana; przebudzenie ; odnowa; dzieciństwo; otwartość; nadzieja; ciekawość; wspólnota; spotkanie</SubjectHeadingText>
+      </Subject>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>03</AudienceRangePrecision>
+        <AudienceRangeValue>7</AudienceRangeValue>
+      </AudienceRange>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>04</AudienceRangePrecision>
+        <AudienceRangeValue>107</AudienceRangeValue>
+      </AudienceRange>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:317891" datestamp="20260914T1632">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p>Świat jest pogrążony w stagnacji; ludzie żyją jak pod wodą – w ciszy, bezruchu, rutynie. Pewnej nocy niebo rozświetlają pomarańczowe światła. Dzieci, zaintrygowane, wynurzają się na powierzchnię i spotykają tajemniczego człowieka, którypuszcza kaczki na wodzie.</p>
+<p></p>
+<p>To opowieść o przebudzeniu, sile drobnego impulsu i odzyskiwaniu kontaktu z tym, co żywe.Spotkanie z drugim człowiekiem — nieznanym — staje się początkiem zmiany i nowej energii. Pokazuje, że czasem wystarczy jeden gest i czyjaś obecność, by wszystko ruszyło na nowo.</p>
+<p></p>
+<p></p>
+<p>„Mocna, wizualna metafora zmiany i rewolucji” (za włoskim wydawcą Topipittori)</p>]]>
+        </Text>
+      </TextContent>
+      <TextContent sourcename="textid:317893" datestamp="20260914T1650">
+        <TextType>07</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p>Wspaniała, wielowątkowa opowieść graficzna dziejąca się na pograniczu jawy i snu, między podróżą a pobytem w nie-miejscach (za Markiem Augé). Tym nie-miejscem jest zarówno dworzec oraz wnętrze pociągu, jak i tajemnicze mokradło, błotnisko, które stanowi uniwersum egzystencji pewnej społeczności. To świat „rozmyty” przez wszechobecną wodę, która jednak nie ma w sobie siły nurtu, potencjału zmiany. Surrealny, monochromatyczny pejzaż, w którym wielkie ryby przepływają, niby wśród wodorostów, między budynkami mieszkalnymi dyktuje wyciszone szarości i ciemną tonację pierwszej części tej głównie wizualnej narracji. Pewnego dnia na niebie pojawiają się pomarańczowe, jaskrawe światła sztucznych ogni, które pociągają za sobą dzieci – mieszkańców podwodnego świata. To one wychodzą na powierzchnię. Paleta się rozjaśnia, a otoczenie nabiera sobie właściwych barw. Ten baśniowy plan przeplata się z podróżą pociągiem, która wydaje się równie nierealna.</p>
+<p>Operowanie w głównej mierze obrazem stanowi o potencjale warsztatowym tej książki, o uniwersalności jej przekazu. Wprowadzenie czynnika sprawczego w postaci obcego/innego daje możliwość otwartych interpretacji, podobnie jak stojąca woda będąca symbolem stagnacji, bierności, braku nadziei. Żywiołowość, szczerość i ciekawość dzieci stanowią tu o obietnicy i możliwości zmiany, o sile nadziei właśnie.</p>
+<p>Przepiękne, z czułością rysowane, a w efekcie niezwykle malarskie pejzaże i sceny rodzajowe Concejo są spoiwem zarówno wizualnym, jak i narracyjnym tej książki.</p>
+<p style='text-align: right'><em>Anita Wincencjusz-Patyna</em></p>
+<p>dr Anita Wincencjusz-Patyna</p>
+<p>Adiunkt, prorektor ds. dydaktycznych i studenckich Akademii sztuk Pięknych we Wrocławiu</p>
+<p>W 1995 r. ukończyła Historię Sztuki na Uniwersytecie Wrocławskim. Rozprawę doktorską (2007) poświęciła polskiej ilustracji książkowej w latach 1950–1980. Jej zainteresowania badawcze koncentrują się przede wszystkim na teorii i historii oraz współczesności ilustracji książkowej (w tym książkach obrazkowych), a szerzej także na grafice projektowej (plakat, animacja), sztuce użytkowej. Uwagę koncentruje na sztuce polskiej, ale z uwzględnieniem europejskiego i światowego kontekstu.</p>]]>
+        </Text>
+        <TextAuthor>dr Anita Wincencjusz-Patyna</TextAuthor>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:477931" datestamp="20260914T1446">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>1e51296a7de591e0abeb96434afb5060</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>2557193</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/cover-1e51296a7de591e0abeb96434afb5060/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1446Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477932" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>3ccd9c1e5f8c7b44849f0eb3d6e5db8c</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1044907</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477932/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477933" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>94967119289f8100a589d5768b6249b8</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1050388</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477933/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477934" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>26bd14f50737cde824b89965c73499b9</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1216818</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477934/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477935" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>78ed3b21d657daa19bccac780d7e526d</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1759595</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477935/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477936" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>716272f1f7e7c08b0e01430b6ba715bc</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1629802</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477936/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477937" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>fa1a8461cae5c0eb81a0f575ff7494ab</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1043738</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477937/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:477938" datestamp="20260914T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>871e2e4bca22d8b7c2cb4d45911962a2</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1166638</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/477938/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260914T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>296</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Format</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>234</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>FORMAT</PublisherName>
+      </Publisher>
+      <CityOfPublication>Wrocław</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>Wydawnictwo Format Tomasz Malejki</ProductContactName>
+        <TelephoneNumber>71 339 47 01</TelephoneNumber>
+        <EmailAddress>list@wydawnictwoformat.pl</EmailAddress>
+        <StreetAddress>Braterska 19</StreetAddress>
+        <LocationName>Wrocław</LocationName>
+        <PostalCode>53-015</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20261016</Date>
+      </PublishingDate>
+      <PublishingDate>
+        <PublishingDateRole>27</PublishingDateRole>
+        <Date dateformat="00">20261016</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>23</SupplierIDType>
+            <IDValue>PL8821117859</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>FORMAT</SupplierName>
+        </Supplier>
+        <SupplierOwnCoding>
+          <SupplierCodeType>01</SupplierCodeType>
+          <SupplierCodeValue>NOWOŚĆ</SupplierCodeValue>
+        </SupplierOwnCoding>
+        <ProductAvailability>21</ProductAvailability>
+        <Stock>
+          <OnHand>1500</OnHand>
+          <Proximity>03</Proximity>
+        </Stock>
+        <PackQuantity>18</PackQuantity>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceQualifier>05</PriceQualifier>
+          <PriceAmount>69.99</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRatePercent>5</TaxRatePercent>
+          </Tax>
+          <CurrencyCode>PLN</CurrencyCode>
+          <PrintedOnProduct>02</PrintedOnProduct>
+          <PositionOnProduct>00</PositionOnProduct>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

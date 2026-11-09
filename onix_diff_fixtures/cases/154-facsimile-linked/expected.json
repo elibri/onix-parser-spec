@@ -1,0 +1,19 @@
+{
+  "id": "154-facsimile-linked",
+  "title": "E-book edition linked",
+  "description": "The printed book is linked with its e-book edition as the same work; a RelatedProduct (relation 24, facsimile) appears.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "related_product.added",
+      "after": {
+        "ProductRelationCode": "24",
+        "ProductIdentifier[01]/IDTypeName": "elibri",
+        "ProductIdentifier[01]/IDValue": "7d6c25db7d0624eac69b"
+      }
+    }
+  ]
+}

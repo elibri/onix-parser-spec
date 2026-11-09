@@ -1,0 +1,42 @@
+{
+  "id": "135-ebook-excerpt-replaced",
+  "title": "EPUB excerpt replaced",
+  "description": "A new EPUB excerpt is generated. The sample SupportingResource holds one ResourceVersion per format; only the EPUB version changes (matched by owner + format).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.changed",
+      "changed_fields": [
+        "ResourceVersionFeature[06]/FeatureValue",
+        "ResourceVersionFeature[07]/FeatureValue",
+        "ResourceLink",
+        "ContentDate[17]/Date"
+      ],
+      "before": {
+        "ResourceContentType": "15",
+        "ContentAudience": "00",
+        "ResourceMode": "04",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[01]/FeatureValue": "E101",
+        "ResourceVersionFeature[06]/FeatureValue": "e3c74e50bc2ac48c8b40f1c219b74824",
+        "ResourceVersionFeature[07]/FeatureValue": "2429768",
+        "ResourceLink": "https://www.elibri.com.pl/excerpt/366961/e3c74e50bc2ac48c8b40f1c219b74824/klamcy-tacy-jak-my-fragment.epub",
+        "ContentDate[17]/Date": "20261002T0803Z"
+      },
+      "after": {
+        "ResourceContentType": "15",
+        "ContentAudience": "00",
+        "ResourceMode": "04",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[01]/FeatureValue": "E101",
+        "ResourceVersionFeature[06]/FeatureValue": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+        "ResourceVersionFeature[07]/FeatureValue": "412906",
+        "ResourceLink": "https://www.elibri.com.pl/excerpt/366961/45c48cce2e2d7fbdea1afc51c7c6ad26/klamcy-tacy-jak-my-fragment.epub",
+        "ContentDate[17]/Date": "20261019T1000Z"
+      }
+    }
+  ]
+}

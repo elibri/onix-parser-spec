@@ -1,0 +1,37 @@
+{
+  "id": "040-master-file-replaced",
+  "title": "EPUB master file replaced",
+  "description": "The publisher uploads a corrected EPUB: the master file (BodyResource) gets a new checksum, size and date.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "body_resource.changed",
+      "changed_fields": [
+        "ResourceFileFeature[07]/ResourceFileFeatureValue",
+        "ResourceFileFeature[06]/ResourceFileFeatureValue",
+        "ResourceFileDate[17]/Date"
+      ],
+      "before": {
+        "SequenceNumber": "1",
+        "ResourceIdentifier[01]/IDTypeName": "elibri internal numerical ID",
+        "ResourceIdentifier[01]/IDValue": "366962",
+        "ResourceFileFeature[07]/ResourceFileFeatureValue": "2700833",
+        "ResourceFileFeature[06]/ResourceFileFeatureValue": "d51a4e4c0b81fd67c15945d67657a89d",
+        "ResourceFileLink": "klamcy-tacy-jak-my.epub",
+        "ResourceFileDate[17]/Date": "20261002T0803Z"
+      },
+      "after": {
+        "SequenceNumber": "1",
+        "ResourceIdentifier[01]/IDTypeName": "elibri internal numerical ID",
+        "ResourceIdentifier[01]/IDValue": "366962",
+        "ResourceFileFeature[07]/ResourceFileFeatureValue": "2702118",
+        "ResourceFileFeature[06]/ResourceFileFeatureValue": "c4ca4238a0b923820dcc509a6f75849b",
+        "ResourceFileLink": "klamcy-tacy-jak-my.epub",
+        "ResourceFileDate[17]/Date": "20261019T1000Z"
+      }
+    }
+  ]
+}

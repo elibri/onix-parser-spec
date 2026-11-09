@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>4b4f4437bd829c14e3ce</RecordReference>
+    <NotificationType>02</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9788383384726</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>BB</ProductForm>
+      <ProductFormDetail>B501</ProductFormDetail>
+      <Measure>
+        <MeasureType>01</MeasureType>
+        <Measurement>225</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>02</MeasureType>
+        <Measurement>150</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <CountryOfManufacture>PL</CountryOfManufacture>
+      <ProductClassification>
+        <ProductClassificationType>01</ProductClassificationType>
+        <ProductClassificationCode>4901</ProductClassificationCode>
+      </ProductClassification>
+      <Collection>
+        <CollectionType>10</CollectionType>
+        <TitleDetail>
+          <TitleType>01</TitleType>
+          <TitleElement>
+            <TitleElementLevel>02</TitleElementLevel>
+            <TitleText>Historia</TitleText>
+          </TitleElement>
+        </TitleDetail>
+      </Collection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="pol">Misja. CIA w XXI wieku</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>03</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>The Mission. The CIA in the 21st Century</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>MISJA. CIA W XXI WIEKU</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor sourcename="contributorid:517128" datestamp="20261014T1318">
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Tim Weiner</PersonName>
+        <NamesBeforeKey>Tim</NamesBeforeKey>
+        <KeyNames>Weiner</KeyNames>
+        <BiographicalNote>&lt;p&gt;Tim Weiner zdobył Nagrodę Pulitzera za reportaże o amerykańskim bezpieczeństwie państwowym i National Book Award za &lt;em&gt;Dziedzictwo popiołów. Historię CIA&lt;/em&gt; (REBIS 2009). W „New York Timesie” opisywał działania CIA w Waszyngtonie oraz konflikty w Afganistanie, Pakistanie i wielu innych państwach. „New York Times”, „The Economist”, „Washington Post”, „Time” i wiele innych pism uznały &lt;em&gt;Dziedzictwo popiołów &lt;/em&gt;za jedną z najlepszych książek roku. Jedna z jego pięciu książek, &lt;em&gt;Wrogowie. Historia FBI&lt;/em&gt; (REBIS 2012), zyskała status ogólnokrajowego bestsellera w Stanach Zjednoczonych. Mieszka na Brooklynie wraz z żoną, Kathy Doyle, specjalistką od praw człowieka i wolności informacji. REBIS w 2022 roku wydał też jego &lt;em&gt;Szaleństwo i chwałę. Wojnę polityczną pomiędzy Stanami Zjednoczonymi a Rosją 1945–2020&lt;/em&gt;.&lt;/p&gt;</BiographicalNote>
+      </Contributor>
+      <Contributor sourcename="contributorid:517129" datestamp="20261014T1318">
+        <SequenceNumber>2</SequenceNumber>
+        <ContributorRole>B06</ContributorRole>
+        <FromLanguage>eng</FromLanguage>
+        <PersonName>Katarzyna Bażyńska-Chojnacka</PersonName>
+        <NamesBeforeKey>Katarzyna</NamesBeforeKey>
+        <KeyNames>Bażyńska-Chojnacka</KeyNames>
+      </Contributor>
+      <Contributor sourcename="contributorid:517130" datestamp="20261014T1318">
+        <SequenceNumber>3</SequenceNumber>
+        <ContributorRole>B06</ContributorRole>
+        <FromLanguage>eng</FromLanguage>
+        <PersonName>Piotr Chojnacki</PersonName>
+        <NamesBeforeKey>Piotr</NamesBeforeKey>
+        <KeyNames>Chojnacki</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>pol</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>496</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>NH</SubjectCode>
+        <SubjectHeadingText>Historia i archeologia / Historia</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>NHB</SubjectCode>
+        <SubjectHeadingText>Historia i archeologia / Historia / Historia powszechna</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>JWKF</SubjectCode>
+        <SubjectHeadingText>Społeczeństwo i nauki społeczne / Działania wojenne i obronność / Strategia wojskowa / Wywiad wojskowy</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>JPSH</SubjectCode>
+        <SubjectHeadingText>Społeczeństwo i nauki społeczne / Polityka i administracja / Stosunki międzynarodowe / Szpiegostwo i wywiad</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+        <SubjectSchemeName>REBIS</SubjectSchemeName>
+        <SubjectCode>181</SubjectCode>
+        <SubjectHeadingText>Historia</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="pol">służby specjalne</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:320203" datestamp="20261014T1324">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku.</strong></p>
+<p>Na przełomie wieków CIA przeżywała kryzys. Koniec zimnej wojny pozbawił agencję celu. Zlikwidowano ponad trzydzieści zagranicznych placówek i baz. Zbędne stało się prowadzenie obserwacji w wielu krajach. A potem nastąpił dzień 11 września 2001 roku i CIA przekształciło się w siłę paramilitarną prowadzącą tajne więzienia i brutalne przesłuchania, przypuszczającą ataki dronami, przede wszystkim zaś odchodzącą od zasadniczego zadania – prowadzenia działań wywiadowczych i kontrwywiadowczych. Skutki okazały się poważne: śmierć wielu zagranicznych agentów, wykradzenie akt osobowych przez chińskich szpiegów, przeniknięcie do sieci komputerowej agencji przez rosyjski wywiad i amerykańskich hakerów oraz tragedie w Afganistanie i Iraku. Nowe pokolenie szpiegów musi teraz walczyć z Moskwą, Pekinem, Teheranem, zmagając się przy tym z prezydentem, który atakuje CIA jako siłę wywrotową.</p>
+<p>Tim Weiner przedstawia w Misji pasjonującą grę o najwyższą stawkę, jaką CIA prowadziła w pierwszym ćwierćwieczu XXI wieku, ukazuje, jak agencja podczas wojny z terroryzmem odbudowała swe utracone zdolności wywiadowcze, i wreszcie jak zdołała spenetrować Kreml. Weiner obszernie cytuje rozmowy z dawnymi dyrektorami CIA, szefami placówek oraz wieloma funkcjonariuszami operacyjnymi, którzy przez dziesięciolecia służyli pod przykryciem i nigdy wcześniej nie rozmawiali z dziennikarzem. Misję bez krzty przesady można nazwać arcydziełem reportażu.</p>
+<blockquote>Lektura obowiązkowa dla wszystkich zainteresowanych CIA lub amerykańskim wywiadem. - „Washington Post”</blockquote>
+<blockquote>Ta dynamiczna opowieść ukazuje CIA jako służbę, nad którą Smiley z powieści Le Carrégo by zapłakał, a Bond zawyłby ze zgrozy. - „Daily Telegraph”</blockquote>
+<blockquote>Połączenie ekscytującej historii z budzącymi grozę rewelacjami. - „New Statesman”</blockquote>]]>
+        </Text>
+      </TextContent>
+      <TextContent sourcename="textid:320205" datestamp="20261014T1324">
+        <TextType>02</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku</strong></p>]]>
+        </Text>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:481396" datestamp="20261014T1121">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>d97aa9db2856b4b6e0b7e2e7a293a685</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1777271</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/4b4f4437bd829c14e3ce/cover-d97aa9db2856b4b6e0b7e2e7a293a685/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261014T1121Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:481397" datestamp="20261014T1122">
+        <ResourceContentType>03</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>62116c62cf8cdd50d7b86b5ba3ab59ab</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>3007197</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/4b4f4437bd829c14e3ce/481397/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261014T1122Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:481398" datestamp="20261014T1123">
+        <ResourceContentType>02</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>27e420b2b5870f7cdf33fb2ff47f3850</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1371375</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/4b4f4437bd829c14e3ce/back_cover-27e420b2b5870f7cdf33fb2ff47f3850/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261014T1123Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource>
+        <ResourceContentType>16</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>04</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>03</ResourceForm>
+          <ResourceLink>https://www.elibri.com.pl/book.js?record_reference=4b4f4437bd829c14e3ce</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261028T1359Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>898</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>REBIS</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>17</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>REBIS</PublisherName>
+      </Publisher>
+      <CityOfPublication>Poznań</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>Dom Wydawniczy REBIS Sp. z o.o.</ProductContactName>
+        <TelephoneNumber>61 867 81 40</TelephoneNumber>
+        <EmailAddress>rebis@rebis.com.pl</EmailAddress>
+        <StreetAddress>Żmigrodzka 41/49</StreetAddress>
+        <LocationName>Poznań</LocationName>
+        <PostalCode>60-171</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>02</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20261110</Date>
+      </PublishingDate>
+      <PublishingDate>
+        <PublishingDateRole>27</PublishingDateRole>
+        <Date dateformat="00">20261110</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
+    </PublishingDetail>
+    <RelatedMaterial>
+      <RelatedProduct>
+        <ProductRelationCode>24</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>01</ProductIDType>
+          <IDTypeName>elibri</IDTypeName>
+          <IDValue>7d6c25db7d0624eac69b</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+    </RelatedMaterial>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>23</SupplierIDType>
+            <IDValue>PL7790000847</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>REBIS</SupplierName>
+        </Supplier>
+        <ProductAvailability>21</ProductAvailability>
+        <Stock>
+          <OnHand>500</OnHand>
+          <Proximity>07</Proximity>
+        </Stock>
+        <PackQuantity>10</PackQuantity>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceQualifier>05</PriceQualifier>
+          <PriceAmount>99.0</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRatePercent>5</TaxRatePercent>
+          </Tax>
+          <CurrencyCode>PLN</CurrencyCode>
+          <PrintedOnProduct>02</PrintedOnProduct>
+          <PositionOnProduct>00</PositionOnProduct>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

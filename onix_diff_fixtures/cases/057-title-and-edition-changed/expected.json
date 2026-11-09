@@ -1,0 +1,40 @@
+{
+  "id": "057-title-and-edition-changed",
+  "title": "Title and edition statement changed together",
+  "description": "Before the premiere the title gets an extended form and the edition statement is updated. The e-book edition keeps the old title, so the two records no longer look like the same work and the facsimile relation (RelatedProduct 24) is no longer exported.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "title.changed",
+      "changed_fields": [
+        "TitleText"
+      ],
+      "before": {
+        "TitleType": "01",
+        "TitleElementLevel": "01",
+        "TitleText": "Misja. CIA w XXI wieku"
+      },
+      "after": {
+        "TitleType": "01",
+        "TitleElementLevel": "01",
+        "TitleText": "Misja. CIA w XXI wieku. Wydanie poszerzone"
+      }
+    },
+    {
+      "type": "edition_statement.changed",
+      "before": "wydanie 1",
+      "after": "wydanie 1 poszerzone"
+    },
+    {
+      "type": "related_product.removed",
+      "before": {
+        "ProductRelationCode": "24",
+        "ProductIdentifier[01]/IDTypeName": "elibri",
+        "ProductIdentifier[01]/IDValue": "7d6c25db7d0624eac69b"
+      }
+    }
+  ]
+}

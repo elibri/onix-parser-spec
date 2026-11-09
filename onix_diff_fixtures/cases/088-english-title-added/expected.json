@@ -1,0 +1,19 @@
+{
+  "id": "088-english-title-added",
+  "title": "English title added",
+  "description": "The English version of the title is filled in. It is exported as a second distinctive title (TitleType 01, level 01) - same identity as the Polish title; the first one pairs by document order and the extra one is added. The language is only an attribute.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "title.added",
+      "after": {
+        "TitleType": "01",
+        "TitleElementLevel": "01",
+        "TitleText": "Where Do Pebbles Go"
+      }
+    }
+  ]
+}

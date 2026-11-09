@@ -1,0 +1,810 @@
+{
+  "ProductFormCode": {
+    "AC": {
+      "const_name": "AUDIO_CD",
+      "name": "audiobook na płycie CD"
+    },
+    "AI": {
+      "const_name": "AUDIO_DVD",
+      "name": "audiobook na płycie DVD"
+    },
+    "AJ": {
+      "const_name": "AUDIO_DOWNLOADABLE_FILE",
+      "name": "audiobook w formie pliku"
+    },
+    "BA": {
+      "const_name": "BOOK",
+      "name": "książka"
+    },
+    "CA": {
+      "const_name": "SHEET_MAP",
+      "name": "mapa"
+    },
+    "CB": {
+      "const_name": "SHEET_MAP_FOLDED",
+      "name": "mapa składana"
+    },
+    "CC": {
+      "const_name": "SHEET_MAP_FLAT",
+      "name": "mapa płaska"
+    },
+    "CD": {
+      "const_name": "SHEET_MAP_ROLLED",
+      "name": "mapa w rolce"
+    },
+    "CZ": {
+      "const_name": "OTHER_CARTOGRAPHIC",
+      "name": "inny format kartograficzny"
+    },
+    "EA": {
+      "const_name": "EBOOK",
+      "name": "e-book"
+    },
+    "OPEN_ACCESS": {
+      "const_name": "OPEN_ACCESS",
+      "name": "e-book open access"
+    },
+    "PC": {
+      "const_name": "CALENDAR",
+      "name": "kalendarz"
+    },
+    "ZB": {
+      "const_name": "FIGURE",
+      "name": "figurka"
+    },
+    "ZC": {
+      "const_name": "PLUSH_TOY",
+      "name": "zabawka - pluszak"
+    },
+    "ZD": {
+      "const_name": "TOY",
+      "name": "zabawka (również edukacyjna)"
+    },
+    "ZE": {
+      "const_name": "GAME",
+      "name": "gra planszowa"
+    },
+    "ZJ": {
+      "const_name": "JIGSAW",
+      "name": "puzzle"
+    }
+  },
+  "ProductFormDetail": {
+    "A103": {
+      "const_name": "MP3",
+      "name": "MP3"
+    },
+    "A113": {
+      "const_name": "LPF",
+      "name": "LPF"
+    },
+    "E101": {
+      "const_name": "EPUB",
+      "name": "EPUB"
+    },
+    "E107": {
+      "const_name": "PDF",
+      "name": "PDF"
+    },
+    "E127": {
+      "const_name": "MOBIPOCKET",
+      "name": "Mobipocket"
+    }
+  },
+  "Finishing": {
+    "B212": {
+      "const_name": "DIE_CUT",
+      "name": "wycinanie (die-cut)"
+    },
+    "B214": {
+      "const_name": "SOFT_TO_TOUCH",
+      "name": "okładka soft-touch"
+    },
+    "B407": {
+      "const_name": "HEAD_AND_TAIL_BANDS",
+      "name": "kapitałka"
+    },
+    "B408": {
+      "const_name": "DECORATED_ENDPAPERS",
+      "name": "zdobione wyklejki"
+    },
+    "B419": {
+      "const_name": "DECORATED_PAGE_EDGES",
+      "name": "barwione brzegi (złocone, nadrukowane)"
+    },
+    "B420": {
+      "const_name": "DELICATE_COVER_FINISH",
+      "name": "delikatne wykończenie (lakier wybiórczy UV, mat)"
+    },
+    "B421": {
+      "const_name": "EMBOSSED_COVER",
+      "name": "tłoczenie / wytłoczenie (emboss/deboss)"
+    },
+    "B422": {
+      "const_name": "FOIL_ON_COVER",
+      "name": "folia / złocenie na okładce (hot-stamping)"
+    },
+    "B423": {
+      "const_name": "FOIL_ON_JACKET",
+      "name": "folia / złocenie na obwolucie"
+    },
+    "B503": {
+      "const_name": "TRANSLUCENT_DUST_COVER",
+      "name": "obwoluta przezroczysta"
+    },
+    "B505": {
+      "const_name": "THUMB_INDEX",
+      "name": "indeks palcowy (wycięcia)"
+    },
+    "B506": {
+      "const_name": "RIBBON_MARKER",
+      "name": "zakładka-wstążka"
+    },
+    "B510": {
+      "const_name": "ROUGH_FRONT",
+      "name": "nieobcięte brzegi (deckle edge)"
+    },
+    "B520": {
+      "const_name": "ROUNDED_CORNERS",
+      "name": "zaokrąglone rogi"
+    }
+  },
+  "ProductPackaging": {
+    "04": {
+      "const_name": "WRAPAROUND_SLEEVE",
+      "name": "opaska / banderola (otwarta z dwóch stron)"
+    },
+    "08": {
+      "const_name": "SHRINK_WRAPPED_BIODEGRADABLE",
+      "name": "folia termokurczliwa biodegradowalna"
+    },
+    "09": {
+      "const_name": "IN_BOX",
+      "name": "pudełko z wieczkiem"
+    },
+    "10": {
+      "const_name": "SLIP_CASED",
+      "name": "etui (na jedną książkę)"
+    },
+    "11": {
+      "const_name": "SLIP_CASED_SET",
+      "name": "etui na komplet tomów (box)"
+    },
+    "12": {
+      "const_name": "TUBE",
+      "name": "tuba (np. mapa, plakat)"
+    },
+    "21": {
+      "const_name": "SHRINK_WRAPPED",
+      "name": "folia termokurczliwa"
+    },
+    "22": {
+      "const_name": "BLISTER_PACK",
+      "name": "blister"
+    }
+  },
+  "EpubTechnicalProtection": {
+    "02": {
+      "const_name": "WATERMARK",
+      "name": "watermark"
+    },
+    "06": {
+      "const_name": "LCP",
+      "name": "LCP"
+    }
+  },
+  "ContributorRole": {
+    "A01": {
+      "const_name": "AUTHOR",
+      "name": "autor"
+    },
+    "A02": {
+      "const_name": "GHOSTWRITER",
+      "name": "współautor"
+    },
+    "A03": {
+      "const_name": "SCENARIST",
+      "name": "scenarzysta"
+    },
+    "A06": {
+      "const_name": "COMPOSER",
+      "name": "kompozytor"
+    },
+    "A10": {
+      "const_name": "ORIGINATOR",
+      "name": "pomysłodawca"
+    },
+    "A12": {
+      "const_name": "ILLUSTRATOR",
+      "name": "ilustrator"
+    },
+    "A13": {
+      "const_name": "PHOTOGRAPHER",
+      "name": "fotograf"
+    },
+    "A15": {
+      "const_name": "AUTHOR_OF_PREFACE",
+      "name": "autor wstępu"
+    },
+    "A35": {
+      "const_name": "DRAWER",
+      "name": "rysownik"
+    },
+    "A36": {
+      "const_name": "COVER_DESIGNER",
+      "name": "projektant okładki"
+    },
+    "A40": {
+      "const_name": "INKED_OR_COLORED_BY",
+      "name": "tusz/kolor"
+    },
+    "B01": {
+      "const_name": "EDITOR",
+      "name": "redaktor"
+    },
+    "B02": {
+      "const_name": "REVISOR",
+      "name": "korektor"
+    },
+    "B06": {
+      "const_name": "TRANSLATOR",
+      "name": "tłumacz"
+    },
+    "B11": {
+      "const_name": "EDITOR_IN_CHIEF",
+      "name": "redaktor naczelny"
+    },
+    "B15": {
+      "const_name": "EDITORIAL_COORDINATION",
+      "name": "redaktor naukowy"
+    },
+    "E07": {
+      "const_name": "READ_BY",
+      "name": "lektor"
+    }
+  },
+  "UnnamedPersons": {
+    "04": {
+      "const_name": "VARIOUS_AUTHORS",
+      "name": "opracowanie zbiorowe"
+    },
+    "05": {
+      "const_name": "SYNTHESISED_VOICE_MALE",
+      "name": "Głos syntetyzowany - męski"
+    },
+    "06": {
+      "const_name": "SYNTHESISED_VOICE_FEMALE",
+      "name": "Głos syntetyzowany - kobiecy"
+    },
+    "07": {
+      "const_name": "SYNTHESISED_VOICE_UNSPECIFIED",
+      "name": "Głos syntetyzowany"
+    },
+    "08": {
+      "const_name": "SYNTHESISED_VOICE_BASED_ON_REAL_VOICE",
+      "name": "Głos syntetyzowany - bazujący na głosie aktora"
+    }
+  },
+  "SupplierRole": {
+    "01": {
+      "const_name": "PUB_TO_RET",
+      "name": "sprzedaż wydawnictwa do detalu"
+    },
+    "10": {
+      "const_name": "EXCLUSIVE_DISTRIBUTOR",
+      "name": "Wyłączny dystrybutor do klientów końcowych i instytucjonalnych"
+    },
+    "11": {
+      "const_name": "RETAIL_NON_EXL_DIST",
+      "name": "Dystrybutor do klientów końcowych"
+    }
+  },
+  "EditionType": {
+    "ABR": {
+      "const_name": "ABRIDGED_EDITION",
+      "name": "wydanie skrócone"
+    },
+    "BLL": {
+      "const_name": "BILINGUAL_EDITION",
+      "name": "wydanie dwujęzyczne"
+    },
+    "BLP": {
+      "const_name": "BILINGUAL_FACING_PAGE_EDITION",
+      "name": "wydanie dwujęzyczne (tekst równoległy)"
+    },
+    "CMB": {
+      "const_name": "COMBINED_VOLUME",
+      "name": "wydanie zbiorcze"
+    },
+    "CRI": {
+      "const_name": "CRITICAL_EDITION",
+      "name": "wydanie krytyczne (z komentarzem)"
+    },
+    "ENL": {
+      "const_name": "ENLARGED_EDITION",
+      "name": "wydanie rozszerzone"
+    },
+    "FAC": {
+      "const_name": "FACSIMILE_EDITION",
+      "name": "reprint"
+    },
+    "ILL": {
+      "const_name": "ILLUSTRATED_EDITION",
+      "name": "wydanie ilustrowane"
+    },
+    "LTE": {
+      "const_name": "LARGE_TYPE_EDITION",
+      "name": "edycja z powiększoną czcionką"
+    },
+    "MDT": {
+      "const_name": "MEDIA_TIE_IN",
+      "name": "wydanie filmowe / serialowe"
+    },
+    "NED": {
+      "const_name": "NEW_EDITION",
+      "name": "nowe wydanie"
+    },
+    "NUM": {
+      "const_name": "EDITION_WITH_NUMBERED_COPIES",
+      "name": "wydanie limitowane z numerowanymi egzemplarzami"
+    },
+    "REV": {
+      "const_name": "REVISED_EDITION",
+      "name": "wydanie poprawione / zaktualizowane"
+    },
+    "SIG": {
+      "const_name": "SIGNED_EDITION",
+      "name": "wydanie z autografem"
+    },
+    "SPE": {
+      "const_name": "SPECIAL_EDITION",
+      "name": "wydanie specjalne (kolekcjonerskie, jubileuszowe, ekskluzywne)"
+    },
+    "UNN": {
+      "const_name": "EDITION_WITH_UNNUMBERED_COPIES",
+      "name": "wydanie limitowane bez numeracji egzemplarzy"
+    }
+  },
+  "LanguageRole": {
+    "01": {
+      "const_name": "LANGUAGE_OF_TEXT",
+      "name": "język tekstu"
+    },
+    "02": {
+      "const_name": "LANGUAGE_OF_ORIGINAL",
+      "name": "język oryginału"
+    },
+    "03": {
+      "const_name": "LANGUAGE_OF_ABSTRACTS",
+      "name": "język streszczenia"
+    },
+    "06": {
+      "const_name": "ORIGINAL_LANGUAGE_IN_MULTILANGUAGE_EDITION",
+      "name": "język oryginalny (wydanie wielojęzyczne)"
+    },
+    "07": {
+      "const_name": "TRANSLATED_LANGUAGE_IN_MULTILANGUAGE_EDITION",
+      "name": "język tłumaczenia (wydanie wielojęzyczne)"
+    },
+    "08": {
+      "const_name": "LANGUAGE_OF_AUDIO_TRACK",
+      "name": "język ścieżki audio (CD/DVD)"
+    },
+    "09": {
+      "const_name": "LANGUAGE_OF_SUBTITLES",
+      "name": "język napisów (CD/DVD)"
+    }
+  },
+  "LanguageCode": {
+    "afr": {
+      "const_name": null,
+      "name": "afrikaans"
+    },
+    "alb": {
+      "const_name": null,
+      "name": "albański"
+    },
+    "ara": {
+      "const_name": null,
+      "name": "arabski"
+    },
+    "arm": {
+      "const_name": null,
+      "name": "armeński"
+    },
+    "aze": {
+      "const_name": null,
+      "name": "azerbejdżański"
+    },
+    "baq": {
+      "const_name": null,
+      "name": "baskijski"
+    },
+    "bel": {
+      "const_name": null,
+      "name": "białoruski"
+    },
+    "ben": {
+      "const_name": null,
+      "name": "bengalski"
+    },
+    "bos": {
+      "const_name": null,
+      "name": "bośniacki"
+    },
+    "bul": {
+      "const_name": null,
+      "name": "bułgarski"
+    },
+    "cat": {
+      "const_name": null,
+      "name": "kataloński"
+    },
+    "che": {
+      "const_name": null,
+      "name": "czeczeński"
+    },
+    "chi": {
+      "const_name": null,
+      "name": "chiński"
+    },
+    "csb": {
+      "const_name": null,
+      "name": "kaszubski"
+    },
+    "cze": {
+      "const_name": null,
+      "name": "czeski"
+    },
+    "dan": {
+      "const_name": null,
+      "name": "duński"
+    },
+    "dut": {
+      "const_name": null,
+      "name": "niderlandzki; flamandzki"
+    },
+    "egy": {
+      "const_name": null,
+      "name": "egipski"
+    },
+    "eng": {
+      "const_name": null,
+      "name": "angielski"
+    },
+    "epo": {
+      "const_name": null,
+      "name": "Esperanto"
+    },
+    "est": {
+      "const_name": null,
+      "name": "estoński"
+    },
+    "fin": {
+      "const_name": null,
+      "name": "fiński"
+    },
+    "fre": {
+      "const_name": null,
+      "name": "francuski"
+    },
+    "geo": {
+      "const_name": null,
+      "name": "gruziński"
+    },
+    "ger": {
+      "const_name": null,
+      "name": "niemiecki"
+    },
+    "gle": {
+      "const_name": null,
+      "name": "irlandzki"
+    },
+    "gre": {
+      "const_name": null,
+      "name": "grecki nowożytny"
+    },
+    "heb": {
+      "const_name": null,
+      "name": "hebrajski"
+    },
+    "hin": {
+      "const_name": null,
+      "name": "hindi"
+    },
+    "hrv": {
+      "const_name": null,
+      "name": "chorwacki"
+    },
+    "hun": {
+      "const_name": null,
+      "name": "węgierski"
+    },
+    "ice": {
+      "const_name": null,
+      "name": "islandzki"
+    },
+    "ind": {
+      "const_name": null,
+      "name": "indonezyjski"
+    },
+    "ira": {
+      "const_name": null,
+      "name": "irański"
+    },
+    "ita": {
+      "const_name": null,
+      "name": "włoski"
+    },
+    "jpn": {
+      "const_name": null,
+      "name": "japoński"
+    },
+    "kor": {
+      "const_name": null,
+      "name": "koreański"
+    },
+    "lat": {
+      "const_name": null,
+      "name": "łaciński"
+    },
+    "lav": {
+      "const_name": null,
+      "name": "łotewski"
+    },
+    "lit": {
+      "const_name": null,
+      "name": "litewski"
+    },
+    "ltz": {
+      "const_name": null,
+      "name": "luksemburski"
+    },
+    "mac": {
+      "const_name": null,
+      "name": "macedoński"
+    },
+    "mol": {
+      "const_name": null,
+      "name": "mołdawski"
+    },
+    "mon": {
+      "const_name": null,
+      "name": "mongolski"
+    },
+    "nap": {
+      "const_name": null,
+      "name": "neapolitański"
+    },
+    "nep": {
+      "const_name": null,
+      "name": "nepalski"
+    },
+    "nor": {
+      "const_name": null,
+      "name": "norweski"
+    },
+    "per": {
+      "const_name": null,
+      "name": "perski"
+    },
+    "pol": {
+      "const_name": null,
+      "name": "polski"
+    },
+    "por": {
+      "const_name": null,
+      "name": "portugalski"
+    },
+    "qlk": {
+      "const_name": null,
+      "name": "łemkowski"
+    },
+    "rum": {
+      "const_name": null,
+      "name": "rumuński"
+    },
+    "rus": {
+      "const_name": null,
+      "name": "rosyjski"
+    },
+    "san": {
+      "const_name": null,
+      "name": "sanskryt"
+    },
+    "slo": {
+      "const_name": null,
+      "name": "słowacki"
+    },
+    "slv": {
+      "const_name": null,
+      "name": "słoweński"
+    },
+    "spa": {
+      "const_name": null,
+      "name": "hiszpański"
+    },
+    "srp": {
+      "const_name": null,
+      "name": "serbski"
+    },
+    "swe": {
+      "const_name": null,
+      "name": "szwedzki"
+    },
+    "syr": {
+      "const_name": null,
+      "name": "syryjski"
+    },
+    "szl": {
+      "const_name": null,
+      "name": "śląski"
+    },
+    "tur": {
+      "const_name": null,
+      "name": "turecki"
+    },
+    "ukr": {
+      "const_name": null,
+      "name": "ukraiński"
+    },
+    "vie": {
+      "const_name": null,
+      "name": "wietnamski"
+    },
+    "yid": {
+      "const_name": null,
+      "name": "jidisz"
+    }
+  },
+  "ResourceContentType": {
+    "01": {
+      "const_name": "FRONT_COVER",
+      "name": "okładka (przód)"
+    },
+    "02": {
+      "const_name": "BACK_COVER",
+      "name": "okładka (tył)"
+    },
+    "03": {
+      "const_name": "FRONT_COVER_3D",
+      "name": "okładka 3D"
+    },
+    "11": {
+      "const_name": "AUTHOR_INTERVIEW",
+      "name": "wywiad z autorem"
+    },
+    "13": {
+      "const_name": "AUTHOR_READING",
+      "name": "fragment książki czytany przez autora"
+    },
+    "15": {
+      "const_name": "SAMPLE_CONTENT",
+      "name": "fragment książki (plik mp3/jpg/png)"
+    },
+    "16": {
+      "const_name": "WIDGET",
+      "name": "interaktywny podgląd produktu"
+    },
+    "17": {
+      "const_name": "REVIEW",
+      "name": "recenzja"
+    },
+    "24": {
+      "const_name": "PRESS_RELEASE",
+      "name": "mediapack"
+    },
+    "29": {
+      "const_name": "FULL_COVER",
+      "name": "okładka w dużej rozdzielczości (CMYK)"
+    },
+    "46": {
+      "const_name": "RULES_OR_INSTRUCTIONS",
+      "name": "zasady lub instrukcje gry"
+    }
+  },
+  "ResourceMode": {
+    "02": {
+      "const_name": "AUDIO",
+      "name": "audio"
+    },
+    "03": {
+      "const_name": "IMAGE",
+      "name": "obrazek"
+    },
+    "04": {
+      "const_name": "TEXT",
+      "name": "tekst"
+    },
+    "06": {
+      "const_name": "MULTI_MODE",
+      "name": "plik zip"
+    }
+  },
+  "ResourceForm": {
+    "02": {
+      "const_name": "DOWNLOADABLE_FILE",
+      "name": "plik do pobrania"
+    },
+    "03": {
+      "const_name": "EMBEDDABLE_APPLICATION",
+      "name": "skrypt do zintegrowania ze stroną internetową"
+    }
+  },
+  "DateFormat": {
+    "00": {
+      "const_name": "YYYYMMDD",
+      "name": "RRRRMMDD"
+    },
+    "01": {
+      "const_name": "YYYYMM",
+      "name": "RRRRMM"
+    },
+    "05": {
+      "const_name": "YYYY",
+      "name": "RRRR"
+    },
+    "13": {
+      "const_name": "YYYYMMDDTHHMM",
+      "name": "RRRRMMDDThhmm"
+    }
+  },
+  "SalesRestrictionType": {
+    "04": {
+      "const_name": "RETAILER_EXCLUSIVE",
+      "name": "sprzedaż z wyłącznością dla detalisty"
+    }
+  },
+  "PriceTypeCode": {
+    "02": {
+      "const_name": "RRP_WITH_TAX",
+      "name": "sugerowana cena detaliczna brutto"
+    },
+    "05": {
+      "const_name": "SUPPLIERS_NET_PRICE",
+      "name": "cena netto sprzedaży"
+    }
+  },
+  "PricePrintedOnProduct": {
+    "01": {
+      "const_name": "NO",
+      "name": "nie"
+    },
+    "02": {
+      "const_name": "YES",
+      "name": "tak"
+    }
+  },
+  "ProductAvailabilityType": {
+    "10": {
+      "const_name": "NOT_YET_AVAILABLE",
+      "name": "jeszcze niedostępne"
+    },
+    "20": {
+      "const_name": "AVAILABLE",
+      "name": "dostępny"
+    },
+    "21": {
+      "const_name": "IN_STOCK",
+      "name": "na stanie"
+    },
+    "40": {
+      "const_name": "NOT_AVAILABLE",
+      "name": "niedostępne"
+    },
+    "99": {
+      "const_name": "CONTACT_SUPPLIER",
+      "name": "skontaktuj się z dostawcą"
+    }
+  },
+  "Proximity": {
+    "03": {
+      "const_name": "EXACTLY",
+      "name": "dokładnie"
+    },
+    "07": {
+      "const_name": "MORE_THAN",
+      "name": "więcej niż"
+    }
+  }
+}

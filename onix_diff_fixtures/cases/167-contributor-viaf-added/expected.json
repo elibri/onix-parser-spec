@@ -1,0 +1,34 @@
+{
+  "id": "167-contributor-viaf-added",
+  "title": "VIAF added to a contributor",
+  "description": "The illustrator Joanna Concejo is matched to a VIAF cluster; the contributor gets NameIdentifier 31. Her name does not change.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "NameIdentifier[31]/IDValue"
+      ],
+      "before": {
+        "SequenceNumber": "2",
+        "ContributorRole": "A12",
+        "PersonName": "Joanna Concejo",
+        "NamesBeforeKey": "Joanna",
+        "KeyNames": "Concejo",
+        "BiographicalNote": "<p>Joanna Concejo – urodziła się w 1971 roku w Słupsku, studiowała na Akademii Sztuk Pięknych w Poznaniu, na Wydziale Grafiki. W 1998 roku z dyplomem z rysunku i ilustracji w kieszeni osiadła na stałe we Francji. Po raz pierwszy jako artystka została zauważona dzięki instalacjom w 2002 roku, kiedy to została zaproszona do udziału w Busan Biennale w Korei. Rok później pokazała swoje prace na wystawie sztuki współczesnej w Chelles (we Francji). W następnych latach odbyło się kilka wystaw jej prac (w Berlinie, w Paryżu). W 2004 roku wysłała swoje rysunki na Międzynarodowe Targi Książki dla Dzieci w Bolonii i została zakwalifikowana na wystawę ilustratorów – to był początek jej pracy w dziedzinie ilustracji książkowej. Uczestniczyła w wielu wystawach zbiorowych, miała wystawy indywidualne: w Bolonii, w Lizbonie, w Seulu, w Paryżu, w Oxfordzie. Joanna Concejo współpracuje regularnie z Le Petit Atelier de Paris (projektowanie użytkowe, ceramika) oraz ze szkołą ilustracji Fabbrica delle Favole – Macerata/Włochy. Laureatka wyróżnienia Bologna Ragazzi Award. Jej książki ukazały się w ponad 20 krajach.</p>"
+      },
+      "after": {
+        "SequenceNumber": "2",
+        "ContributorRole": "A12",
+        "NameIdentifier[31]/IDValue": "900000101",
+        "PersonName": "Joanna Concejo",
+        "NamesBeforeKey": "Joanna",
+        "KeyNames": "Concejo",
+        "BiographicalNote": "<p>Joanna Concejo – urodziła się w 1971 roku w Słupsku, studiowała na Akademii Sztuk Pięknych w Poznaniu, na Wydziale Grafiki. W 1998 roku z dyplomem z rysunku i ilustracji w kieszeni osiadła na stałe we Francji. Po raz pierwszy jako artystka została zauważona dzięki instalacjom w 2002 roku, kiedy to została zaproszona do udziału w Busan Biennale w Korei. Rok później pokazała swoje prace na wystawie sztuki współczesnej w Chelles (we Francji). W następnych latach odbyło się kilka wystaw jej prac (w Berlinie, w Paryżu). W 2004 roku wysłała swoje rysunki na Międzynarodowe Targi Książki dla Dzieci w Bolonii i została zakwalifikowana na wystawę ilustratorów – to był początek jej pracy w dziedzinie ilustracji książkowej. Uczestniczyła w wielu wystawach zbiorowych, miała wystawy indywidualne: w Bolonii, w Lizbonie, w Seulu, w Paryżu, w Oxfordzie. Joanna Concejo współpracuje regularnie z Le Petit Atelier de Paris (projektowanie użytkowe, ceramika) oraz ze szkołą ilustracji Fabbrica delle Favole – Macerata/Włochy. Laureatka wyróżnienia Bologna Ragazzi Award. Jej książki ukazały się w ponad 20 krajach.</p>"
+      }
+    }
+  ]
+}

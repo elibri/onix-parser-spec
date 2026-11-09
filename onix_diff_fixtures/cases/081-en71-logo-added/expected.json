@@ -1,0 +1,18 @@
+{
+  "id": "081-en71-logo-added",
+  "title": "EN 71 logo marked",
+  "description": "The publisher marks that the box carries the EN 71 logo: another ProductFormFeature of type 13 is added.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "product_form_feature.added",
+      "after": {
+        "ProductFormFeatureType": "13",
+        "ProductFormFeatureValue": "08"
+      }
+    }
+  ]
+}

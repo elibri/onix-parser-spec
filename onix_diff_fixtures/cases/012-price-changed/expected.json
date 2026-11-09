@@ -1,0 +1,33 @@
+{
+  "id": "012-price-changed",
+  "title": "E-book price raised",
+  "description": "The consumer price of an e-book goes up from 46.90 to 49.90 PLN.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "price.changed",
+      "changed_fields": [
+        "PriceAmount"
+      ],
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "46.9",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN"
+      },
+      "after": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "49.9",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN"
+      }
+    }
+  ]
+}

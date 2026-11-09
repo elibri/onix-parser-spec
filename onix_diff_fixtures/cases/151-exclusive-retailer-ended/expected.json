@@ -1,0 +1,19 @@
+{
+  "id": "151-exclusive-retailer-ended",
+  "title": "Retailer exclusivity ended",
+  "description": "The exclusivity for Empik is lifted early. SalesRights stays (it carries the territory); only the nested SalesRestriction disappears.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "sales_restriction.removed",
+      "before": {
+        "SalesRestrictionType": "04",
+        "SalesOutlet/SalesOutletName": "Empik",
+        "EndDate": "20261231"
+      }
+    }
+  ]
+}

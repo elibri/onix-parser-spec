@@ -1,0 +1,25 @@
+{
+  "id": "063-ean-changed",
+  "title": "EAN of a board game corrected",
+  "description": "A board game has no ISBN, only an EAN-13 (ProductIDType 03); a typo in it is corrected.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "product_identifier.changed",
+      "changed_fields": [
+        "IDValue"
+      ],
+      "before": {
+        "ProductIDType": "03",
+        "IDValue": "5904905917201"
+      },
+      "after": {
+        "ProductIDType": "03",
+        "IDValue": "5904905917218"
+      }
+    }
+  ]
+}

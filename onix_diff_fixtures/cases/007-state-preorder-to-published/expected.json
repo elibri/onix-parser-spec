@@ -1,0 +1,21 @@
+{
+  "id": "007-state-preorder-to-published",
+  "title": "Pre-order book goes on sale",
+  "description": "On the premiere date a pre-order book becomes published: PublishingStatus 02 -> 04.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "notification_type.changed",
+      "before": "02",
+      "after": "03"
+    },
+    {
+      "type": "publishing_status.changed",
+      "before": "02",
+      "after": "04"
+    }
+  ]
+}

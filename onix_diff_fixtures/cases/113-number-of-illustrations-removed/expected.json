@@ -1,0 +1,15 @@
+{
+  "id": "113-number-of-illustrations-removed",
+  "title": "Number of illustrations removed",
+  "description": "The number of illustrations is cleared.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "number_of_illustrations.removed",
+      "before": "48"
+    }
+  ]
+}

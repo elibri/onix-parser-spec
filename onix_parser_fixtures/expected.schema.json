@@ -1,0 +1,1752 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "expected.json of an ONIX parser fixture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "description",
+    "source",
+    "message"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object"
+    },
+    "message": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "release",
+        "header",
+        "products"
+      ],
+      "properties": {
+        "release": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "header": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "sent_date_time",
+            "sender"
+          ],
+          "properties": {
+            "sent_date_time": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "sender": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "sender_name"
+              ],
+              "properties": {
+                "sender_name": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/product"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "text_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "datestamp",
+        "text",
+        "text_eng"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "datestamp": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}$"
+        },
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text_eng": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "supporting_resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "datestamp",
+        "content_type",
+        "content_type_name",
+        "mode",
+        "mode_name",
+        "form",
+        "form_name",
+        "link",
+        "md5",
+        "file_size"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "datestamp": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}$"
+        },
+        "content_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_type_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mode_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "form": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "form_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "link": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "md5": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "file_size": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "publishing_date": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "format_name",
+        "date",
+        "parsed"
+      ],
+      "properties": {
+        "format": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "format_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parsed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "price": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "type_name",
+        "qualifier",
+        "amount",
+        "tax_type",
+        "vat",
+        "currency_code",
+        "printed_on_product",
+        "printed_on_product_name",
+        "position_on_product",
+        "price_date_type",
+        "price_date_value"
+      ],
+      "properties": {
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "qualifier": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "amount": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "tax_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "vat": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "currency_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "printed_on_product": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "printed_on_product_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "position_on_product": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "price_date_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "price_date_value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "heading_texts"
+      ],
+      "properties": {
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "heading_texts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "product": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_reference",
+        "notification_type",
+        "deletion_text",
+        "isbn13",
+        "ean",
+        "doi",
+        "proprietary_identifiers",
+        "product_composition",
+        "onix_product_form",
+        "product_form",
+        "product_form_name",
+        "product_form_details",
+        "cover_type",
+        "finishings",
+        "finishing_names",
+        "finishing_name_descriptions",
+        "product_packaging",
+        "product_packaging_name",
+        "product_packaging_name_description",
+        "digital_formats",
+        "technical_protections",
+        "epub_license",
+        "number_of_pieces",
+        "players_number_from",
+        "players_number_to",
+        "playing_time_from",
+        "playing_time_to",
+        "carries_ce_logo",
+        "carries_unsuitable_for_children_below_3_logo",
+        "carries_en71_logo",
+        "minimum_age_warning",
+        "toy_safety_warning",
+        "declaration_of_conformity_url",
+        "height",
+        "width",
+        "thickness",
+        "weight",
+        "map_scale",
+        "country_of_manufacture",
+        "cn_code",
+        "series",
+        "issn",
+        "issn_with_hyphens",
+        "title",
+        "subtitle",
+        "collection_title",
+        "collection_part_number",
+        "title_eng",
+        "original_title",
+        "contributors",
+        "no_contributor",
+        "edition_statement",
+        "edition_types",
+        "edition_type_names",
+        "edition_type_descriptions",
+        "languages",
+        "number_of_pages",
+        "duration",
+        "number_of_characters",
+        "number_of_illustrations",
+        "thema_subjects",
+        "thema_version",
+        "publisher_categories",
+        "keywords",
+        "names_as_subject",
+        "reading_age_from",
+        "reading_age_to",
+        "table_of_contents",
+        "description",
+        "short_description",
+        "short_collection_description",
+        "list_of_contents",
+        "open_access_statement",
+        "excerpts",
+        "supporting_resources",
+        "front_cover",
+        "preview_exists",
+        "excerpt_infos",
+        "imprint_name",
+        "imprint_id",
+        "publisher_name",
+        "publisher_id",
+        "publisher_website",
+        "city_of_publication",
+        "safety_contact",
+        "publishing_status",
+        "current_state",
+        "publishing_date",
+        "premiere",
+        "distribution_start",
+        "licence_limited_to",
+        "unlimited_licence",
+        "sales_restrictions",
+        "sales_restrictions_info",
+        "territory_countries",
+        "territory_regions",
+        "sale_restricted_to_poland",
+        "alternative_format_record_references",
+        "file_infos",
+        "supply_details",
+        "cover_price",
+        "current_price_until",
+        "future_cover_price",
+        "future_price_from",
+        "vat",
+        "additional_trade_information"
+      ],
+      "properties": {
+        "record_reference": {
+          "type": "string"
+        },
+        "notification_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "deletion_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "isbn13": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ean": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "doi": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "proprietary_identifiers": {
+          "type": "object",
+          "additionalProperties": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "product_composition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "onix_product_form": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_form": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_form_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_form_details": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cover_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "finishings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "finishing_names": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "finishing_name_descriptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "product_packaging": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_packaging_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_packaging_name_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "digital_formats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "technical_protections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "epub_license": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "link"
+          ],
+          "properties": {
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "link": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "number_of_pieces": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "players_number_from": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "players_number_to": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "playing_time_from": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "playing_time_to": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "carries_ce_logo": {
+          "type": "boolean"
+        },
+        "carries_unsuitable_for_children_below_3_logo": {
+          "type": "boolean"
+        },
+        "carries_en71_logo": {
+          "type": "boolean"
+        },
+        "minimum_age_warning": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "toy_safety_warning": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "declaration_of_conformity_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "height": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "width": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thickness": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "weight": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "map_scale": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "country_of_manufacture": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cn_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "series": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "number_within_series"
+            ],
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "number_within_series": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "issn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issn_with_hyphens": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subtitle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "collection_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "collection_part_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title_eng": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contributors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "datestamp",
+              "number",
+              "role",
+              "role_name",
+              "from_language",
+              "person_name",
+              "titles_before_names",
+              "names_before_key",
+              "prefix_to_key",
+              "key_names",
+              "names_after_key",
+              "biographical_note",
+              "unnamed_persons",
+              "ai_generated_voice",
+              "ai_voice_description",
+              "voice_name",
+              "isni",
+              "viaf",
+              "alternative_names"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "datestamp": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}$"
+              },
+              "number": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "role": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "role_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "from_language": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "person_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "titles_before_names": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "names_before_key": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "prefix_to_key": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "key_names": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "names_after_key": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "biographical_note": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "unnamed_persons": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "ai_generated_voice": {
+                "type": "boolean"
+              },
+              "ai_voice_description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "voice_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "isni": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "viaf": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "alternative_names": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "no_contributor": {
+          "type": "boolean"
+        },
+        "edition_statement": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "edition_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "edition_type_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "edition_type_descriptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "role",
+              "role_name",
+              "code",
+              "language"
+            ],
+            "properties": {
+              "role": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "role_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "code": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "language": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "number_of_pages": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "duration": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "number_of_characters": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "number_of_illustrations": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "thema_subjects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/subject"
+          }
+        },
+        "thema_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher_categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "code",
+              "name"
+            ],
+            "properties": {
+              "code": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "names_as_subject": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "person_name",
+              "corporate_name",
+              "alternative_names"
+            ],
+            "properties": {
+              "person_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "corporate_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "alternative_names": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "reading_age_from": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "reading_age_to": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "table_of_contents": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/text_content"
+            }
+          ]
+        },
+        "description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/text_content"
+            }
+          ]
+        },
+        "short_description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/text_content"
+            }
+          ]
+        },
+        "short_collection_description": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/text_content"
+            }
+          ]
+        },
+        "list_of_contents": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/text_content"
+            }
+          ]
+        },
+        "open_access_statement": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/text_content"
+            }
+          ]
+        },
+        "excerpts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/text_content"
+          }
+        },
+        "supporting_resources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supporting_resource"
+          }
+        },
+        "front_cover": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "datestamp",
+            "link",
+            "md5",
+            "file_size"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "datestamp": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}$"
+            },
+            "link": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "md5": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "file_size": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          }
+        },
+        "preview_exists": {
+          "type": "boolean"
+        },
+        "excerpt_infos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "file_type",
+              "file_size",
+              "md5",
+              "link",
+              "updated_at"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "file_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "file_size": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "md5": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "link": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "updated_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+              }
+            }
+          }
+        },
+        "imprint_name": {
+          "type": "string"
+        },
+        "imprint_id": {
+          "type": "integer"
+        },
+        "publisher_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher_id": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "publisher_website": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "city_of_publication": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "safety_contact": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "company_name",
+            "phone",
+            "email",
+            "street",
+            "city",
+            "postal_code",
+            "country_code"
+          ],
+          "properties": {
+            "company_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "phone": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "email": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "street": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "city": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "postal_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "country_code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "publishing_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_state": {
+          "enum": [
+            null,
+            "announced",
+            "preorder",
+            "indefinitely_postponed",
+            "cancelled",
+            "published",
+            "out_of_print",
+            "deleted"
+          ]
+        },
+        "publishing_date": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/publishing_date"
+            }
+          ]
+        },
+        "premiere": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "distribution_start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "licence_limited_to": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "unlimited_licence": {
+          "type": "boolean"
+        },
+        "sales_restrictions": {
+          "type": "boolean"
+        },
+        "sales_restrictions_info": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "type_name",
+            "outlet_name",
+            "outlet_identifier",
+            "end_date"
+          ],
+          "properties": {
+            "type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "type_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "outlet_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "outlet_identifier": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "additionalProperties": false,
+              "required": [
+                "type",
+                "value"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "value": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            },
+            "end_date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "territory_countries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "territory_regions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sale_restricted_to_poland": {
+          "type": "boolean"
+        },
+        "alternative_format_record_references": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "file_infos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "file_type",
+              "file_size",
+              "md5",
+              "updated_at"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "file_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "file_size": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "md5": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "updated_at": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+              }
+            }
+          }
+        },
+        "supply_details": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "supplier",
+              "product_availability",
+              "product_availability_name",
+              "supplier_own_coding",
+              "on_hand",
+              "proximity",
+              "proximity_name",
+              "pack_quantity",
+              "unpriced_item_type",
+              "prices"
+            ],
+            "properties": {
+              "supplier": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "additionalProperties": false,
+                "required": [
+                  "role",
+                  "role_name",
+                  "role_description",
+                  "vat_id",
+                  "name",
+                  "website"
+                ],
+                "properties": {
+                  "role": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "role_name": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "role_description": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "vat_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "name": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "website": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "product_availability": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "product_availability_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "supplier_own_coding": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "on_hand": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "proximity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "proximity_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "pack_quantity": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "unpriced_item_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "prices": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/price"
+                }
+              }
+            }
+          }
+        },
+        "cover_price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "current_price_until": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "future_cover_price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "future_price_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "vat": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "additional_trade_information": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

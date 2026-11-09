@@ -1,0 +1,19 @@
+{
+  "id": "090-original-title-removed",
+  "title": "Original title removed",
+  "description": "The original title 'Ricochets' (TitleType 03) is removed.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "title.removed",
+      "before": {
+        "TitleType": "03",
+        "TitleElementLevel": "01",
+        "TitleText": "Ricochets"
+      }
+    }
+  ]
+}

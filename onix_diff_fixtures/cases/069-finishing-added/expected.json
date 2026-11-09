@@ -1,0 +1,19 @@
+{
+  "id": "069-finishing-added",
+  "title": "Cover finishing added",
+  "description": "The publisher describes the cover finish of the printed book: hot-stamping on the cover (B422) and a soft-touch cover (B214). Each is a ProductFormDetail.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_form_detail.added",
+      "after": "B422"
+    },
+    {
+      "type": "product_form_detail.added",
+      "after": "B214"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "145-state-back-in-print",
+  "title": "Out-of-print book reissued",
+  "description": "A book that was out of print is available again: PublishingStatus 07 -> 04.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "publishing_status.changed",
+      "before": "07",
+      "after": "04"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "141-publisher-contact-changed",
+  "title": "Product safety contact changed",
+  "description": "The publisher moves and changes its phone number; the product safety contact (ProductContact 10) changes in every product.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_contact.changed",
+      "changed_fields": [
+        "TelephoneNumber",
+        "StreetAddress",
+        "PostalCode"
+      ],
+      "before": {
+        "ProductContactRole": "10",
+        "ProductContactName": "Wydawnictwo Format Tomasz Malejki",
+        "TelephoneNumber": "71 339 47 01",
+        "EmailAddress": "list@wydawnictwoformat.pl",
+        "StreetAddress": "Braterska 19",
+        "LocationName": "Wrocław",
+        "PostalCode": "53-015",
+        "CountryCode": "PL"
+      },
+      "after": {
+        "ProductContactRole": "10",
+        "ProductContactName": "Wydawnictwo Format Tomasz Malejki",
+        "TelephoneNumber": "71 111 22 33",
+        "EmailAddress": "list@wydawnictwoformat.pl",
+        "StreetAddress": "Kościuszki 12",
+        "LocationName": "Wrocław",
+        "PostalCode": "50-038",
+        "CountryCode": "PL"
+      }
+    }
+  ]
+}

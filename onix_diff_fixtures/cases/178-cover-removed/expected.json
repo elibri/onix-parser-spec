@@ -1,0 +1,24 @@
+{
+  "id": "178-cover-removed",
+  "title": "Cover image removed",
+  "description": "The front cover image (ResourceContentType 01) is deleted and no new one is uploaded.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.removed",
+      "before": {
+        "ResourceContentType": "01",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "119c3a871ef1e47860f5f9f7b40d3122",
+        "ResourceVersionFeature[07]/FeatureValue": "660092",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg",
+        "ContentDate[17]/Date": "20261002T0759Z"
+      }
+    }
+  ]
+}

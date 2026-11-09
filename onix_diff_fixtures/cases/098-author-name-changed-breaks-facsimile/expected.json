@@ -1,0 +1,43 @@
+{
+  "id": "098-author-name-changed-breaks-facsimile",
+  "title": "Author name changed in one edition only",
+  "description": "The author gets a name suffix (NamesAfterKey 'Jr.') in the printed edition only. The editions are compared by title and author names to decide whether they are the same work, so the facsimile relation to the e-book edition is no longer exported.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "PersonName",
+        "NamesAfterKey"
+      ],
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "Tim Weiner",
+        "NamesBeforeKey": "Tim",
+        "KeyNames": "Weiner",
+        "BiographicalNote": "<p>Tim Weiner zdobył Nagrodę Pulitzera za reportaże o amerykańskim bezpieczeństwie państwowym i National Book Award za <em>Dziedzictwo popiołów. Historię CIA</em> (REBIS 2009). W „New York Timesie” opisywał działania CIA w Waszyngtonie oraz konflikty w Afganistanie, Pakistanie i wielu innych państwach. „New York Times”, „The Economist”, „Washington Post”, „Time” i wiele innych pism uznały <em>Dziedzictwo popiołów </em>za jedną z najlepszych książek roku. Jedna z jego pięciu książek, <em>Wrogowie. Historia FBI</em> (REBIS 2012), zyskała status ogólnokrajowego bestsellera w Stanach Zjednoczonych. Mieszka na Brooklynie wraz z żoną, Kathy Doyle, specjalistką od praw człowieka i wolności informacji. REBIS w 2022 roku wydał też jego <em>Szaleństwo i chwałę. Wojnę polityczną pomiędzy Stanami Zjednoczonymi a Rosją 1945–2020</em>.</p>"
+      },
+      "after": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "Tim Weiner Jr.",
+        "NamesBeforeKey": "Tim",
+        "KeyNames": "Weiner",
+        "NamesAfterKey": "Jr.",
+        "BiographicalNote": "<p>Tim Weiner zdobył Nagrodę Pulitzera za reportaże o amerykańskim bezpieczeństwie państwowym i National Book Award za <em>Dziedzictwo popiołów. Historię CIA</em> (REBIS 2009). W „New York Timesie” opisywał działania CIA w Waszyngtonie oraz konflikty w Afganistanie, Pakistanie i wielu innych państwach. „New York Times”, „The Economist”, „Washington Post”, „Time” i wiele innych pism uznały <em>Dziedzictwo popiołów </em>za jedną z najlepszych książek roku. Jedna z jego pięciu książek, <em>Wrogowie. Historia FBI</em> (REBIS 2012), zyskała status ogólnokrajowego bestsellera w Stanach Zjednoczonych. Mieszka na Brooklynie wraz z żoną, Kathy Doyle, specjalistką od praw człowieka i wolności informacji. REBIS w 2022 roku wydał też jego <em>Szaleństwo i chwałę. Wojnę polityczną pomiędzy Stanami Zjednoczonymi a Rosją 1945–2020</em>.</p>"
+      }
+    },
+    {
+      "type": "related_product.removed",
+      "before": {
+        "ProductRelationCode": "24",
+        "ProductIdentifier[01]/IDTypeName": "elibri",
+        "ProductIdentifier[01]/IDValue": "7d6c25db7d0624eac69b"
+      }
+    }
+  ]
+}

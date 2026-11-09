@@ -1,0 +1,32 @@
+{
+  "id": "031-contributor-biography-added",
+  "title": "Author biography added",
+  "description": "A short biographical note is added to the author J. T. Geissinger.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "BiographicalNote"
+      ],
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "J. T. Geissinger",
+        "NamesBeforeKey": "J. T.",
+        "KeyNames": "Geissinger"
+      },
+      "after": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "J. T. Geissinger",
+        "NamesBeforeKey": "J. T.",
+        "KeyNames": "Geissinger",
+        "BiographicalNote": "<p>J. T. Geissinger jest autorką bestsellerowych romansów, przetłumaczonych na kilkanaście języków.</p>"
+      }
+    }
+  ]
+}

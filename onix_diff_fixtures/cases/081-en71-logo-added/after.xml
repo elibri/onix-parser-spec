@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>e6228c7e53a8c7b48f6c</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>03</ProductIDType>
+      <IDValue>5904905917201</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>01</ProductIDType>
+      <IDTypeName>EDGARD</IDTypeName>
+      <IDValue>126042</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>ZE</ProductForm>
+      <ProductFormFeature>
+        <ProductFormFeatureType>23</ProductFormFeatureType>
+        <ProductFormFeatureDescription>2-5 graczy</ProductFormFeatureDescription>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>24</ProductFormFeatureType>
+        <ProductFormFeatureDescription>20-40 min.</ProductFormFeatureDescription>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>01</ProductFormFeatureValue>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>03</ProductFormFeatureValue>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>02</ProductFormFeatureValue>
+        <ProductFormFeatureDescription>Nieodpowiednie dla dzieci w wieku poniżej 3 lat.</ProductFormFeatureDescription>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>04</ProductFormFeatureValue>
+        <ProductFormFeatureDescription>OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej. Przed podaniem dziecku zabawki należy usunąć opakowanie z folii termokurczliwej. Opakowanie należy zachować ze względu na zawarte na nim informacje.</ProductFormFeatureDescription>
+      </ProductFormFeature>
+      <ProductFormFeature>
+        <ProductFormFeatureType>13</ProductFormFeatureType>
+        <ProductFormFeatureValue>08</ProductFormFeatureValue>
+      </ProductFormFeature>
+      <Measure>
+        <MeasureType>01</MeasureType>
+        <Measurement>250</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>02</MeasureType>
+        <Measurement>245</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <Measure>
+        <MeasureType>03</MeasureType>
+        <Measurement>55</Measurement>
+        <MeasureUnitCode>mm</MeasureUnitCode>
+      </Measure>
+      <CountryOfManufacture>PL</CountryOfManufacture>
+      <ProductClassification>
+        <ProductClassificationType>01</ProductClassificationType>
+        <ProductClassificationCode>9503 00 99</ProductClassificationCode>
+      </ProductClassification>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="pol">Europa. Gra edukacyjna. Kapitan Nauka</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>EUROPA. GRA EDUKACYJNA. KAPITAN NAUKA</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <UnnamedPersons>04</UnnamedPersons>
+      </Contributor>
+      <EditionStatement>wydanie 1</EditionStatement>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>pol</LanguageCode>
+      </Language>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>WD</SubjectCode>
+        <SubjectHeadingText>Lifestyle, hobby i rozrywka / Hobby, gry i zabawy</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>WDM</SubjectCode>
+        <SubjectHeadingText>Lifestyle, hobby i rozrywka / Hobby, gry i zabawy / Gry towarzyskie</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>WDMG</SubjectCode>
+        <SubjectHeadingText>Lifestyle, hobby i rozrywka / Hobby, gry i zabawy / Gry towarzyskie / Gry planszowe</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>WN</SubjectCode>
+        <SubjectHeadingText>Lifestyle, hobby i rozrywka / Publikacje popularne – przyroda</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>WT</SubjectCode>
+        <SubjectHeadingText>Lifestyle, hobby i rozrywka / Turystyka i wypoczynek</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5AF</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Wiek / poziom grupy docelowej / Od ok. 5 lat</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="pol">gra planszowa; Europa; gra edukacyjna; rozrywka dla całej rodziny; spostrzegawczość; poznawanie świata; Kapitan Nauka</SubjectHeadingText>
+      </Subject>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>03</AudienceRangePrecision>
+        <AudienceRangeValue>6</AudienceRangeValue>
+      </AudienceRange>
+      <AudienceRange>
+        <AudienceRangeQualifier>18</AudienceRangeQualifier>
+        <AudienceRangePrecision>04</AudienceRangePrecision>
+        <AudienceRangeValue>99</AudienceRangeValue>
+      </AudienceRange>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:316431" datestamp="20260825T1114">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p><strong>Wyrusz w podróż po Europie!</strong></p>
+<p>Jak Hiszpanie świętują La Tomatinę? Ile wysp przynależy do Szkocji? Gdzie narodziła się grecka bogini Afrodyta?</p>
+<p>Dotrzyj do najdalszych zakątków Europy i odkryj ich tajemnice. Podziwiaj widok z Wieży Eiffla i wygrzej się w fińskiej saunie. Ścigaj się z innymi graczami, zdobywaj wiedzę, ćwicz refleks i spostrzegawczość.</p>
+<p><strong>Gra edukacyjna Europa</strong> to klasyczny wyścig. Zwycięzcą zostanie gracz, który jako pierwszy dotrze do mety. Jest na to kilka sposobów! Pomóc może udzielenie odpowiedzi na pytanie, wykonanie działania opisanego na karcie lub wypatrzenie na planszy wylosowanego obiektu.</p>
+<p>Rozgrywka jest dynamiczna, a dzięki różnorodnym akcjom i barwnym ilustracjom wiedza o państwach europejskich i ich geografii sama wchodzi do głowy. <strong>Gra będzie doskonałą rozrywką dla całej rodziny!</strong></p>
+<p><strong></strong></p>
+<p>Monika Utnik – italianistka, dziennikarka, autorka książek dla dzieci. Podczas podróży do ukochanych Włoch lubi odkrywać nieznane turystom miasteczka. Weekendy spędza na polskiej wsi.</p>
+<p></p>
+<p><strong>Kapitan Nauka to marka, która wspiera rozwój i edukację dziecka przez kreatywną zabawę.</strong></p>
+<p>Nasze produkty dostosowane są do potrzeb maluchów, przedszkolaków oraz uczniów i rozwijają kluczowe umiejętności, m.in. naukę mowy, czytanie, liczenie czy mnożenie. Są świetną alternatywą dla smartfona czy komputera, a czas spędzony przy wspólnych rozgrywkach w gronie rodziny lub rówieśników wzmacnia więzi i umiejętności komunikacyjne. Nad zawartością merytoryczną czuwają eksperci: nauczyciele, pedagodzy, psycholodzy i terapeuci.</p>]]>
+        </Text>
+      </TextContent>
+      <TextContent>
+        <TextType>32</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>plansza, 55 kart, pionki, kostka, instrukcja</Text>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:475824" datestamp="20260825T0856">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>556a5c4b551ed2cfd65bd18881865dad</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1903938</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/cover-556a5c4b551ed2cfd65bd18881865dad/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260825T0856Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:475825" datestamp="20260825T0857">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>3457f7eb0089f1a8365ea691e706c8df</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>7522535</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/475825/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260825T0857Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:480183" datestamp="20261002T1339">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>619f50cd7d17e3e81032eee7069979ff</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1117956</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/480183/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261002T1339Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:480184" datestamp="20261002T1339">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>92fede339e2c9b40fd0bf8bc0838402f</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1601659</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/480184/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261002T1339Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:480185" datestamp="20261002T1339">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>0607808ed22d2d26a9b260ac163915e6</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1602390</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/480185/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261002T1339Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:482889" datestamp="20261028T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>a34067dfad0a0abf275aa3f93fc026f4</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1361666</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/482889/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261028T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:482890" datestamp="20261028T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>5f92bce1c76922075c6d5b2ee6033865</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1352371</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/482890/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261028T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:482891" datestamp="20261028T1449">
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>06c5efc130d85b206f26a2833e535b4f</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>1675871</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/482891/original.png</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261028T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource sourcename="resourceid:482892" datestamp="20261028T1449">
+        <ResourceContentType>02</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>e29c4cbcbdb459ace882b9bd695081d5</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>261340</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/back_cover-e29c4cbcbdb459ace882b9bd695081d5/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20261028T1449Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>346</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Kapitan Nauka</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>233</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>EDGARD</PublisherName>
+      </Publisher>
+      <CityOfPublication>Warszawa</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>EDGARD PUBLISHING Spółka z o.o.</ProductContactName>
+        <TelephoneNumber>22 853 11 38</TelephoneNumber>
+        <EmailAddress>edgard@edgard.pl</EmailAddress>
+        <StreetAddress>Belgijska 11/6</StreetAddress>
+        <LocationName>Warszawa</LocationName>
+        <PostalCode>02-511</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20261007</Date>
+      </PublishingDate>
+      <PublishingDate>
+        <PublishingDateRole>27</PublishingDateRole>
+        <Date dateformat="00">20261007</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
+    </PublishingDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>23</SupplierIDType>
+            <IDValue>PL5214123062</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>EDGARD</SupplierName>
+        </Supplier>
+        <ProductAvailability>99</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceQualifier>05</PriceQualifier>
+          <PriceAmount>64.99</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRatePercent>23</TaxRatePercent>
+          </Tax>
+          <CurrencyCode>PLN</CurrencyCode>
+          <PrintedOnProduct>01</PrintedOnProduct>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

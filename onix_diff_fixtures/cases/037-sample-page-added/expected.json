@@ -1,0 +1,24 @@
+{
+  "id": "037-sample-page-added",
+  "title": "Sample page image added",
+  "description": "Another sample spread (ResourceContentType 15) is uploaded; the seven existing ones are unchanged.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.added",
+      "after": {
+        "ResourceContentType": "15",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a",
+        "ResourceVersionFeature[07]/FeatureValue": "1310207",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/c937e645aeb6050c0246/900000001/original.jpg",
+        "ContentDate[17]/Date": "20261019T1000Z"
+      }
+    }
+  ]
+}

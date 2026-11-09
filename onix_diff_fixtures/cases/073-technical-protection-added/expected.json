@@ -1,0 +1,15 @@
+{
+  "id": "073-technical-protection-added",
+  "title": "LCP protection enabled",
+  "description": "The publisher switches on LCP DRM next to watermarking for all its e-books; the record gets a second EpubTechnicalProtection (06) next to the watermark (02).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "epub_technical_protection.added",
+      "after": "06"
+    }
+  ]
+}

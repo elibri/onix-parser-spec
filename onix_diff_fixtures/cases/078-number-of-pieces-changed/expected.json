@@ -1,0 +1,25 @@
+{
+  "id": "078-number-of-pieces-changed",
+  "title": "Number of puzzle pieces corrected",
+  "description": "The number of jigsaw pieces is corrected from 60 to 64.",
+  "product": {
+    "kind": "puzzle",
+    "record_reference": "b9fb354a73654c151607"
+  },
+  "changes": [
+    {
+      "type": "product_form_feature.changed",
+      "changed_fields": [
+        "ProductFormFeatureValue"
+      ],
+      "before": {
+        "ProductFormFeatureType": "22",
+        "ProductFormFeatureValue": "60"
+      },
+      "after": {
+        "ProductFormFeatureType": "22",
+        "ProductFormFeatureValue": "64"
+      }
+    }
+  ]
+}

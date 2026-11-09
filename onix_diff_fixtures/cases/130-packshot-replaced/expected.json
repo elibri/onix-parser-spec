@@ -1,0 +1,40 @@
+{
+  "id": "130-packshot-replaced",
+  "title": "3D packshot replaced",
+  "description": "A new 3D image of the book (ResourceContentType 03) is uploaded in place of the old one.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.changed",
+      "changed_fields": [
+        "ResourceVersionFeature[06]/FeatureValue",
+        "ResourceVersionFeature[07]/FeatureValue",
+        "ResourceLink",
+        "ContentDate[17]/Date"
+      ],
+      "before": {
+        "ResourceContentType": "03",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "62116c62cf8cdd50d7b86b5ba3ab59ab",
+        "ResourceVersionFeature[07]/FeatureValue": "3007197",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/4b4f4437bd829c14e3ce/481397/original.png",
+        "ContentDate[17]/Date": "20261014T1122Z"
+      },
+      "after": {
+        "ResourceContentType": "03",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "9e107d9d372bb6826bd81d3542a419d6",
+        "ResourceVersionFeature[07]/FeatureValue": "412337",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/4b4f4437bd829c14e3ce/900000001/original.png",
+        "ContentDate[17]/Date": "20261019T1000Z"
+      }
+    }
+  ]
+}

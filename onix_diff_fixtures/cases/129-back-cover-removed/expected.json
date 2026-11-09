@@ -1,0 +1,24 @@
+{
+  "id": "129-back-cover-removed",
+  "title": "Back cover removed",
+  "description": "The back cover image (ResourceContentType 02) is deleted.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "supporting_resource.removed",
+      "before": {
+        "ResourceContentType": "02",
+        "ContentAudience": "00",
+        "ResourceMode": "03",
+        "ResourceForm": "02",
+        "ResourceVersionFeature[06]/FeatureValue": "27e420b2b5870f7cdf33fb2ff47f3850",
+        "ResourceVersionFeature[07]/FeatureValue": "1371375",
+        "ResourceLink": "https://www.elibri.com.pl/attachments/4b4f4437bd829c14e3ce/back_cover-27e420b2b5870f7cdf33fb2ff47f3850/original.jpg",
+        "ContentDate[17]/Date": "20261014T1123Z"
+      }
+    }
+  ]
+}

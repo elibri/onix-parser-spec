@@ -1,0 +1,37 @@
+{
+  "id": "016-vat-changed",
+  "title": "VAT rate changed",
+  "description": "The VAT rate is corrected from 5% to 23%; the price stays the same.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "price.changed",
+      "changed_fields": [
+        "Tax[01]/TaxRatePercent"
+      ],
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "69.99",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "02",
+        "PositionOnProduct": "00"
+      },
+      "after": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "69.99",
+        "Tax[01]/TaxRatePercent": "23",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "02",
+        "PositionOnProduct": "00"
+      }
+    }
+  ]
+}

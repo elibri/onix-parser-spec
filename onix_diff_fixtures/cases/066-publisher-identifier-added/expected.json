@@ -1,0 +1,19 @@
+{
+  "id": "066-publisher-identifier-added",
+  "title": "Publisher's own product code added",
+  "description": "The publisher fills in its internal product code; it is exported as a proprietary identifier (ProductIDType 01) named after the publisher.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "product_identifier.added",
+      "after": {
+        "ProductIDType": "01",
+        "IDTypeName": "Wydawnictwo NieZwykłe",
+        "IDValue": "NZ/E/0412"
+      }
+    }
+  ]
+}

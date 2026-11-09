@@ -1,0 +1,10 @@
+{
+  "id": "126-review-link-changed",
+  "title": "Review link added (attribute only)",
+  "description": "A link to the full review is added. It is exported only as the sourcename attribute of the Text element, and attributes are ignored - no change is reported.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": []
+}

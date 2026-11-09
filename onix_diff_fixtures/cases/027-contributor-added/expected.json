@@ -1,0 +1,21 @@
+{
+  "id": "027-contributor-added",
+  "title": "Cover designer added",
+  "description": "A new contributor is added: cover designer (A36) Magdalena Zawadzka.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributor.added",
+      "after": {
+        "SequenceNumber": "3",
+        "ContributorRole": "A36",
+        "PersonName": "Magdalena Zawadzka",
+        "NamesBeforeKey": "Magdalena",
+        "KeyNames": "Zawadzka"
+      }
+    }
+  ]
+}

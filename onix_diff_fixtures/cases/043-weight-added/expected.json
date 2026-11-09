@@ -1,0 +1,19 @@
+{
+  "id": "043-weight-added",
+  "title": "Weight added",
+  "description": "The weight of the printed book (640 g) becomes known.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "measure.added",
+      "after": {
+        "MeasureType": "08",
+        "Measurement": "640",
+        "MeasureUnitCode": "gr"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "105-authorship-no-contributor",
+  "title": "Product marked as having no contributor",
+  "description": "The authorship is switched to 'no contributor': all contributors disappear and an empty NoContributor element is added (default rule; an empty element has the value \"\").",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributor.removed",
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "J. T. Geissinger",
+        "NamesBeforeKey": "J. T.",
+        "KeyNames": "Geissinger"
+      }
+    },
+    {
+      "type": "contributor.removed",
+      "before": {
+        "SequenceNumber": "2",
+        "ContributorRole": "B06",
+        "FromLanguage": "eng",
+        "PersonName": "Edyta Misiewicz-Hulewska",
+        "NamesBeforeKey": "Edyta",
+        "KeyNames": "Misiewicz-Hulewska"
+      }
+    },
+    {
+      "type": "no_contributor.added",
+      "after": ""
+    }
+  ]
+}

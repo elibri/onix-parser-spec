@@ -1,0 +1,29 @@
+{
+  "id": "091-collection-part-changed",
+  "title": "Volume number of the cycle changed",
+  "description": "The product's volume in its cycle (exported as a collection-level TitleElement inside the product's own title) changes from 1 to 2.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "title.changed",
+      "changed_fields": [
+        "PartNumber"
+      ],
+      "before": {
+        "TitleType": "01",
+        "TitleElementLevel": "02",
+        "PartNumber": "1",
+        "TitleText": "Cukierku, Ty łobuzie"
+      },
+      "after": {
+        "TitleType": "01",
+        "TitleElementLevel": "02",
+        "PartNumber": "2",
+        "TitleText": "Cukierku, Ty łobuzie"
+      }
+    }
+  ]
+}

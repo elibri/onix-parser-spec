@@ -1,0 +1,46 @@
+{
+  "id": "015-future-price-cancelled",
+  "title": "Scheduled price change cancelled",
+  "description": "A scheduled price change (39.90 PLN from 2026-11-01) is cancelled; one undated price remains.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "price.changed",
+      "changed_fields": [
+        "PriceDate[15]/Date"
+      ],
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "46.9",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PriceDate[15]/Date": "20261031"
+      },
+      "after": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "46.9",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN"
+      }
+    },
+    {
+      "type": "price.removed",
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "39.9",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PriceDate[14]/Date": "20261101"
+      }
+    }
+  ]
+}

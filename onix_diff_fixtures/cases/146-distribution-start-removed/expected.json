@@ -1,0 +1,18 @@
+{
+  "id": "146-distribution-start-removed",
+  "title": "Distribution start date removed",
+  "description": "The date from which retailers may ship the book (PublishingDate 27) is cleared.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "publishing_date.removed",
+      "before": {
+        "PublishingDateRole": "27",
+        "Date": "20261016"
+      }
+    }
+  ]
+}

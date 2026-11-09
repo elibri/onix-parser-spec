@@ -1,0 +1,16 @@
+{
+  "id": "071-packaging-changed",
+  "title": "Packaging changed",
+  "description": "The packaging changes from shrink-wrap (21) to a slipcase (10). A single-occurrence default-rule element is 'changed', not 'removed + added'.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_packaging.changed",
+      "before": "21",
+      "after": "10"
+    }
+  ]
+}

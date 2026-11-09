@@ -1,0 +1,25 @@
+{
+  "id": "148-publication-date-year-only",
+  "title": "Publication date reduced to a year",
+  "description": "Only the year of publication is kept: the full date becomes 2026. The dateformat attribute changes too, but attributes are ignored.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "publishing_date.changed",
+      "changed_fields": [
+        "Date"
+      ],
+      "before": {
+        "PublishingDateRole": "01",
+        "Date": "20261002"
+      },
+      "after": {
+        "PublishingDateRole": "01",
+        "Date": "2026"
+      }
+    }
+  ]
+}

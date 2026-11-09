@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.1" xmlns="http://ns.editeur.org/onix/3.1/reference">
+  <Header>
+    <Sender>
+      <SenderName>Elibri sp. z o. o.</SenderName>
+    </Sender>
+    <SentDateTime>20261019</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>aa75fe82683a9cdb4b12</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9788368783315</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>AJ</ProductForm>
+      <ProductFormDetail>A103</ProductFormDetail>
+      <EpubTechnicalProtection>02</EpubTechnicalProtection>
+      <Collection>
+        <CollectionType>10</CollectionType>
+        <TitleDetail>
+          <TitleType>01</TitleType>
+          <TitleElement>
+            <TitleElementLevel>02</TitleElementLevel>
+            <PartNumber>1</PartNumber>
+            <TitleText>Cukierku, Ty łobuzie</TitleText>
+          </TitleElement>
+        </TitleDetail>
+      </Collection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>02</TitleElementLevel>
+          <PartNumber>tom II</PartNumber>
+          <TitleText language="pol">Cukierku, Ty łobuzie</TitleText>
+        </TitleElement>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText language="pol">Cukierku, ty łobuzie! Superprodukcja</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <TitleDetail>
+        <TitleType>10</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>CUKIERKU, TY ŁOBUZIE! SUPERPRODUKCJA</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor sourcename="contributorid:514506" datestamp="20260924T1522">
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Waldemar Cichoń</PersonName>
+        <NamesBeforeKey>Waldemar</NamesBeforeKey>
+        <KeyNames>Cichoń</KeyNames>
+      </Contributor>
+      <Contributor sourcename="contributorid:514507" datestamp="20260924T1522">
+        <SequenceNumber>2</SequenceNumber>
+        <ContributorRole>E07</ContributorRole>
+        <PersonName>Janusz Zadura</PersonName>
+        <NamesBeforeKey>Janusz</NamesBeforeKey>
+        <KeyNames>Zadura</KeyNames>
+      </Contributor>
+      <Contributor sourcename="contributorid:514508" datestamp="20260924T1522">
+        <SequenceNumber>3</SequenceNumber>
+        <ContributorRole>E07</ContributorRole>
+        <PersonName>Maciej Więckowski</PersonName>
+        <NamesBeforeKey>Maciej</NamesBeforeKey>
+        <KeyNames>Więckowski</KeyNames>
+      </Contributor>
+      <Contributor sourcename="contributorid:514509" datestamp="20260924T1522">
+        <SequenceNumber>4</SequenceNumber>
+        <ContributorRole>E07</ContributorRole>
+        <PersonName>Diana Giurow</PersonName>
+        <NamesBeforeKey>Diana</NamesBeforeKey>
+        <KeyNames>Giurow</KeyNames>
+      </Contributor>
+      <Contributor sourcename="contributorid:514510" datestamp="20260924T1522">
+        <SequenceNumber>5</SequenceNumber>
+        <ContributorRole>E07</ContributorRole>
+        <PersonName>Krzysztof Zatryb</PersonName>
+        <NamesBeforeKey>Krzysztof</NamesBeforeKey>
+        <KeyNames>Zatryb</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>pol</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>09</ExtentType>
+        <ExtentValue>59</ExtentValue>
+        <ExtentUnit>05</ExtentUnit>
+      </Extent>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YF</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Literatura dla dzieci i młodzieży</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>YP</SubjectCode>
+        <SubjectHeadingText>Publikacje dla dzieci i młodzieży, edukacja / Materiały edukacyjne</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
+        <SubjectSchemeVersion>1.6</SubjectSchemeVersion>
+        <SubjectCode>5AG</SubjectCode>
+        <SubjectHeadingText>Kwalifikatory grup docelowych i okolicznościowe / Wiek / poziom grupy docelowej / Od ok. 6 lat</SubjectHeadingText>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+        <SubjectHeadingText language="pol">przygoda; kot; rodzina</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent sourcename="textid:318717" datestamp="20260924T1522">
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="pol">
+          <![CDATA[<p><strong>Wesoły i sprytny kotek Cukierek wywraca życie rodziny Marcela do góry nogami!</strong></p>
+<p>Ten mały, pręgowany dachowiec jest słodki, uroczy i… absolutnie nieprzewidywalny. Wszyscy go kochają, choć potrafi doprowadzić domowników do szaleństwa.</p>
+<p>Wszystko zaczyna się niewinnie. Pewnego dnia Marcel i jego rodzice przygarniają kotka. Spośród całego kociego rodzeństwa Marcel wybiera największego psotnika. Gdy Cukierek przekracza próg domu, rozpoczyna się prawdziwa kocia komedia. Ucieczki, pojedynki ze szczotką, wyprawa na trening hokeja, udawanie choroby, walka ze swetrem z angory, dekorowanie choinki, a nawet podróż zdalnie sterowaną ciężarówką.</p>
+<p>Każdy dzień z Cukierkiem to nowa przygoda!</p>
+<p>To pełne humoru <strong>słuchowisko z muzyczną oprawą</strong>, które ożywia kocie psoty i sprawia, że historia Cukierka staje się jeszcze bardziej dynamiczna i zabawna.</p>
+<p>Jedna z najpogodniejszych szkolnych lektur (wpisana do kanonu lektur dla klas I-III), uwielbiana zarówno przez dzieci, jak i dorosłych!</p>
+<p><strong>Obsada:</strong></p>
+<p>Kot Cukierek – Janusz Zadura</p>
+<p></p>
+<p><strong>W pozostałych rolach:</strong></p>
+<p>Tata Marcela – Maciej Więckowski</p>
+<p>Mama Marcela – Diana Giurow</p>
+<p>Marcel – Krzysztof Zatryb</p>
+<p>Weterynarz – Adam Bauman</p>
+<p>Pani Lusia – Izabela Perez</p>
+<p>Dzieci – Jagoda Mikulska</p>
+<p>Pies Toffi / Trener – Stanisław Mroz</p>
+<p>Dzieci – Alicja Biernat</p>
+<p><strong>Muzyka:</strong> Przemysław Bawół</p>
+<p><strong>Reżyseria:</strong> Krzysztof Zatryb</p>
+<p><strong>Realizacja:</strong> Studio Fonoryt</p>]]>
+        </Text>
+      </TextContent>
+      <SupportingResource sourcename="resourceid:479051" datestamp="20260924T1327">
+        <ResourceContentType>01</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>03</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>32828d5a315e0fb2092560957ca315dd</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>267536</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/attachments/aa75fe82683a9cdb4b12/cover-32828d5a315e0fb2092560957ca315dd/original.jpg</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260924T1327Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+      <SupportingResource>
+        <ResourceContentType>15</ResourceContentType>
+        <ContentAudience>00</ContentAudience>
+        <ResourceMode>02</ResourceMode>
+        <ResourceVersion>
+          <ResourceForm>02</ResourceForm>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>01</ResourceVersionFeatureType>
+            <FeatureValue>A103</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>06</ResourceVersionFeatureType>
+            <FeatureValue>f148f206417140358b807aaa0db7be6f</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceVersionFeature>
+            <ResourceVersionFeatureType>07</ResourceVersionFeatureType>
+            <FeatureValue>5128348</FeatureValue>
+          </ResourceVersionFeature>
+          <ResourceLink>https://www.elibri.com.pl/excerpt/366213/f148f206417140358b807aaa0db7be6f/cukierku-ty-lobuzie-superprodukcja-fragment.mp3</ResourceLink>
+          <ContentDate>
+            <ContentDateRole>17</ContentDateRole>
+            <Date dateformat="13">20260924T1329Z</Date>
+          </ContentDate>
+        </ResourceVersion>
+      </SupportingResource>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintIdentifier>
+          <ImprintIDType>01</ImprintIDType>
+          <IDTypeName>ElibriImprintCode</IDTypeName>
+          <IDValue>905</IDValue>
+        </ImprintIdentifier>
+        <ImprintName>Aleksandria</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherIdentifier>
+          <PublisherIDType>01</PublisherIDType>
+          <IDTypeName>ElibriPublisherCode</IDTypeName>
+          <IDValue>412</IDValue>
+        </PublisherIdentifier>
+        <PublisherName>Aleksandria</PublisherName>
+      </Publisher>
+      <CityOfPublication>Katowice</CityOfPublication>
+      <ProductContact>
+        <ProductContactRole>10</ProductContactRole>
+        <ProductContactName>Aleksandria Media sp. z o.o.</ProductContactName>
+        <TelephoneNumber> +48600262100</TelephoneNumber>
+        <EmailAddress>biuro@aleksandria.net.pl</EmailAddress>
+        <StreetAddress>al. Wojciecha Korfantego 138</StreetAddress>
+        <LocationName>Katowice</LocationName>
+        <PostalCode>40-156</PostalCode>
+        <CountryCode>PL</CountryCode>
+      </ProductContact>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20261005</Date>
+      </PublishingDate>
+      <SalesRights>
+        <SalesRightsType>01</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
+    </PublishingDetail>
+    <ProductionDetail>
+      <ProductionManifest>
+        <BodyManifest>
+          <BodyResource>
+            <SequenceNumber>1</SequenceNumber>
+            <ResourceIdentifier>
+              <ResourceIDType>01</ResourceIDType>
+              <IDTypeName>elibri internal numerical ID</IDTypeName>
+              <IDValue>366212</IDValue>
+            </ResourceIdentifier>
+            <ResourceFileFeature>
+              <ResourceFileFeatureType>07</ResourceFileFeatureType>
+              <ResourceFileFeatureValue>71493424</ResourceFileFeatureValue>
+            </ResourceFileFeature>
+            <ResourceFileFeature>
+              <ResourceFileFeatureType>06</ResourceFileFeatureType>
+              <ResourceFileFeatureValue>d8934d2769f53f5d03f091db04378150</ResourceFileFeatureValue>
+            </ResourceFileFeature>
+            <ResourceFileLink>cukierkutylobuziesuperprodukcja.zip</ResourceFileLink>
+            <ResourceFileDate>
+              <ResourceFileDateRole>17</ResourceFileDateRole>
+              <Date dateformat="13">20260924T1328Z</Date>
+            </ResourceFileDate>
+          </BodyResource>
+        </BodyManifest>
+      </ProductionManifest>
+    </ProductionDetail>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>01</SupplierRole>
+          <SupplierIdentifier>
+            <SupplierIDType>23</SupplierIDType>
+            <IDValue>PL6343007335</IDValue>
+          </SupplierIdentifier>
+          <SupplierName>Aleksandria</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceQualifier>05</PriceQualifier>
+          <PriceAmount>39.9</PriceAmount>
+          <Tax>
+            <TaxType>01</TaxType>
+            <TaxRatePercent>5</TaxRatePercent>
+          </Tax>
+          <CurrencyCode>PLN</CurrencyCode>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>

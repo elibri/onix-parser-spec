@@ -1,0 +1,31 @@
+{
+  "id": "125-review-author-changed",
+  "title": "Review author corrected and source added",
+  "description": "The review's author line is shortened and the source title (the publication the review comes from) is added.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "text_content.changed",
+      "changed_fields": [
+        "TextAuthor",
+        "SourceTitle"
+      ],
+      "before": {
+        "TextType": "07",
+        "ContentAudience": "00",
+        "Text": "<p>Wspaniała, wielowątkowa opowieść graficzna dziejąca się na pograniczu jawy i snu, między podróżą a pobytem w nie-miejscach (za Markiem Augé). Tym nie-miejscem jest zarówno dworzec oraz wnętrze pociągu, jak i tajemnicze mokradło, błotnisko, które stanowi uniwersum egzystencji pewnej społeczności. To świat „rozmyty” przez wszechobecną wodę, która jednak nie ma w sobie siły nurtu, potencjału zmiany. Surrealny, monochromatyczny pejzaż, w którym wielkie ryby przepływają, niby wśród wodorostów, między budynkami mieszkalnymi dyktuje wyciszone szarości i ciemną tonację pierwszej części tej głównie wizualnej narracji. Pewnego dnia na niebie pojawiają się pomarańczowe, jaskrawe światła sztucznych ogni, które pociągają za sobą dzieci – mieszkańców podwodnego świata. To one wychodzą na powierzchnię. Paleta się rozjaśnia, a otoczenie nabiera sobie właściwych barw. Ten baśniowy plan przeplata się z podróżą pociągiem, która wydaje się równie nierealna.</p> <p>Operowanie w głównej mierze obrazem stanowi o potencjale warsztatowym tej książki, o uniwersalności jej przekazu. Wprowadzenie czynnika sprawczego w postaci obcego/innego daje możliwość otwartych interpretacji, podobnie jak stojąca woda będąca symbolem stagnacji, bierności, braku nadziei. Żywiołowość, szczerość i ciekawość dzieci stanowią tu o obietnicy i możliwości zmiany, o sile nadziei właśnie.</p> <p>Przepiękne, z czułością rysowane, a w efekcie niezwykle malarskie pejzaże i sceny rodzajowe Concejo są spoiwem zarówno wizualnym, jak i narracyjnym tej książki.</p> <p style='text-align: right'><em>Anita Wincencjusz-Patyna</em></p> <p>dr Anita Wincencjusz-Patyna</p> <p>Adiunkt, prorektor ds. dydaktycznych i studenckich Akademii sztuk Pięknych we Wrocławiu</p> <p>W 1995 r. ukończyła Historię Sztuki na Uniwersytecie Wrocławskim. Rozprawę doktorską (2007) poświęciła polskiej ilustracji książkowej w latach 1950–1980. Jej zainteresowania badawcze koncentrują się przede wszystkim na teorii i historii oraz współczesności ilustracji książkowej (w tym książkach obrazkowych), a szerzej także na grafice projektowej (plakat, animacja), sztuce użytkowej. Uwagę koncentruje na sztuce polskiej, ale z uwzględnieniem europejskiego i światowego kontekstu.</p>",
+        "TextAuthor": "dr Anita Wincencjusz-Patyna"
+      },
+      "after": {
+        "TextType": "07",
+        "ContentAudience": "00",
+        "Text": "<p>Wspaniała, wielowątkowa opowieść graficzna dziejąca się na pograniczu jawy i snu, między podróżą a pobytem w nie-miejscach (za Markiem Augé). Tym nie-miejscem jest zarówno dworzec oraz wnętrze pociągu, jak i tajemnicze mokradło, błotnisko, które stanowi uniwersum egzystencji pewnej społeczności. To świat „rozmyty” przez wszechobecną wodę, która jednak nie ma w sobie siły nurtu, potencjału zmiany. Surrealny, monochromatyczny pejzaż, w którym wielkie ryby przepływają, niby wśród wodorostów, między budynkami mieszkalnymi dyktuje wyciszone szarości i ciemną tonację pierwszej części tej głównie wizualnej narracji. Pewnego dnia na niebie pojawiają się pomarańczowe, jaskrawe światła sztucznych ogni, które pociągają za sobą dzieci – mieszkańców podwodnego świata. To one wychodzą na powierzchnię. Paleta się rozjaśnia, a otoczenie nabiera sobie właściwych barw. Ten baśniowy plan przeplata się z podróżą pociągiem, która wydaje się równie nierealna.</p> <p>Operowanie w głównej mierze obrazem stanowi o potencjale warsztatowym tej książki, o uniwersalności jej przekazu. Wprowadzenie czynnika sprawczego w postaci obcego/innego daje możliwość otwartych interpretacji, podobnie jak stojąca woda będąca symbolem stagnacji, bierności, braku nadziei. Żywiołowość, szczerość i ciekawość dzieci stanowią tu o obietnicy i możliwości zmiany, o sile nadziei właśnie.</p> <p>Przepiękne, z czułością rysowane, a w efekcie niezwykle malarskie pejzaże i sceny rodzajowe Concejo są spoiwem zarówno wizualnym, jak i narracyjnym tej książki.</p> <p style='text-align: right'><em>Anita Wincencjusz-Patyna</em></p> <p>dr Anita Wincencjusz-Patyna</p> <p>Adiunkt, prorektor ds. dydaktycznych i studenckich Akademii sztuk Pięknych we Wrocławiu</p> <p>W 1995 r. ukończyła Historię Sztuki na Uniwersytecie Wrocławskim. Rozprawę doktorską (2007) poświęciła polskiej ilustracji książkowej w latach 1950–1980. Jej zainteresowania badawcze koncentrują się przede wszystkim na teorii i historii oraz współczesności ilustracji książkowej (w tym książkach obrazkowych), a szerzej także na grafice projektowej (plakat, animacja), sztuce użytkowej. Uwagę koncentruje na sztuce polskiej, ale z uwzględnieniem europejskiego i światowego kontekstu.</p>",
+        "TextAuthor": "Anita Wincencjusz-Patyna",
+        "SourceTitle": "Dwutygodnik"
+      }
+    }
+  ]
+}

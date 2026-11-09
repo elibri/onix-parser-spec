@@ -1,0 +1,15 @@
+{
+  "id": "070-packaging-added",
+  "title": "Packaging added",
+  "description": "The book is now sold shrink-wrapped (ProductPackaging 21). ProductPackaging is not in the units table, so the default rule applies.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_packaging.added",
+      "after": "21"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "166-contributor-isni-added",
+  "title": "ISNI added to a contributor",
+  "description": "The author Gilles Baum is identified in the ISNI registry; the contributor gets NameIdentifier 16. His name does not change.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "contributor.changed",
+      "changed_fields": [
+        "NameIdentifier[16]/IDValue"
+      ],
+      "before": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "PersonName": "Gilles Baum",
+        "NamesBeforeKey": "Gilles",
+        "KeyNames": "Baum",
+        "BiographicalNote": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>"
+      },
+      "after": {
+        "SequenceNumber": "1",
+        "ContributorRole": "A01",
+        "NameIdentifier[16]/IDValue": "0000000123456789",
+        "PersonName": "Gilles Baum",
+        "NamesBeforeKey": "Gilles",
+        "KeyNames": "Baum",
+        "BiographicalNote": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>"
+      }
+    }
+  ]
+}

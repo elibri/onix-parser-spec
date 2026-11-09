@@ -1,0 +1,37 @@
+{
+  "id": "161-price-printed-on-product",
+  "title": "Price no longer printed on the cover",
+  "description": "The reprint has no price on the cover: PrintedOnProduct 02 (yes) -> 01 (no), and PositionOnProduct (only given when the price is printed) disappears.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "price.changed",
+      "changed_fields": [
+        "PrintedOnProduct",
+        "PositionOnProduct"
+      ],
+      "before": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "69.99",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "02",
+        "PositionOnProduct": "00"
+      },
+      "after": {
+        "SupplierRole": "01",
+        "PriceType": "02",
+        "PriceQualifier": "05",
+        "PriceAmount": "69.99",
+        "Tax[01]/TaxRatePercent": "5",
+        "CurrencyCode": "PLN",
+        "PrintedOnProduct": "01"
+      }
+    }
+  ]
+}

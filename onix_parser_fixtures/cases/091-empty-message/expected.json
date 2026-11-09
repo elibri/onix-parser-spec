@@ -1,0 +1,19 @@
+{
+  "id": "091-empty-message",
+  "title": "Message without products",
+  "description": "An empty queue: a Header and no Product.",
+  "source": {
+    "kind": "message",
+    "record_references": []
+  },
+  "message": {
+    "release": "3.1",
+    "header": {
+      "sent_date_time": "20261019",
+      "sender": {
+        "sender_name": "Elibri sp. z o. o."
+      }
+    },
+    "products": []
+  }
+}

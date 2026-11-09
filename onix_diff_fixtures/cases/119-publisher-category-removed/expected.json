@@ -1,0 +1,20 @@
+{
+  "id": "119-publisher-category-removed",
+  "title": "Publisher's category removed",
+  "description": "The publisher removes its own category from the book.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "subject.removed",
+      "before": {
+        "SubjectSchemeIdentifier": "24",
+        "SubjectSchemeName": "REBIS",
+        "SubjectCode": "181",
+        "SubjectHeadingText": "Historia"
+      }
+    }
+  ]
+}
