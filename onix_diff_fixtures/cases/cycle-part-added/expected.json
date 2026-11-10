@@ -1,0 +1,15 @@
+{
+  "id": "cycle-part-added",
+  "title": "Volume number in the cycle added",
+  "description": "The product was in its cycle without a volume number; the number 2 is added (collection_part_number).",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "collection_part_number.added",
+      "after": "2"
+    }
+  ]
+}

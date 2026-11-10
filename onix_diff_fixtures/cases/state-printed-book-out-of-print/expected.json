@@ -1,0 +1,16 @@
+{
+  "id": "state-printed-book-out-of-print",
+  "title": "Printed book out of print",
+  "description": "The print run of a printed book is sold out: its state changes from published to out_of_print.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "published",
+      "after": "out_of_print"
+    }
+  ]
+}

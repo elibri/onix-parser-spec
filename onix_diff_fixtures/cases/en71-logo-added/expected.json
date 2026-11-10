@@ -1,0 +1,16 @@
+{
+  "id": "en71-logo-added",
+  "title": "EN 71 logo marked",
+  "description": "The publisher marks that the box carries the EN 71 logo (carries_en71_logo).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "carries_en71_logo.changed",
+      "before": false,
+      "after": true
+    }
+  ]
+}

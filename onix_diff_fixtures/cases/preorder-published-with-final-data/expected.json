@@ -1,0 +1,105 @@
+{
+  "id": "preorder-published-with-final-data",
+  "title": "Pre-order published with the final print data",
+  "description": "On the premiere the publisher publishes the book and enters the data of the final print: 432 pages, 215 x 145 mm, and a price of 64.90 PLN. The state changes from preorder to published, and the new price is in the supply detail.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "height.changed",
+      "before": 225,
+      "after": 215
+    },
+    {
+      "type": "width.changed",
+      "before": 150,
+      "after": 145
+    },
+    {
+      "type": "number_of_pages.changed",
+      "before": 496,
+      "after": 432
+    },
+    {
+      "type": "current_state.changed",
+      "before": "preorder",
+      "after": "published"
+    },
+    {
+      "type": "supply_details.changed",
+      "changed_fields": [
+        "prices.0.amount"
+      ],
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL7790000847",
+          "name": "REBIS",
+          "website": null
+        },
+        "product_availability": "21",
+        "product_availability_name": "IN_STOCK",
+        "supplier_own_coding": null,
+        "on_hand": 500,
+        "proximity": "07",
+        "proximity_name": "MORE_THAN",
+        "pack_quantity": 10,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 99.0,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": "02",
+            "printed_on_product_name": "YES",
+            "position_on_product": "00",
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      },
+      "after": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL7790000847",
+          "name": "REBIS",
+          "website": null
+        },
+        "product_availability": "21",
+        "product_availability_name": "IN_STOCK",
+        "supplier_own_coding": null,
+        "on_hand": 500,
+        "proximity": "07",
+        "proximity_name": "MORE_THAN",
+        "pack_quantity": 10,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 64.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": "02",
+            "printed_on_product_name": "YES",
+            "position_on_product": "00",
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      }
+    }
+  ]
+}

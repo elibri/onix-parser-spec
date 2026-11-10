@@ -1,0 +1,16 @@
+{
+  "id": "state-preorder-to-announced",
+  "title": "Pre-order back to announcement",
+  "description": "Pre-orders are stopped and the book is only announced: its state changes from preorder to announced.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "preorder",
+      "after": "announced"
+    }
+  ]
+}

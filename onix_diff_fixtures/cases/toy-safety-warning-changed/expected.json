@@ -1,0 +1,16 @@
+{
+  "id": "toy-safety-warning-changed",
+  "title": "Toy safety warning text edited",
+  "description": "The wording of the toy safety warning (toy_safety_warning) is shortened.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "toy_safety_warning.changed",
+      "before": "OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej. Przed podaniem dziecku zabawki należy usunąć opakowanie z folii termokurczliwej. Opakowanie należy zachować ze względu na zawarte na nim informacje.",
+      "after": "OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej."
+    }
+  ]
+}

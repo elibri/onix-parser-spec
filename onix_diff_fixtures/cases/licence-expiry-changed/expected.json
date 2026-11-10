@@ -1,0 +1,16 @@
+{
+  "id": "licence-expiry-changed",
+  "title": "E-book licence extended",
+  "description": "The licence expiry date is moved from 2031-10-01 to 2036-10-01.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "licence_limited_to.changed",
+      "before": "2031-10-01",
+      "after": "2036-10-01"
+    }
+  ]
+}

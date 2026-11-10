@@ -1,0 +1,15 @@
+{
+  "id": "audience-age-to-removed",
+  "title": "Upper age limit removed",
+  "description": "The meaningless upper age limit of 107 years is removed; only the 'from 7' range remains.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "reading_age_to.removed",
+      "before": 107
+    }
+  ]
+}

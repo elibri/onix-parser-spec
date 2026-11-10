@@ -1,0 +1,16 @@
+{
+  "id": "isbn-changed",
+  "title": "ISBN replaced",
+  "description": "A wrong ISBN was assigned; the publisher picks another number from its ISBN pool.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "isbn13.changed",
+      "before": "9788397740839",
+      "after": "9788397740808"
+    }
+  ]
+}

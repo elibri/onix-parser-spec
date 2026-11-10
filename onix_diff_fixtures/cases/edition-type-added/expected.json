@@ -1,0 +1,35 @@
+{
+  "id": "edition-type-added",
+  "title": "Edition types added",
+  "description": "The edition is described as a new (NED) and revised (REV) edition (edition_types).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "edition_types.added",
+      "after": "NED"
+    },
+    {
+      "type": "edition_types.added",
+      "after": "REV"
+    },
+    {
+      "type": "edition_type_names.added",
+      "after": "NEW_EDITION"
+    },
+    {
+      "type": "edition_type_names.added",
+      "after": "REVISED_EDITION"
+    },
+    {
+      "type": "edition_type_descriptions.added",
+      "after": "nowe wydanie"
+    },
+    {
+      "type": "edition_type_descriptions.added",
+      "after": "wydanie poprawione / zaktualizowane"
+    }
+  ]
+}

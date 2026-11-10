@@ -1,0 +1,57 @@
+{
+  "id": "contributor-isni-added",
+  "title": "ISNI added to a contributor",
+  "description": "The author Gilles Baum is identified in the ISNI registry; the contributor gets an isni. His name does not change.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "isni"
+      ],
+      "before": {
+        "id": 513210,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "Gilles Baum",
+        "titles_before_names": null,
+        "names_before_key": "Gilles",
+        "prefix_to_key": null,
+        "key_names": "Baum",
+        "names_after_key": null,
+        "biographical_note": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 513210,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "Gilles Baum",
+        "titles_before_names": null,
+        "names_before_key": "Gilles",
+        "prefix_to_key": null,
+        "key_names": "Baum",
+        "names_after_key": null,
+        "biographical_note": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": "0000000123456789",
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

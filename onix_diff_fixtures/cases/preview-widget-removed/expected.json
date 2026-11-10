@@ -1,0 +1,26 @@
+{
+  "id": "preview-widget-removed",
+  "title": "Online preview removed",
+  "description": "The embeddable online preview of the book (a supporting_resources entry with content_type 16) is deleted.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "supporting_resources.removed",
+      "before": {
+        "id": null,
+        "content_type": "16",
+        "content_type_name": "WIDGET",
+        "mode": "04",
+        "mode_name": "TEXT",
+        "form": "03",
+        "form_name": "EMBEDDABLE_APPLICATION",
+        "link": "https://www.elibri.com.pl/book.js?record_reference=4b4f4437bd829c14e3ce",
+        "md5": null,
+        "file_size": null
+      }
+    }
+  ]
+}

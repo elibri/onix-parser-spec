@@ -1,0 +1,21 @@
+{
+  "id": "exclusive-retailer-set",
+  "title": "Printed book made exclusive to one retailer",
+  "description": "The printed book is sold exclusively by one retailer (Empik) until 2026-12-31.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "sales_restrictions_info.added",
+      "after": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": "Empik",
+        "outlet_identifier": null,
+        "end_date": "20261231"
+      }
+    }
+  ]
+}

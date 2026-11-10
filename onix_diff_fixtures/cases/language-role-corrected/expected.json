@@ -1,0 +1,30 @@
+{
+  "id": "language-role-corrected",
+  "title": "Language role corrected",
+  "description": "Polish was entered as the language of the original by mistake; it is corrected to the language of the text.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "languages.changed",
+      "changed_fields": [
+        "role",
+        "role_name"
+      ],
+      "before": {
+        "role": "02",
+        "role_name": "LANGUAGE_OF_ORIGINAL",
+        "code": "pol",
+        "language": "polski"
+      },
+      "after": {
+        "role": "01",
+        "role_name": "LANGUAGE_OF_TEXT",
+        "code": "pol",
+        "language": "polski"
+      }
+    }
+  ]
+}

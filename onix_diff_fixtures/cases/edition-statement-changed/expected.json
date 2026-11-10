@@ -1,0 +1,16 @@
+{
+  "id": "edition-statement-changed",
+  "title": "Edition statement changed",
+  "description": "The edition statement changes from 'wydanie 1' to 'wydanie 2'.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "edition_statement.changed",
+      "before": "wydanie 1",
+      "after": "wydanie 2"
+    }
+  ]
+}

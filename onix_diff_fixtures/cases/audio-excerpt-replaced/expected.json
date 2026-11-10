@@ -1,0 +1,36 @@
+{
+  "id": "audio-excerpt-replaced",
+  "title": "Audio sample replaced",
+  "description": "A new MP3 sample of the audiobook is uploaded.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "excerpt_infos.changed",
+      "changed_fields": [
+        "file_size",
+        "md5",
+        "link",
+        "updated_at"
+      ],
+      "before": {
+        "id": 366213,
+        "file_type": "mp3_excerpt",
+        "file_size": 5128348,
+        "md5": "f148f206417140358b807aaa0db7be6f",
+        "link": "https://www.elibri.com.pl/excerpt/366213/f148f206417140358b807aaa0db7be6f/cukierku-ty-lobuzie-superprodukcja-fragment.mp3",
+        "updated_at": "2026-09-24T13:29:00Z"
+      },
+      "after": {
+        "id": 366213,
+        "file_type": "mp3_excerpt",
+        "file_size": 1887420,
+        "md5": "6512bd43d9caa6e02c990b0a82652dca",
+        "link": "https://www.elibri.com.pl/excerpt/366213/6512bd43d9caa6e02c990b0a82652dca/cukierku-ty-lobuzie-superprodukcja-fragment.mp3",
+        "updated_at": "2026-10-19T10:00:00Z"
+      }
+    }
+  ]
+}

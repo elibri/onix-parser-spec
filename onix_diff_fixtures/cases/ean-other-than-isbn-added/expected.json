@@ -1,0 +1,15 @@
+{
+  "id": "ean-other-than-isbn-added",
+  "title": "Separate EAN added",
+  "description": "The book carries a barcode different from its ISBN (e.g. a bundle price code); it is added as ean.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "ean.added",
+      "after": "5901234123457"
+    }
+  ]
+}

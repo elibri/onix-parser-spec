@@ -1,0 +1,21 @@
+{
+  "id": "publisher-identifier-removed",
+  "title": "Publisher's own product code removed",
+  "description": "The publisher's internal code (proprietary identifier named after the publisher) is cleared; the EAN stays.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "proprietary_identifiers.changed",
+      "changed_fields": [
+        "EDGARD"
+      ],
+      "before": {
+        "EDGARD": "126042"
+      },
+      "after": {}
+    }
+  ]
+}

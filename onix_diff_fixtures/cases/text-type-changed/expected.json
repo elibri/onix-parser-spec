@@ -1,0 +1,27 @@
+{
+  "id": "text-type-changed",
+  "title": "Text moved to a different type",
+  "description": "The text entered as the short description is really an excerpt from the book; it is reclassified, so short_description disappears and the text is added to excerpts.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "short_description.removed",
+      "before": {
+        "id": 320205,
+        "text": "<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku</strong></p>",
+        "text_eng": null
+      }
+    },
+    {
+      "type": "excerpts.added",
+      "after": {
+        "id": 320205,
+        "text": "<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku</strong></p>",
+        "text_eng": null
+      }
+    }
+  ]
+}

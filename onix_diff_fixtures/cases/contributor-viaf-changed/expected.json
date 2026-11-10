@@ -1,0 +1,57 @@
+{
+  "id": "contributor-viaf-changed",
+  "title": "Contributor's VIAF changed",
+  "description": "VIAF merges two clusters and the author's VIAF id changes; ISNI and the name stay.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "viaf"
+      ],
+      "before": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": "0000000456789012",
+        "viaf": "900000102",
+        "alternative_names": []
+      },
+      "after": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": "0000000456789012",
+        "viaf": "900000103",
+        "alternative_names": []
+      }
+    }
+  ]
+}

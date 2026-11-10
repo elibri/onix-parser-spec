@@ -1,0 +1,19 @@
+{
+  "id": "sale-restricted-to-poland",
+  "title": "Sales restricted to Poland",
+  "description": "The e-book may only be sold in Poland: WORLD leaves territory_regions and PL is added to territory_countries.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "territory_countries.added",
+      "after": "PL"
+    },
+    {
+      "type": "territory_regions.removed",
+      "before": "WORLD"
+    }
+  ]
+}

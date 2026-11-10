@@ -1,0 +1,15 @@
+{
+  "id": "number-of-pages-removed",
+  "title": "Page count removed",
+  "description": "The page count is cleared for an e-book.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "number_of_pages.removed",
+      "before": 448
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "facsimile-unlinked",
+  "title": "E-book edition unlinked",
+  "description": "The link between the printed book and its e-book edition is removed.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "alternative_format_record_references.removed",
+      "before": "7d6c25db7d0624eac69b"
+    }
+  ]
+}

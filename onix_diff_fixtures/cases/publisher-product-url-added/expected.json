@@ -1,0 +1,15 @@
+{
+  "id": "publisher-product-url-added",
+  "title": "Link to the book on the publisher's site added",
+  "description": "The URL of the book's page on the publisher's website is added (publisher_website).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "publisher_website.added",
+      "after": "https://wydawnictwoformat.pl/ksiazki/dokad-wedruja-kamyki"
+    }
+  ]
+}

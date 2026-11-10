@@ -5,7 +5,7 @@
   "required": ["id", "title", "description", "product", "changes"],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string", "pattern": "^[0-9]{3}-[a-z0-9-]+$" },
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "title": { "type": "string" },
     "description": { "type": "string" },
     "product": {
@@ -13,7 +13,7 @@
       "required": ["kind", "record_reference"],
       "additionalProperties": false,
       "properties": {
-        "kind": { "enum": ["printed_book", "preorder_book", "ebook", "audiobook"] },
+        "kind": { "enum": ["printed_book", "preorder_book", "ebook", "audiobook", "board_game", "puzzle", "map", "open_access_book"] },
         "record_reference": { "type": "string" }
       }
     },
@@ -29,11 +29,8 @@
   },
   "$defs": {
     "value": {
-      "description": "Item value: normalised text of a leaf item, or a flat object of leaf paths to normalised text.",
-      "oneOf": [
-        { "type": "string" },
-        { "type": "object", "additionalProperties": { "type": "string" } }
-      ]
+      "description": "A parser value: of a field, of one value of a list of plain values, or of one entry of a list of objects.",
+      "type": ["string", "number", "boolean", "object"]
     },
     "change": {
       "oneOf": [

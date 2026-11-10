@@ -1,0 +1,57 @@
+{
+  "id": "contributor-biography-added",
+  "title": "Author biography added",
+  "description": "A short biographical note is added to the author J. T. Geissinger.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "biographical_note"
+      ],
+      "before": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": "<p>J. T. Geissinger jest autorką bestsellerowych romansów, przetłumaczonych na kilkanaście języków.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

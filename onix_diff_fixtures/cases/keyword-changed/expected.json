@@ -1,0 +1,10 @@
+{
+  "id": "keyword-changed",
+  "title": "Trailing space removed from a keyword",
+  "description": "The keyword 'przebudzenie ' (with a trailing space) is replaced by 'przebudzenie'. The parser strips spaces around keywords, so its keywords are the same and no change is reported.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": []
+}

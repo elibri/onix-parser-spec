@@ -1,0 +1,19 @@
+{
+  "id": "keywords-added",
+  "title": "Keywords extended",
+  "description": "Two keywords are added to the existing single keyword 'romans'.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "keywords.added",
+      "after": "mafia"
+    },
+    {
+      "type": "keywords.added",
+      "after": "romans współczesny"
+    }
+  ]
+}

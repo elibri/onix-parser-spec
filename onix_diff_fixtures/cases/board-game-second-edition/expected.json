@@ -1,0 +1,115 @@
+{
+  "id": "board-game-second-edition",
+  "title": "Board game updated for its second edition",
+  "description": "The second edition of a board game has an extra player (2-6), longer games (30-60 minutes), the EN 71 logo on the box, a shorter safety warning, a new EAN and a new price of 129.90 PLN.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "ean.changed",
+      "before": "5904905917201",
+      "after": "5904905917218"
+    },
+    {
+      "type": "players_number_to.changed",
+      "before": 5,
+      "after": 6
+    },
+    {
+      "type": "playing_time_from.changed",
+      "before": 20,
+      "after": 30
+    },
+    {
+      "type": "playing_time_to.changed",
+      "before": 40,
+      "after": 60
+    },
+    {
+      "type": "carries_en71_logo.changed",
+      "before": false,
+      "after": true
+    },
+    {
+      "type": "toy_safety_warning.changed",
+      "before": "OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej. Przed podaniem dziecku zabawki należy usunąć opakowanie z folii termokurczliwej. Opakowanie należy zachować ze względu na zawarte na nim informacje.",
+      "after": "OSTRZEŻENIE! Ryzyko połknięcia małych elementów. Do użytku pod bezpośrednim nadzorem osoby dorosłej."
+    },
+    {
+      "type": "supply_details.changed",
+      "changed_fields": [
+        "prices.0.amount"
+      ],
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL5214123062",
+          "name": "EDGARD",
+          "website": null
+        },
+        "product_availability": "99",
+        "product_availability_name": "CONTACT_SUPPLIER",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 64.99,
+            "tax_type": "01",
+            "vat": 23,
+            "currency_code": "PLN",
+            "printed_on_product": "01",
+            "printed_on_product_name": "NO",
+            "position_on_product": null,
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      },
+      "after": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL5214123062",
+          "name": "EDGARD",
+          "website": null
+        },
+        "product_availability": "99",
+        "product_availability_name": "CONTACT_SUPPLIER",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 129.9,
+            "tax_type": "01",
+            "vat": 23,
+            "currency_code": "PLN",
+            "printed_on_product": "01",
+            "printed_on_product_name": "NO",
+            "position_on_product": null,
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      }
+    }
+  ]
+}

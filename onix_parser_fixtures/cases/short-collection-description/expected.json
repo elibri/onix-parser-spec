@@ -1,0 +1,307 @@
+{
+  "id": "short-collection-description",
+  "title": "Short description of the collection",
+  "description": "A text of type 16 describes the series the book belongs to.",
+  "source": {
+    "kind": "record",
+    "product": "ebook",
+    "record_references": [
+      "260e49e9df9407937371"
+    ]
+  },
+  "message": {
+    "release": "3.1",
+    "header": {
+      "sent_date_time": "20261019",
+      "sender": {
+        "sender_name": "Elibri sp. z o. o."
+      }
+    },
+    "products": [
+      {
+        "record_reference": "260e49e9df9407937371",
+        "notification_type": "03",
+        "deletion_text": null,
+        "isbn13": "9788384180341",
+        "ean": null,
+        "doi": null,
+        "proprietary_identifiers": {},
+        "product_composition": "00",
+        "onix_product_form": "EA",
+        "product_form": "EA",
+        "product_form_name": "EBOOK",
+        "product_form_details": [
+          "E101",
+          "E127"
+        ],
+        "cover_type": null,
+        "finishings": [],
+        "finishing_names": [],
+        "finishing_name_descriptions": [],
+        "product_packaging": null,
+        "product_packaging_name": null,
+        "product_packaging_name_description": null,
+        "digital_formats": [
+          "EPUB",
+          "MOBI"
+        ],
+        "technical_protections": [
+          "WATERMARK"
+        ],
+        "epub_license": null,
+        "number_of_pieces": null,
+        "players_number_from": null,
+        "players_number_to": null,
+        "playing_time_from": null,
+        "playing_time_to": null,
+        "carries_ce_logo": false,
+        "carries_unsuitable_for_children_below_3_logo": false,
+        "carries_en71_logo": false,
+        "minimum_age_warning": null,
+        "toy_safety_warning": null,
+        "declaration_of_conformity_url": null,
+        "height": null,
+        "width": null,
+        "thickness": null,
+        "weight": null,
+        "map_scale": null,
+        "country_of_manufacture": null,
+        "cn_code": null,
+        "series": [
+          {
+            "name": "Morally Gray",
+            "number_within_series": "1"
+          }
+        ],
+        "issn": null,
+        "issn_with_hyphens": null,
+        "title": "Kłamcy tacy jak my",
+        "subtitle": null,
+        "collection_title": "Morally Gray",
+        "collection_part_number": "1",
+        "title_eng": null,
+        "original_title": null,
+        "contributors": [
+          {
+            "id": 515806,
+            "datestamp": "2026-10-02T09:58",
+            "number": 1,
+            "role": "A01",
+            "role_name": "AUTHOR",
+            "from_language": null,
+            "person_name": "J. T. Geissinger",
+            "titles_before_names": null,
+            "names_before_key": "J. T.",
+            "prefix_to_key": null,
+            "key_names": "Geissinger",
+            "names_after_key": null,
+            "biographical_note": null,
+            "unnamed_persons": null,
+            "ai_generated_voice": false,
+            "ai_voice_description": null,
+            "voice_name": null,
+            "isni": null,
+            "viaf": null,
+            "alternative_names": []
+          },
+          {
+            "id": 515807,
+            "datestamp": "2026-10-02T09:58",
+            "number": 2,
+            "role": "B06",
+            "role_name": "TRANSLATOR",
+            "from_language": "eng",
+            "person_name": "Edyta Misiewicz-Hulewska",
+            "titles_before_names": null,
+            "names_before_key": "Edyta",
+            "prefix_to_key": null,
+            "key_names": "Misiewicz-Hulewska",
+            "names_after_key": null,
+            "biographical_note": null,
+            "unnamed_persons": null,
+            "ai_generated_voice": false,
+            "ai_voice_description": null,
+            "voice_name": null,
+            "isni": null,
+            "viaf": null,
+            "alternative_names": []
+          }
+        ],
+        "no_contributor": false,
+        "edition_statement": null,
+        "edition_types": [],
+        "edition_type_names": [],
+        "edition_type_descriptions": [],
+        "languages": [
+          {
+            "role": "01",
+            "role_name": "LANGUAGE_OF_TEXT",
+            "code": "pol",
+            "language": "polski"
+          }
+        ],
+        "number_of_pages": 448,
+        "duration": null,
+        "number_of_characters": null,
+        "number_of_illustrations": null,
+        "thema_subjects": [
+          {
+            "code": "FRD",
+            "heading_texts": [
+              "Proza fabularna / Romans / Nowoczesny i współczesny romans"
+            ]
+          }
+        ],
+        "thema_version": "1.6",
+        "publisher_categories": [],
+        "keywords": [
+          "romans"
+        ],
+        "names_as_subject": [],
+        "reading_age_from": 18,
+        "reading_age_to": null,
+        "table_of_contents": null,
+        "description": {
+          "id": 319378,
+          "datestamp": "2026-10-02T09:58",
+          "text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p>\n<p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p>\n<p>Obsesja tak potężna, że może zniszczyć oboje.</p>\n<p>Seks.</p>\n<p>Kłamstwa.</p>\n<p>Tajemnice.</p>\n<p>Namiętność.</p>\n<p>Callum McCord zawsze dostaje to, czego pragnie.</p>\n<p>Osiąga cele za wszelką cenę.</p>\n<p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p>\n<p>Opis pochodzi od Wydawcy.</p>",
+          "text_eng": null
+        },
+        "short_description": null,
+        "short_collection_description": {
+          "id": 900000001,
+          "datestamp": "2026-10-19T12:00",
+          "text": "<p>Seria o miłości i tajemnicach.</p>",
+          "text_eng": null
+        },
+        "list_of_contents": null,
+        "open_access_statement": null,
+        "excerpts": [],
+        "supporting_resources": [],
+        "front_cover": {
+          "id": 480045,
+          "datestamp": "2026-10-02T07:59",
+          "link": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg",
+          "md5": "119c3a871ef1e47860f5f9f7b40d3122",
+          "file_size": 660092
+        },
+        "preview_exists": false,
+        "excerpt_infos": [
+          {
+            "id": 366961,
+            "file_type": "epub_excerpt",
+            "file_size": 2429768,
+            "md5": "e3c74e50bc2ac48c8b40f1c219b74824",
+            "link": "https://www.elibri.com.pl/excerpt/366961/e3c74e50bc2ac48c8b40f1c219b74824/klamcy-tacy-jak-my-fragment.epub",
+            "updated_at": "2026-10-02T08:03:00Z"
+          },
+          {
+            "id": 366960,
+            "file_type": "mobi_excerpt",
+            "file_size": 4877859,
+            "md5": "92ae53829b2e466a6ff4df06d81951ba",
+            "link": "https://www.elibri.com.pl/excerpt/366960/92ae53829b2e466a6ff4df06d81951ba/klamcy-tacy-jak-my-fragment.mobi",
+            "updated_at": "2026-10-02T08:03:00Z"
+          }
+        ],
+        "imprint_name": "Wydawnictwo NieZwykłe Zagraniczne",
+        "imprint_id": 322,
+        "publisher_name": "Wydawnictwo NieZwykłe",
+        "publisher_id": 551,
+        "publisher_website": null,
+        "city_of_publication": "Warszawa",
+        "safety_contact": {
+          "company_name": "Wydawnictwo NieZwykłe",
+          "phone": "220000000",
+          "email": null,
+          "street": "Testowa",
+          "city": "Warszawa",
+          "postal_code": "04-349",
+          "country_code": "PL"
+        },
+        "publishing_status": "04",
+        "current_state": "published",
+        "publishing_date": {
+          "format": "00",
+          "format_name": "YYYYMMDD",
+          "date": "20261002",
+          "parsed": [
+            "2026",
+            "10",
+            "02"
+          ]
+        },
+        "premiere": "2026-10-02",
+        "distribution_start": null,
+        "licence_limited_to": null,
+        "unlimited_licence": true,
+        "sales_restrictions": false,
+        "sales_restrictions_info": null,
+        "territory_countries": [],
+        "territory_regions": [
+          "WORLD"
+        ],
+        "sale_restricted_to_poland": false,
+        "alternative_format_record_references": [],
+        "file_infos": [
+          {
+            "id": 366962,
+            "file_type": "epub",
+            "file_size": 2700833,
+            "md5": "d51a4e4c0b81fd67c15945d67657a89d",
+            "updated_at": "2026-10-02T08:03:00Z"
+          },
+          {
+            "id": 366959,
+            "file_type": "mobi",
+            "file_size": 6014616,
+            "md5": "6b18a0843865095330c207daeb190ccb",
+            "updated_at": "2026-10-02T08:03:00Z"
+          }
+        ],
+        "supply_details": [
+          {
+            "supplier": {
+              "role": "01",
+              "role_name": "PUB_TO_RET",
+              "role_description": "sprzedaż wydawnictwa do detalu",
+              "vat_id": "PL6762445293",
+              "name": "Wydawnictwo NieZwykłe",
+              "website": null
+            },
+            "product_availability": "20",
+            "product_availability_name": "AVAILABLE",
+            "supplier_own_coding": null,
+            "on_hand": null,
+            "proximity": null,
+            "proximity_name": null,
+            "pack_quantity": null,
+            "unpriced_item_type": null,
+            "prices": [
+              {
+                "type": "02",
+                "type_name": "RRP_WITH_TAX",
+                "qualifier": "05",
+                "amount": 46.9,
+                "tax_type": "01",
+                "vat": 5,
+                "currency_code": "PLN",
+                "printed_on_product": null,
+                "printed_on_product_name": null,
+                "position_on_product": null,
+                "price_date_type": null,
+                "price_date_value": null
+              }
+            ]
+          }
+        ],
+        "vat": 5,
+        "future_price_from": null,
+        "future_cover_price": null,
+        "current_price_until": null,
+        "cover_price": 46.9,
+        "additional_trade_information": null
+      }
+    ]
+  }
+}

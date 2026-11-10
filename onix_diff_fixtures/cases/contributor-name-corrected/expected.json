@@ -1,0 +1,58 @@
+{
+  "id": "contributor-name-corrected",
+  "title": "Typo in translator's name fixed",
+  "description": "The translator's surname is corrected from 'Bażyńska-Chojnaka' to 'Bażyńska-Chojnacka'.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "person_name",
+        "key_names"
+      ],
+      "before": {
+        "id": 517129,
+        "number": 2,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "eng",
+        "person_name": "Katarzyna Bażyńska-Chojnaka",
+        "titles_before_names": null,
+        "names_before_key": "Katarzyna",
+        "prefix_to_key": null,
+        "key_names": "Bażyńska-Chojnaka",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 517129,
+        "number": 2,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "eng",
+        "person_name": "Katarzyna Bażyńska-Chojnacka",
+        "titles_before_names": null,
+        "names_before_key": "Katarzyna",
+        "prefix_to_key": null,
+        "key_names": "Bażyńska-Chojnacka",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

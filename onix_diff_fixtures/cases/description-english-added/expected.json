@@ -1,0 +1,27 @@
+{
+  "id": "description-english-added",
+  "title": "English description added",
+  "description": "An English version of the main description is added (description.text_eng).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "description.changed",
+      "changed_fields": [
+        "text_eng"
+      ],
+      "before": {
+        "id": 319378,
+        "text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p>\n<p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p>\n<p>Obsesja tak potężna, że może zniszczyć oboje.</p>\n<p>Seks.</p>\n<p>Kłamstwa.</p>\n<p>Tajemnice.</p>\n<p>Namiętność.</p>\n<p>Callum McCord zawsze dostaje to, czego pragnie.</p>\n<p>Osiąga cele za wszelką cenę.</p>\n<p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p>\n<p>Opis pochodzi od Wydawcy.</p>",
+        "text_eng": null
+      },
+      "after": {
+        "id": 319378,
+        "text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p>\n<p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p>\n<p>Obsesja tak potężna, że może zniszczyć oboje.</p>\n<p>Seks.</p>\n<p>Kłamstwa.</p>\n<p>Tajemnice.</p>\n<p>Namiętność.</p>\n<p>Callum McCord zawsze dostaje to, czego pragnie.</p>\n<p>Osiąga cele za wszelką cenę.</p>\n<p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p>\n<p>Opis pochodzi od Wydawcy.</p>",
+        "text_eng": "<p>A dark romance about liars who fall for each other.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "imprint-changed",
+  "title": "Imprint changed",
+  "description": "The imprint changes from 'Wydawnictwo NieZwykłe Zagraniczne' to 'Wydawnictwo NieZwykłe'.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "imprint_name.changed",
+      "before": "Wydawnictwo NieZwykłe Zagraniczne",
+      "after": "Wydawnictwo NieZwykłe"
+    },
+    {
+      "type": "imprint_id.changed",
+      "before": 322,
+      "after": 321
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "exclusive-digital-distributor-changed",
+  "title": "Exclusive e-book retailer changed",
+  "description": "The e-book's exclusivity moves from Virtualo/Empik (EMP) to Publio (PLO): sales_restrictions_info.outlet_identifier changes.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "sales_restrictions_info.changed",
+      "changed_fields": [
+        "outlet_identifier.value"
+      ],
+      "before": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": null,
+        "outlet_identifier": {
+          "type": "03",
+          "value": "EMP"
+        },
+        "end_date": null
+      },
+      "after": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": null,
+        "outlet_identifier": {
+          "type": "03",
+          "value": "PLO"
+        },
+        "end_date": null
+      }
+    }
+  ]
+}

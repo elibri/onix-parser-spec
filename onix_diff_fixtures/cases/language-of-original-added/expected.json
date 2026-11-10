@@ -1,0 +1,20 @@
+{
+  "id": "language-of-original-added",
+  "title": "Original language added",
+  "description": "The language of the original (English) is added to a translated e-book.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "languages.added",
+      "after": {
+        "role": "02",
+        "role_name": "LANGUAGE_OF_ORIGINAL",
+        "code": "eng",
+        "language": "angielski"
+      }
+    }
+  ]
+}

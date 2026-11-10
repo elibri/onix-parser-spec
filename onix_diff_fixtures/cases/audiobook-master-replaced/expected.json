@@ -1,0 +1,33 @@
+{
+  "id": "audiobook-master-replaced",
+  "title": "Audiobook master file replaced",
+  "description": "The publisher uploads a corrected MP3 package: its file_infos entry gets a new md5, file_size and updated_at.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "file_infos.changed",
+      "changed_fields": [
+        "file_size",
+        "md5",
+        "updated_at"
+      ],
+      "before": {
+        "id": 366212,
+        "file_type": "mp3_in_zip",
+        "file_size": 71493424,
+        "md5": "d8934d2769f53f5d03f091db04378150",
+        "updated_at": "2026-09-24T13:28:00Z"
+      },
+      "after": {
+        "id": 366212,
+        "file_type": "mp3_in_zip",
+        "file_size": 61533204,
+        "md5": "c20ad4d76fe97759aa27a0c99bff6710",
+        "updated_at": "2026-10-19T10:00:00Z"
+      }
+    }
+  ]
+}

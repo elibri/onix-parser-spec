@@ -1,0 +1,21 @@
+{
+  "id": "publisher-identifier-added",
+  "title": "Publisher's own product code added",
+  "description": "The publisher fills in its internal product code; it appears in proprietary_identifiers under the publisher's name.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "proprietary_identifiers.changed",
+      "changed_fields": [
+        "Wydawnictwo NieZwykłe"
+      ],
+      "before": {},
+      "after": {
+        "Wydawnictwo NieZwykłe": "NZ/E/0412"
+      }
+    }
+  ]
+}

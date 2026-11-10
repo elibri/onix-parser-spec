@@ -1,0 +1,18 @@
+{
+  "id": "publisher-category-removed",
+  "title": "Publisher's category removed",
+  "description": "The publisher removes its own category from the book.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "publisher_categories.removed",
+      "before": {
+        "code": "181",
+        "name": "Historia"
+      }
+    }
+  ]
+}

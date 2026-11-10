@@ -1,0 +1,61 @@
+{
+  "id": "contributor-linked-to-authority",
+  "title": "Author identified in library catalogues",
+  "description": "The author is linked to a person record: the contributor gets isni, viaf and an alternative name.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "isni",
+        "viaf",
+        "alternative_names.0"
+      ],
+      "before": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": "0000000456789012",
+        "viaf": "315529987",
+        "alternative_names": [
+          "Jessica Geissinger"
+        ]
+      }
+    }
+  ]
+}

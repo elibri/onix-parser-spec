@@ -1,0 +1,19 @@
+{
+  "id": "cycle-added",
+  "title": "Book put into a cycle",
+  "description": "The book is put into the cycle 'Bez tabu' as volume 3 (collection_title, collection_part_number); the title does not change.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "collection_title.added",
+      "after": "Bez tabu"
+    },
+    {
+      "type": "collection_part_number.added",
+      "after": "3"
+    }
+  ]
+}

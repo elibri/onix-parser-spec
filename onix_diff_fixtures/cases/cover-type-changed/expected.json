@@ -1,0 +1,20 @@
+{
+  "id": "cover-type-changed",
+  "title": "Binding changed from hardback to paperback",
+  "description": "The cover type changes from a hardback with a dust jacket (BB + B501) to a paperback (BC).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "onix_product_form.changed",
+      "before": "BB",
+      "after": "BC"
+    },
+    {
+      "type": "product_form_details.removed",
+      "before": "B501"
+    }
+  ]
+}

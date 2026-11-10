@@ -1,0 +1,91 @@
+{
+  "id": "state-ebook-out-of-print",
+  "title": "E-book withdrawn from sale",
+  "description": "The publisher ends sales of an e-book: its state changes from published to out_of_print.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "published",
+      "after": "out_of_print"
+    },
+    {
+      "type": "supply_details.changed",
+      "changed_fields": [
+        "product_availability",
+        "product_availability_name"
+      ],
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL6762445293",
+          "name": "Wydawnictwo NieZwykłe",
+          "website": null
+        },
+        "product_availability": "20",
+        "product_availability_name": "AVAILABLE",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 46.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      },
+      "after": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL6762445293",
+          "name": "Wydawnictwo NieZwykłe",
+          "website": null
+        },
+        "product_availability": "40",
+        "product_availability_name": "NOT_AVAILABLE",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 46.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      }
+    }
+  ]
+}

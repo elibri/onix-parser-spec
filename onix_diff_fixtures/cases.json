@@ -1,1275 +1,1300 @@
 [
   {
-    "id": "001-thema-code-added",
+    "id": "thema-code-added",
     "title": "Thema subject code added",
     "expected_change_types": [
-      "subject.added"
+      "thema_subjects.added"
     ]
   },
   {
-    "id": "002-thema-code-removed",
+    "id": "thema-code-removed",
     "title": "Thema qualifier removed",
     "expected_change_types": [
-      "subject.removed"
+      "thema_subjects.removed"
     ]
   },
   {
-    "id": "003-thema-main-code-replaced",
+    "id": "thema-main-code-replaced",
     "title": "Thema main subject replaced with a more specific one",
     "expected_change_types": [
-      "subject.added",
-      "subject.removed"
+      "thema_subjects.added",
+      "thema_subjects.removed"
     ]
   },
   {
-    "id": "004-keyword-changed",
-    "title": "One keyword corrected",
-    "expected_change_types": [
-      "subject.changed"
-    ]
+    "id": "keyword-changed",
+    "title": "Trailing space removed from a keyword",
+    "expected_change_types": []
   },
   {
-    "id": "005-keywords-added",
+    "id": "keywords-added",
     "title": "Keywords extended",
     "expected_change_types": [
-      "subject.changed"
+      "keywords.added",
+      "keywords.added"
     ]
   },
   {
-    "id": "006-publisher-category-changed",
+    "id": "publisher-category-changed",
     "title": "Publisher's own category changed",
     "expected_change_types": [
-      "subject.changed"
+      "publisher_categories.changed"
     ]
   },
   {
-    "id": "007-state-preorder-to-published",
+    "id": "state-preorder-to-published",
     "title": "Pre-order book goes on sale",
     "expected_change_types": [
-      "notification_type.changed",
-      "publishing_status.changed"
+      "current_state.changed"
     ]
   },
   {
-    "id": "008-state-ebook-out-of-print",
+    "id": "state-ebook-out-of-print",
     "title": "E-book withdrawn from sale",
     "expected_change_types": [
-      "publishing_status.changed",
-      "supply_detail.changed"
+      "current_state.changed",
+      "supply_details.changed"
     ]
   },
   {
-    "id": "009-state-printed-book-out-of-print",
+    "id": "state-printed-book-out-of-print",
     "title": "Printed book out of print",
     "expected_change_types": [
-      "publishing_status.changed"
+      "current_state.changed"
     ]
   },
   {
-    "id": "010-state-deleted",
+    "id": "state-deleted",
     "title": "Product record deleted",
     "expected_change_types": [
-      "notification_type.changed",
-      "publishing_status.changed",
-      "supply_detail.changed"
+      "current_state.changed",
+      "supply_details.changed"
     ]
   },
   {
-    "id": "011-state-preorder-postponed",
+    "id": "state-preorder-postponed",
     "title": "Premiere postponed indefinitely",
     "expected_change_types": [
-      "publishing_status.changed"
+      "current_state.changed"
     ]
   },
   {
-    "id": "012-price-changed",
+    "id": "price-changed",
     "title": "E-book price raised",
     "expected_change_types": [
-      "price.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "013-price-changed-printed-book",
+    "id": "price-changed-printed-book",
     "title": "Printed book price raised",
     "expected_change_types": [
-      "price.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "014-future-price-scheduled",
+    "id": "future-price-scheduled",
     "title": "Future price change scheduled",
     "expected_change_types": [
-      "price.added",
-      "price.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "015-future-price-cancelled",
+    "id": "future-price-cancelled",
     "title": "Scheduled price change cancelled",
     "expected_change_types": [
-      "price.changed",
-      "price.removed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "016-vat-changed",
+    "id": "vat-changed",
     "title": "VAT rate changed",
     "expected_change_types": [
-      "price.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "017-premiere-date-moved",
+    "id": "premiere-date-moved",
     "title": "Premiere date moved",
     "expected_change_types": [
       "publishing_date.changed"
     ]
   },
   {
-    "id": "018-premiere-date-made-precise",
+    "id": "premiere-date-made-precise",
     "title": "Premiere date made precise",
     "expected_change_types": [
       "publishing_date.changed"
     ]
   },
   {
-    "id": "019-licence-expiry-set",
+    "id": "licence-expiry-set",
     "title": "E-book licence expiry date set",
     "expected_change_types": [
-      "publishing_date.added"
+      "licence_limited_to.added"
     ]
   },
   {
-    "id": "020-licence-expiry-changed",
+    "id": "licence-expiry-changed",
     "title": "E-book licence extended",
     "expected_change_types": [
-      "publishing_date.changed"
+      "licence_limited_to.changed"
     ]
   },
   {
-    "id": "021-licence-expiry-embargoed",
+    "id": "licence-expiry-embargoed",
     "title": "Licence expiry date hidden (embargo)",
     "expected_change_types": [
-      "publishing_date.removed"
+      "licence_limited_to.removed"
     ]
   },
   {
-    "id": "022-licence-expiry-removed",
+    "id": "licence-expiry-removed",
     "title": "Licence made perpetual",
     "expected_change_types": [
-      "publishing_date.removed"
+      "licence_limited_to.removed"
     ]
   },
   {
-    "id": "023-title-changed",
+    "id": "title-changed",
     "title": "Title corrected",
     "expected_change_types": [
       "title.changed"
     ]
   },
   {
-    "id": "024-subtitle-added",
+    "id": "subtitle-added",
     "title": "Subtitle added",
     "expected_change_types": [
-      "title.changed"
+      "subtitle.added"
     ]
   },
   {
-    "id": "025-original-title-added",
+    "id": "original-title-added",
     "title": "Original title added to a translation",
     "expected_change_types": [
-      "title.added"
+      "original_title.added"
     ]
   },
   {
-    "id": "026-edition-statement-changed",
+    "id": "edition-statement-changed",
     "title": "Edition statement changed",
     "expected_change_types": [
       "edition_statement.changed"
     ]
   },
   {
-    "id": "027-contributor-added",
+    "id": "contributor-added",
     "title": "Cover designer added",
     "expected_change_types": [
-      "contributor.added"
+      "contributors.added"
     ]
   },
   {
-    "id": "028-contributor-removed",
+    "id": "contributor-removed",
     "title": "Narrator removed",
     "expected_change_types": [
-      "contributor.changed",
-      "contributor.removed"
+      "contributors.changed",
+      "contributors.removed"
     ]
   },
   {
-    "id": "029-contributor-name-corrected",
+    "id": "contributor-name-corrected",
     "title": "Typo in translator's name fixed",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "030-contributor-role-changed",
+    "id": "contributor-role-changed",
     "title": "Contributor role changed",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "031-contributor-biography-added",
+    "id": "contributor-biography-added",
     "title": "Author biography added",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "032-description-changed",
+    "id": "description-changed",
     "title": "Main description edited",
     "expected_change_types": [
-      "text_content.changed"
+      "description.changed"
     ]
   },
   {
-    "id": "033-table-of-contents-added",
+    "id": "table-of-contents-added",
     "title": "Table of contents added",
     "expected_change_types": [
-      "text_content.added"
+      "table_of_contents.added"
     ]
   },
   {
-    "id": "034-review-removed",
-    "title": "Review removed",
-    "expected_change_types": [
-      "text_content.removed"
-    ]
-  },
-  {
-    "id": "035-cover-replaced",
+    "id": "cover-replaced",
     "title": "Cover image replaced",
     "expected_change_types": [
-      "supporting_resource.changed"
+      "front_cover.changed"
     ]
   },
   {
-    "id": "036-cover-added",
+    "id": "cover-added",
     "title": "Cover image added",
     "expected_change_types": [
-      "supporting_resource.added"
+      "front_cover.added"
     ]
   },
   {
-    "id": "037-sample-page-added",
+    "id": "sample-page-added",
     "title": "Sample page image added",
     "expected_change_types": [
-      "supporting_resource.added"
+      "supporting_resources.added"
     ]
   },
   {
-    "id": "038-sample-page-removed",
+    "id": "sample-page-removed",
     "title": "Sample page image removed",
     "expected_change_types": [
-      "supporting_resource.removed"
+      "supporting_resources.removed"
     ]
   },
   {
-    "id": "039-mobi-format-dropped",
+    "id": "mobi-format-dropped",
     "title": "MOBI format dropped",
     "expected_change_types": [
-      "body_resource.removed",
-      "product_form_detail.removed",
-      "supporting_resource.removed"
+      "excerpt_infos.removed",
+      "file_infos.removed",
+      "product_form_details.removed"
     ]
   },
   {
-    "id": "040-master-file-replaced",
+    "id": "master-file-replaced",
     "title": "EPUB master file replaced",
     "expected_change_types": [
-      "body_resource.changed"
+      "file_infos.changed"
     ]
   },
   {
-    "id": "041-audiobook-duration-changed",
+    "id": "audiobook-duration-changed",
     "title": "Audiobook duration corrected",
     "expected_change_types": [
-      "extent.changed"
+      "duration.changed"
     ]
   },
   {
-    "id": "042-dimensions-changed",
+    "id": "dimensions-changed",
     "title": "Book dimensions corrected",
     "expected_change_types": [
-      "measure.changed",
-      "measure.changed"
+      "height.changed",
+      "width.changed"
     ]
   },
   {
-    "id": "043-weight-added",
+    "id": "weight-added",
     "title": "Weight added",
     "expected_change_types": [
-      "measure.added"
+      "weight.added"
     ]
   },
   {
-    "id": "044-number-of-pages-changed",
+    "id": "number-of-pages-changed",
     "title": "Number of pages changed",
     "expected_change_types": [
-      "extent.changed"
+      "number_of_pages.changed"
     ]
   },
   {
-    "id": "045-cover-type-changed",
+    "id": "cover-type-changed",
     "title": "Binding changed from hardback to paperback",
     "expected_change_types": [
-      "product_form.changed",
-      "product_form_detail.removed"
+      "onix_product_form.changed",
+      "product_form_details.removed"
     ]
   },
   {
-    "id": "046-audience-age-changed",
+    "id": "audience-age-changed",
     "title": "Target age lowered",
     "expected_change_types": [
-      "audience_range.changed"
+      "reading_age_from.changed"
     ]
   },
   {
-    "id": "047-stock-changed",
+    "id": "stock-changed",
     "title": "Stock level changed",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "048-imprint-changed",
+    "id": "imprint-changed",
     "title": "Imprint changed",
     "expected_change_types": [
-      "imprint.changed"
+      "imprint_id.changed",
+      "imprint_name.changed"
     ]
   },
   {
-    "id": "049-series-number-changed",
+    "id": "series-number-changed",
     "title": "Number within series changed",
     "expected_change_types": [
-      "collection.changed"
+      "series.changed"
     ]
   },
   {
-    "id": "050-series-removed",
+    "id": "series-removed",
     "title": "Series removed",
     "expected_change_types": [
-      "collection.removed"
+      "series.removed"
     ]
   },
   {
-    "id": "051-series-added",
+    "id": "series-added",
     "title": "Second series added",
     "expected_change_types": [
-      "collection.added"
+      "series.added"
     ]
   },
   {
-    "id": "052-language-of-original-added",
+    "id": "language-of-original-added",
     "title": "Original language added",
     "expected_change_types": [
-      "language.added"
+      "languages.added"
     ]
   },
   {
-    "id": "053-language-role-corrected",
+    "id": "language-role-corrected",
     "title": "Language role corrected",
     "expected_change_types": [
-      "language.changed"
+      "languages.changed"
     ]
   },
   {
-    "id": "054-exclusive-digital-distributor-set",
+    "id": "exclusive-digital-distributor-set",
     "title": "E-book made exclusive to one retailer",
     "expected_change_types": [
-      "sales_restriction.added"
+      "sales_restrictions_info.added"
     ]
   },
   {
-    "id": "055-exclusive-retailer-set",
+    "id": "exclusive-retailer-set",
     "title": "Printed book made exclusive to one retailer",
     "expected_change_types": [
-      "sales_restriction.added"
+      "sales_restrictions_info.added"
     ]
   },
   {
-    "id": "056-new-edition",
+    "id": "new-edition",
     "title": "New edition: edition statement, price and publication date",
     "expected_change_types": [
       "edition_statement.added",
-      "price.changed",
-      "publishing_date.changed"
+      "publishing_date.changed",
+      "supply_details.changed"
     ]
   },
   {
-    "id": "057-title-and-edition-changed",
+    "id": "title-and-edition-changed",
     "title": "Title and edition statement changed together",
     "expected_change_types": [
+      "alternative_format_record_references.removed",
       "edition_statement.changed",
-      "related_product.removed",
       "title.changed"
     ]
   },
   {
-    "id": "058-published-early",
+    "id": "published-early",
     "title": "Pre-order published early",
     "expected_change_types": [
-      "notification_type.changed",
-      "publishing_date.changed",
-      "publishing_date.changed",
-      "publishing_status.changed"
+      "current_state.changed",
+      "distribution_start.changed",
+      "publishing_date.changed"
     ]
   },
   {
-    "id": "059-no-change-record-touched",
+    "id": "no-change-record-touched",
     "title": "Record saved without changes",
     "expected_change_types": []
   },
   {
-    "id": "060-no-change-identical",
+    "id": "no-change-identical",
     "title": "Identical records",
     "expected_change_types": []
   },
   {
-    "id": "061-no-change-reformatted",
+    "id": "no-change-reformatted",
     "title": "Same data, different serialisation",
     "expected_change_types": []
   },
   {
-    "id": "062-isbn-changed",
+    "id": "isbn-changed",
     "title": "ISBN replaced",
     "expected_change_types": [
-      "product_identifier.changed"
+      "isbn13.changed"
     ]
   },
   {
-    "id": "063-ean-changed",
+    "id": "ean-changed",
     "title": "EAN of a board game corrected",
     "expected_change_types": [
-      "product_identifier.changed"
+      "ean.changed"
     ]
   },
   {
-    "id": "064-publisher-identifier-removed",
+    "id": "publisher-identifier-removed",
     "title": "Publisher's own product code removed",
     "expected_change_types": [
-      "product_identifier.removed"
+      "proprietary_identifiers.changed"
     ]
   },
   {
-    "id": "065-ean-other-than-isbn-added",
+    "id": "ean-other-than-isbn-added",
     "title": "Separate EAN added",
     "expected_change_types": [
-      "product_identifier.added"
+      "ean.added"
     ]
   },
   {
-    "id": "066-publisher-identifier-added",
+    "id": "publisher-identifier-added",
     "title": "Publisher's own product code added",
     "expected_change_types": [
-      "product_identifier.added"
+      "proprietary_identifiers.changed"
     ]
   },
   {
-    "id": "067-publisher-identifier-changed",
+    "id": "publisher-identifier-changed",
     "title": "Publisher's own product code corrected",
     "expected_change_types": [
-      "product_identifier.changed"
+      "proprietary_identifiers.changed"
     ]
   },
   {
-    "id": "068-streaming-identifier-added",
+    "id": "streaming-identifier-added",
     "title": "Streaming identifier added",
     "expected_change_types": [
-      "product_identifier.added"
+      "proprietary_identifiers.changed"
     ]
   },
   {
-    "id": "069-finishing-added",
+    "id": "finishing-added",
     "title": "Cover finishing added",
     "expected_change_types": [
-      "product_form_detail.added",
-      "product_form_detail.added"
+      "product_form_details.added",
+      "product_form_details.added"
     ]
   },
   {
-    "id": "070-packaging-added",
+    "id": "packaging-added",
     "title": "Packaging added",
     "expected_change_types": [
-      "product_packaging.added"
+      "product_packaging.added",
+      "product_packaging_name.added",
+      "product_packaging_name_description.added"
     ]
   },
   {
-    "id": "071-packaging-changed",
+    "id": "packaging-changed",
     "title": "Packaging changed",
     "expected_change_types": [
-      "product_packaging.changed"
+      "product_packaging.changed",
+      "product_packaging_name.changed",
+      "product_packaging_name_description.changed"
     ]
   },
   {
-    "id": "072-ebook-format-added",
+    "id": "ebook-format-added",
     "title": "PDF format added to an e-book",
     "expected_change_types": [
-      "product_form_detail.added"
+      "product_form_details.added"
     ]
   },
   {
-    "id": "073-technical-protection-added",
+    "id": "technical-protection-added",
     "title": "LCP protection enabled",
     "expected_change_types": [
-      "epub_technical_protection.added"
+      "technical_protections.added"
     ]
   },
   {
-    "id": "074-map-scale-changed",
+    "id": "map-scale-changed",
     "title": "Map scale corrected",
     "expected_change_types": [
       "map_scale.changed"
     ]
   },
   {
-    "id": "075-players-number-changed",
+    "id": "players-number-changed",
     "title": "Number of players changed",
     "expected_change_types": [
-      "product_form_feature.changed"
+      "players_number_to.changed"
     ]
   },
   {
-    "id": "076-players-number-made-single",
+    "id": "players-number-made-single",
     "title": "Range of players replaced by a single value",
     "expected_change_types": [
-      "product_form_feature.changed"
+      "players_number_to.removed"
     ]
   },
   {
-    "id": "077-playing-time-changed",
+    "id": "playing-time-changed",
     "title": "Playing time changed",
     "expected_change_types": [
-      "product_form_feature.changed"
+      "playing_time_from.changed",
+      "playing_time_to.changed"
     ]
   },
   {
-    "id": "078-number-of-pieces-changed",
+    "id": "number-of-pieces-changed",
     "title": "Number of puzzle pieces corrected",
     "expected_change_types": [
-      "product_form_feature.changed"
+      "number_of_pieces.changed"
     ]
   },
   {
-    "id": "079-box-contents-changed",
+    "id": "box-contents-changed",
     "title": "Box contents changed",
     "expected_change_types": [
-      "text_content.changed"
+      "list_of_contents.changed"
     ]
   },
   {
-    "id": "080-toy-safety-warning-changed",
+    "id": "toy-safety-warning-changed",
     "title": "Toy safety warning text edited",
     "expected_change_types": [
-      "product_form_feature.changed"
+      "toy_safety_warning.changed"
     ]
   },
   {
-    "id": "081-en71-logo-added",
+    "id": "en71-logo-added",
     "title": "EN 71 logo marked",
     "expected_change_types": [
-      "product_form_feature.added"
+      "carries_en71_logo.changed"
     ]
   },
   {
-    "id": "082-ce-logo-removed",
+    "id": "ce-logo-removed",
     "title": "CE logo unmarked",
     "expected_change_types": [
-      "product_form_feature.removed"
+      "carries_ce_logo.changed"
     ]
   },
   {
-    "id": "083-declaration-of-conformity-added",
+    "id": "declaration-of-conformity-added",
     "title": "Declaration of conformity link added",
     "expected_change_types": [
-      "product_form_feature.added"
+      "declaration_of_conformity_url.added"
     ]
   },
   {
-    "id": "084-thickness-removed",
+    "id": "thickness-removed",
     "title": "Wrong thickness removed",
     "expected_change_types": [
-      "measure.removed"
+      "thickness.removed"
     ]
   },
   {
-    "id": "085-country-of-manufacture-changed",
+    "id": "country-of-manufacture-changed",
     "title": "Country of manufacture changed",
     "expected_change_types": [
       "country_of_manufacture.changed"
     ]
   },
   {
-    "id": "086-cn-code-added",
+    "id": "cn-code-added",
     "title": "Customs code added",
     "expected_change_types": [
-      "product_classification.added"
+      "cn_code.added"
     ]
   },
   {
-    "id": "087-cn-code-changed",
+    "id": "cn-code-changed",
     "title": "Customs code made more specific",
     "expected_change_types": [
-      "product_classification.changed"
+      "cn_code.changed"
     ]
   },
   {
-    "id": "088-english-title-added",
+    "id": "english-title-added",
     "title": "English title added",
     "expected_change_types": [
-      "title.added"
+      "title_eng.added"
     ]
   },
   {
-    "id": "089-trade-title-changed",
-    "title": "Trade title changed",
-    "expected_change_types": [
-      "title.changed"
-    ]
-  },
-  {
-    "id": "090-original-title-removed",
+    "id": "original-title-removed",
     "title": "Original title removed",
     "expected_change_types": [
-      "title.removed"
+      "original_title.removed"
     ]
   },
   {
-    "id": "091-collection-part-changed",
+    "id": "collection-part-changed",
     "title": "Volume number of the cycle changed",
     "expected_change_types": [
-      "title.changed"
+      "collection_part_number.changed"
     ]
   },
   {
-    "id": "092-collection-removed",
+    "id": "collection-removed",
     "title": "Cycle removed from the title",
     "expected_change_types": [
-      "title.removed"
+      "collection_part_number.removed",
+      "collection_title.removed"
     ]
   },
   {
-    "id": "093-collection-issn-added",
+    "id": "collection-issn-added",
     "title": "Cycle gets an ISSN",
     "expected_change_types": [
-      "collection.added",
-      "title.removed"
+      "collection_part_number.removed",
+      "collection_title.removed",
+      "issn.added",
+      "series.added"
     ]
   },
   {
-    "id": "094-series-renamed",
+    "id": "series-renamed",
     "title": "Series renamed",
     "expected_change_types": [
-      "collection.changed"
+      "series.changed"
     ]
   },
   {
-    "id": "095-contributor-re-entered",
+    "id": "contributor-re-entered",
     "title": "Author deleted and entered again",
     "expected_change_types": [
-      "contributor.added",
-      "contributor.changed",
-      "contributor.changed",
-      "contributor.removed"
+      "contributors.added",
+      "contributors.changed",
+      "contributors.changed",
+      "contributors.removed"
     ]
   },
   {
-    "id": "096-translator-source-language-changed",
+    "id": "translator-source-language-changed",
     "title": "Translator's source language changed",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "097-contributor-academic-title-added",
+    "id": "contributor-academic-title-added",
     "title": "Academic title added",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "098-author-name-changed-breaks-facsimile",
+    "id": "author-name-changed-breaks-facsimile",
     "title": "Author name changed in one edition only",
     "expected_change_types": [
-      "contributor.changed",
-      "related_product.removed"
+      "alternative_format_record_references.removed",
+      "contributors.changed"
     ]
   },
   {
-    "id": "099-contributor-name-prefix-added",
+    "id": "contributor-name-prefix-added",
     "title": "Name prefix added",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "100-contributor-linked-to-authority",
+    "id": "contributor-linked-to-authority",
     "title": "Author identified in library catalogues",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "101-narrator-replaced-by-synthetic-voice",
+    "id": "narrator-replaced-by-synthetic-voice",
     "title": "Narrator marked as a synthetic voice",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "102-contributor-biography-changed",
+    "id": "contributor-biography-changed",
     "title": "Author biography edited",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "103-contributor-biography-removed",
+    "id": "contributor-biography-removed",
     "title": "Translator biography removed",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "104-authorship-collective",
+    "id": "authorship-collective",
     "title": "Contributors replaced by 'various authors'",
     "expected_change_types": [
-      "contributor.added",
-      "contributor.removed",
-      "contributor.removed"
+      "contributors.added",
+      "contributors.removed",
+      "contributors.removed"
     ]
   },
   {
-    "id": "105-authorship-no-contributor",
+    "id": "authorship-no-contributor",
     "title": "Product marked as having no contributor",
     "expected_change_types": [
-      "contributor.removed",
-      "contributor.removed",
-      "no_contributor.added"
+      "contributors.removed",
+      "contributors.removed",
+      "no_contributor.changed"
     ]
   },
   {
-    "id": "106-edition-type-added",
+    "id": "edition-type-added",
     "title": "Edition types added",
     "expected_change_types": [
-      "edition_type.added",
-      "edition_type.added"
+      "edition_type_descriptions.added",
+      "edition_type_descriptions.added",
+      "edition_type_names.added",
+      "edition_type_names.added",
+      "edition_types.added",
+      "edition_types.added"
     ]
   },
   {
-    "id": "107-edition-statement-removed",
+    "id": "edition-statement-removed",
     "title": "Edition statement removed",
     "expected_change_types": [
       "edition_statement.removed"
     ]
   },
   {
-    "id": "108-publication-language-changed",
+    "id": "publication-language-changed",
     "title": "Language of the text changed",
     "expected_change_types": [
-      "language.added",
-      "language.removed"
+      "languages.added",
+      "languages.removed"
     ]
   },
   {
-    "id": "109-language-removed",
+    "id": "language-removed",
     "title": "Original language removed",
     "expected_change_types": [
-      "language.removed"
+      "languages.removed"
     ]
   },
   {
-    "id": "110-publishing-sheets-added",
+    "id": "publishing-sheets-added",
     "title": "Length in publishing sheets added",
     "expected_change_types": [
-      "extent.added"
+      "number_of_characters.added"
     ]
   },
   {
-    "id": "111-number-of-pages-removed",
+    "id": "number-of-pages-removed",
     "title": "Page count removed",
     "expected_change_types": [
-      "extent.removed"
+      "number_of_pages.removed"
     ]
   },
   {
-    "id": "112-number-of-illustrations-changed",
+    "id": "number-of-illustrations-changed",
     "title": "Number of illustrations corrected",
     "expected_change_types": [
       "number_of_illustrations.changed"
     ]
   },
   {
-    "id": "113-number-of-illustrations-removed",
+    "id": "number-of-illustrations-removed",
     "title": "Number of illustrations removed",
     "expected_change_types": [
       "number_of_illustrations.removed"
     ]
   },
   {
-    "id": "114-audience-age-to-removed",
+    "id": "audience-age-to-removed",
     "title": "Upper age limit removed",
     "expected_change_types": [
-      "audience_range.removed"
+      "reading_age_to.removed"
     ]
   },
   {
-    "id": "115-audience-range-added",
+    "id": "audience-range-added",
     "title": "Audience age range added",
     "expected_change_types": [
-      "audience_range.added",
-      "audience_range.added"
+      "reading_age_from.added",
+      "reading_age_to.added"
     ]
   },
   {
-    "id": "116-english-keywords-added",
+    "id": "english-keywords-added",
     "title": "English keywords added",
     "expected_change_types": [
-      "subject.changed"
+      "keywords.added",
+      "keywords.added"
     ]
   },
   {
-    "id": "117-keywords-removed",
+    "id": "keywords-removed",
     "title": "All keywords removed",
     "expected_change_types": [
-      "subject.removed"
+      "keywords.removed",
+      "keywords.removed",
+      "keywords.removed"
     ]
   },
   {
-    "id": "118-publisher-category-added",
+    "id": "publisher-category-added",
     "title": "Second publisher's category added",
     "expected_change_types": [
-      "subject.added"
+      "publisher_categories.added"
     ]
   },
   {
-    "id": "119-publisher-category-removed",
+    "id": "publisher-category-removed",
     "title": "Publisher's category removed",
     "expected_change_types": [
-      "subject.removed"
+      "publisher_categories.removed"
     ]
   },
   {
-    "id": "120-name-as-subject-added",
+    "id": "name-as-subject-added",
     "title": "People and organisations as subjects added",
     "expected_change_types": [
-      "name_as_subject.added",
-      "name_as_subject.added"
+      "names_as_subject.added",
+      "names_as_subject.added"
     ]
   },
   {
-    "id": "121-thema-codes-reordered",
+    "id": "thema-codes-reordered",
     "title": "Thema codes reordered",
     "expected_change_types": []
   },
   {
-    "id": "122-description-english-added",
+    "id": "description-english-added",
     "title": "English description added",
     "expected_change_types": [
-      "text_content.changed"
+      "description.changed"
     ]
   },
   {
-    "id": "123-short-description-changed",
+    "id": "short-description-changed",
     "title": "Short description edited",
     "expected_change_types": [
-      "text_content.changed"
+      "short_description.changed"
     ]
   },
   {
-    "id": "124-text-type-changed",
+    "id": "text-type-changed",
     "title": "Text moved to a different type",
     "expected_change_types": [
-      "text_content.changed"
+      "excerpts.added",
+      "short_description.removed"
     ]
   },
   {
-    "id": "125-review-author-changed",
-    "title": "Review author corrected and source added",
-    "expected_change_types": [
-      "text_content.changed"
-    ]
-  },
-  {
-    "id": "126-review-link-changed",
-    "title": "Review link added (attribute only)",
-    "expected_change_types": []
-  },
-  {
-    "id": "127-review-made-internal",
-    "title": "Review restricted to internal use",
-    "expected_change_types": [
-      "text_content.removed"
-    ]
-  },
-  {
-    "id": "128-excerpt-text-added",
+    "id": "excerpt-text-added",
     "title": "Text excerpt added",
     "expected_change_types": [
-      "text_content.added"
+      "excerpts.added"
     ]
   },
   {
-    "id": "129-back-cover-removed",
+    "id": "back-cover-removed",
     "title": "Back cover removed",
     "expected_change_types": [
-      "supporting_resource.removed"
+      "supporting_resources.removed"
     ]
   },
   {
-    "id": "130-packshot-replaced",
+    "id": "packshot-replaced",
     "title": "3D packshot replaced",
     "expected_change_types": [
-      "supporting_resource.changed"
+      "supporting_resources.changed"
     ]
   },
   {
-    "id": "131-attachment-type-changed",
+    "id": "attachment-type-changed",
     "title": "Sample page reclassified as back cover",
     "expected_change_types": [
-      "supporting_resource.changed"
+      "supporting_resources.changed"
     ]
   },
   {
-    "id": "132-game-rules-added",
+    "id": "game-rules-added",
     "title": "Game rules PDF added",
     "expected_change_types": [
-      "supporting_resource.added"
+      "supporting_resources.added"
     ]
   },
   {
-    "id": "133-preview-widget-removed",
+    "id": "preview-widget-removed",
     "title": "Online preview removed",
     "expected_change_types": [
-      "supporting_resource.removed"
+      "supporting_resources.removed"
     ]
   },
   {
-    "id": "134-preview-widget-updated",
-    "title": "Online preview regenerated",
-    "expected_change_types": [
-      "supporting_resource.changed"
-    ]
-  },
-  {
-    "id": "135-ebook-excerpt-replaced",
+    "id": "ebook-excerpt-replaced",
     "title": "EPUB excerpt replaced",
     "expected_change_types": [
-      "supporting_resource.changed"
+      "excerpt_infos.changed"
     ]
   },
   {
-    "id": "136-audio-excerpt-replaced",
+    "id": "audio-excerpt-replaced",
     "title": "Audio sample replaced",
     "expected_change_types": [
-      "supporting_resource.changed"
+      "excerpt_infos.changed"
     ]
   },
   {
-    "id": "137-audiobook-master-replaced",
+    "id": "audiobook-master-replaced",
     "title": "Audiobook master file replaced",
     "expected_change_types": [
-      "body_resource.changed"
+      "file_infos.changed"
     ]
   },
   {
-    "id": "138-publisher-product-url-added",
+    "id": "publisher-product-url-added",
     "title": "Link to the book on the publisher's site added",
     "expected_change_types": [
-      "publisher.changed"
+      "publisher_website.added"
     ]
   },
   {
-    "id": "139-city-of-publication-changed",
+    "id": "city-of-publication-changed",
     "title": "City of publication changed",
     "expected_change_types": [
       "city_of_publication.changed"
     ]
   },
   {
-    "id": "140-publisher-renamed",
+    "id": "publisher-renamed",
     "title": "Publisher renamed",
     "expected_change_types": [
-      "imprint.changed",
-      "publisher.changed",
-      "subject.added",
-      "subject.removed",
-      "supply_detail.changed"
+      "imprint_name.changed",
+      "publisher_name.changed",
+      "supply_details.changed"
     ]
   },
   {
-    "id": "141-publisher-contact-changed",
+    "id": "publisher-contact-changed",
     "title": "Product safety contact changed",
     "expected_change_types": [
-      "product_contact.changed"
+      "safety_contact.changed"
     ]
   },
   {
-    "id": "142-publisher-vat-id-changed",
+    "id": "publisher-vat-id-changed",
     "title": "Publisher's tax number changed",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "143-state-preorder-to-announced",
+    "id": "state-preorder-to-announced",
     "title": "Pre-order back to announcement",
     "expected_change_types": [
-      "notification_type.changed"
+      "current_state.changed"
     ]
   },
   {
-    "id": "144-state-cancelled",
+    "id": "state-cancelled",
     "title": "Publication cancelled",
     "expected_change_types": [
-      "publishing_status.changed"
+      "current_state.changed"
     ]
   },
   {
-    "id": "145-state-back-in-print",
+    "id": "state-back-in-print",
     "title": "Out-of-print book reissued",
     "expected_change_types": [
-      "publishing_status.changed"
+      "current_state.changed"
     ]
   },
   {
-    "id": "146-distribution-start-removed",
+    "id": "distribution-start-removed",
     "title": "Distribution start date removed",
     "expected_change_types": [
-      "publishing_date.removed"
+      "distribution_start.removed"
     ]
   },
   {
-    "id": "147-distribution-start-moved",
+    "id": "distribution-start-moved",
     "title": "Distribution start moved earlier",
     "expected_change_types": [
-      "publishing_date.changed"
+      "distribution_start.changed"
     ]
   },
   {
-    "id": "148-publication-date-year-only",
+    "id": "publication-date-year-only",
     "title": "Publication date reduced to a year",
     "expected_change_types": [
       "publishing_date.changed"
     ]
   },
   {
-    "id": "149-sale-restricted-to-poland",
+    "id": "sale-restricted-to-poland",
     "title": "Sales restricted to Poland",
     "expected_change_types": [
-      "sales_rights.changed"
+      "territory_countries.added",
+      "territory_regions.removed"
     ]
   },
   {
-    "id": "150-exclusive-retailer-extended",
+    "id": "exclusive-retailer-extended",
     "title": "Retailer exclusivity extended",
     "expected_change_types": [
-      "sales_restriction.changed"
+      "sales_restrictions_info.changed"
     ]
   },
   {
-    "id": "151-exclusive-retailer-ended",
+    "id": "exclusive-retailer-ended",
     "title": "Retailer exclusivity ended",
     "expected_change_types": [
-      "sales_restriction.removed"
+      "sales_restrictions_info.removed"
     ]
   },
   {
-    "id": "152-exclusive-digital-distributor-changed",
+    "id": "exclusive-digital-distributor-changed",
     "title": "Exclusive e-book retailer changed",
     "expected_change_types": [
-      "sales_restriction.changed"
+      "sales_restrictions_info.changed"
     ]
   },
   {
-    "id": "153-exclusive-digital-distributor-removed",
+    "id": "exclusive-digital-distributor-removed",
     "title": "E-book exclusivity ended",
     "expected_change_types": [
-      "sales_restriction.removed"
+      "sales_restrictions_info.removed"
     ]
   },
   {
-    "id": "154-facsimile-linked",
+    "id": "facsimile-linked",
     "title": "E-book edition linked",
     "expected_change_types": [
-      "related_product.added"
+      "alternative_format_record_references.added"
     ]
   },
   {
-    "id": "155-facsimile-unlinked",
+    "id": "facsimile-unlinked",
     "title": "E-book edition unlinked",
     "expected_change_types": [
-      "related_product.removed"
+      "alternative_format_record_references.removed"
     ]
   },
   {
-    "id": "156-stock-sold-out",
+    "id": "stock-sold-out",
     "title": "Stock sold out",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "157-stock-unknown",
+    "id": "stock-unknown",
     "title": "Stock level no longer reported",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "158-stock-operator-changed",
+    "id": "stock-operator-changed",
     "title": "Stock given as 'more than'",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "159-pack-quantity-changed",
+    "id": "pack-quantity-changed",
     "title": "Pack quantity changed",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "160-additional-info-added",
+    "id": "additional-info-added",
     "title": "Additional trade info added",
     "expected_change_types": [
-      "supply_detail.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "161-price-printed-on-product",
+    "id": "price-printed-on-product",
     "title": "Price no longer printed on the cover",
     "expected_change_types": [
-      "price.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "162-price-removed",
+    "id": "price-removed",
     "title": "Price removed",
     "expected_change_types": [
-      "price.removed",
-      "supply_detail.removed"
+      "supply_details.removed"
     ]
   },
   {
-    "id": "163-future-price-rescheduled",
+    "id": "future-price-rescheduled",
     "title": "Scheduled price change moved",
     "expected_change_types": [
-      "price.changed",
-      "price.changed"
+      "supply_details.changed"
     ]
   },
   {
-    "id": "164-open-access-licence-changed",
+    "id": "open-access-licence-changed",
     "title": "Open-access licence changed",
     "expected_change_types": [
       "epub_license.changed"
     ]
   },
   {
-    "id": "165-no-change-internal-fields",
+    "id": "no-change-internal-fields",
     "title": "Internal trade fields changed",
     "expected_change_types": []
   },
   {
-    "id": "166-contributor-isni-added",
+    "id": "contributor-isni-added",
     "title": "ISNI added to a contributor",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "167-contributor-viaf-added",
+    "id": "contributor-viaf-added",
     "title": "VIAF added to a contributor",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "168-contributor-isni-changed",
+    "id": "contributor-isni-changed",
     "title": "Contributor's ISNI corrected",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "169-contributor-viaf-changed",
+    "id": "contributor-viaf-changed",
     "title": "Contributor's VIAF changed",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "170-contributor-isni-removed",
+    "id": "contributor-isni-removed",
     "title": "Contributor's ISNI removed",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "171-contributor-relinked-to-another-person",
+    "id": "contributor-relinked-to-another-person",
     "title": "Contributor linked to a different person with the same name",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "172-contributor-marked-misspelled",
+    "id": "contributor-marked-misspelled",
     "title": "Contributor's name marked as misspelled",
     "expected_change_types": [
-      "contributor.changed"
+      "contributors.changed"
     ]
   },
   {
-    "id": "173-cycle-added",
+    "id": "cycle-added",
     "title": "Book put into a cycle",
     "expected_change_types": [
-      "title.added"
+      "collection_part_number.added",
+      "collection_title.added"
     ]
   },
   {
-    "id": "174-cycle-part-added",
+    "id": "cycle-part-added",
     "title": "Volume number in the cycle added",
     "expected_change_types": [
-      "title.changed"
+      "collection_part_number.added"
     ]
   },
   {
-    "id": "175-cycle-renamed",
+    "id": "cycle-renamed",
     "title": "Cycle renamed",
     "expected_change_types": [
+      "collection_title.changed"
+    ]
+  },
+  {
+    "id": "imprint-renamed",
+    "title": "Imprint renamed",
+    "expected_change_types": [
+      "imprint_name.changed"
+    ]
+  },
+  {
+    "id": "imprint-replaced-by-new-one",
+    "title": "Imprint replaced by a newly created one",
+    "expected_change_types": [
+      "imprint_id.changed",
+      "imprint_name.changed"
+    ]
+  },
+  {
+    "id": "cover-removed",
+    "title": "Cover image removed",
+    "expected_change_types": [
+      "front_cover.removed"
+    ]
+  },
+  {
+    "id": "preorder-published-with-final-data",
+    "title": "Pre-order published with the final print data",
+    "expected_change_types": [
+      "current_state.changed",
+      "height.changed",
+      "number_of_pages.changed",
+      "supply_details.changed",
+      "width.changed"
+    ]
+  },
+  {
+    "id": "ebook-metadata-refreshed",
+    "title": "E-book metadata refreshed for a promotion",
+    "expected_change_types": [
+      "description.changed",
+      "keywords.added",
+      "supply_details.changed",
+      "thema_subjects.added",
       "title.changed"
     ]
   },
   {
-    "id": "176-imprint-renamed",
-    "title": "Imprint renamed",
+    "id": "board-game-second-edition",
+    "title": "Board game updated for its second edition",
     "expected_change_types": [
-      "imprint.changed"
+      "carries_en71_logo.changed",
+      "ean.changed",
+      "players_number_to.changed",
+      "playing_time_from.changed",
+      "playing_time_to.changed",
+      "supply_details.changed",
+      "toy_safety_warning.changed"
     ]
   },
   {
-    "id": "177-imprint-replaced-by-new-one",
-    "title": "Imprint replaced by a newly created one",
+    "id": "printed-book-reprinted",
+    "title": "Printed book reprinted with changes",
     "expected_change_types": [
-      "imprint.changed"
+      "number_of_pages.changed",
+      "subtitle.added",
+      "supply_details.changed",
+      "table_of_contents.added"
     ]
   },
   {
-    "id": "178-cover-removed",
-    "title": "Cover image removed",
+    "id": "ebook-translator-and-cover-added",
+    "title": "Translator, author biography, cover and excerpt added",
     "expected_change_types": [
-      "supporting_resource.removed"
+      "contributors.added",
+      "contributors.changed",
+      "excerpts.added",
+      "front_cover.changed"
     ]
   }
 ]

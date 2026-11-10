@@ -1,0 +1,80 @@
+{
+  "id": "contributor-removed",
+  "title": "Narrator removed",
+  "description": "One of four narrators (E07), Diana Giurow, is removed. The narrators after her move up in the sequence.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "number"
+      ],
+      "before": {
+        "id": 514510,
+        "number": 5,
+        "role": "E07",
+        "role_name": "READ_BY",
+        "from_language": null,
+        "person_name": "Krzysztof Zatryb",
+        "titles_before_names": null,
+        "names_before_key": "Krzysztof",
+        "prefix_to_key": null,
+        "key_names": "Zatryb",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 514510,
+        "number": 4,
+        "role": "E07",
+        "role_name": "READ_BY",
+        "from_language": null,
+        "person_name": "Krzysztof Zatryb",
+        "titles_before_names": null,
+        "names_before_key": "Krzysztof",
+        "prefix_to_key": null,
+        "key_names": "Zatryb",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    },
+    {
+      "type": "contributors.removed",
+      "before": {
+        "id": 514509,
+        "number": 4,
+        "role": "E07",
+        "role_name": "READ_BY",
+        "from_language": null,
+        "person_name": "Diana Giurow",
+        "titles_before_names": null,
+        "names_before_key": "Diana",
+        "prefix_to_key": null,
+        "key_names": "Giurow",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

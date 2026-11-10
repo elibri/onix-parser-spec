@@ -1,0 +1,29 @@
+{
+  "id": "premiere-date-made-precise",
+  "title": "Premiere date made precise",
+  "description": "Only the premiere month (2026-11) was known; now the exact day (2026-11-10) is set.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "publishing_date.changed",
+      "changed_fields": [
+        "format",
+        "format_name",
+        "date"
+      ],
+      "before": {
+        "format": "01",
+        "format_name": "YYYYMM",
+        "date": "202611"
+      },
+      "after": {
+        "format": "00",
+        "format_name": "YYYYMMDD",
+        "date": "20261110"
+      }
+    }
+  ]
+}

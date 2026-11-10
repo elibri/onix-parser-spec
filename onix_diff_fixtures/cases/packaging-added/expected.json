@@ -1,0 +1,23 @@
+{
+  "id": "packaging-added",
+  "title": "Packaging added",
+  "description": "The book is now sold shrink-wrapped (product_packaging 21).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_packaging.added",
+      "after": "21"
+    },
+    {
+      "type": "product_packaging_name.added",
+      "after": "SHRINK_WRAPPED"
+    },
+    {
+      "type": "product_packaging_name_description.added",
+      "after": "folia termokurczliwa"
+    }
+  ]
+}

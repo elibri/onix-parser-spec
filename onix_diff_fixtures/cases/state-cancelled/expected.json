@@ -1,0 +1,16 @@
+{
+  "id": "state-cancelled",
+  "title": "Publication cancelled",
+  "description": "The publisher cancels the book before its premiere: its state changes from preorder to cancelled.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "preorder",
+      "after": "cancelled"
+    }
+  ]
+}

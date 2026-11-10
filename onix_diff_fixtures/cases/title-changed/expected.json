@@ -1,0 +1,16 @@
+{
+  "id": "title-changed",
+  "title": "Title corrected",
+  "description": "A comma is added to the title: 'Kłamcy tacy jak my' -> 'Kłamcy, tacy jak my'.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "title.changed",
+      "before": "Kłamcy tacy jak my",
+      "after": "Kłamcy, tacy jak my"
+    }
+  ]
+}

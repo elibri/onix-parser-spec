@@ -1,0 +1,21 @@
+{
+  "id": "exclusive-retailer-ended",
+  "title": "Retailer exclusivity ended",
+  "description": "The exclusivity for Empik is lifted early (sales_restrictions_info).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "sales_restrictions_info.removed",
+      "before": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": "Empik",
+        "outlet_identifier": null,
+        "end_date": "20261231"
+      }
+    }
+  ]
+}

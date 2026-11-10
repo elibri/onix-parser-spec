@@ -1,0 +1,19 @@
+{
+  "id": "audience-range-added",
+  "title": "Audience age range added",
+  "description": "An age range 16-99 is set for a book that had none (reading_age_from, reading_age_to).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "reading_age_from.added",
+      "after": 16
+    },
+    {
+      "type": "reading_age_to.added",
+      "after": 99
+    }
+  ]
+}

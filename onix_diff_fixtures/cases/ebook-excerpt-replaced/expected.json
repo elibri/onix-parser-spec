@@ -1,0 +1,36 @@
+{
+  "id": "ebook-excerpt-replaced",
+  "title": "EPUB excerpt replaced",
+  "description": "A new EPUB excerpt is generated: its excerpt_infos entry gets a new md5, file_size, link and updated_at.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "excerpt_infos.changed",
+      "changed_fields": [
+        "file_size",
+        "md5",
+        "link",
+        "updated_at"
+      ],
+      "before": {
+        "id": 366961,
+        "file_type": "epub_excerpt",
+        "file_size": 2429768,
+        "md5": "e3c74e50bc2ac48c8b40f1c219b74824",
+        "link": "https://www.elibri.com.pl/excerpt/366961/e3c74e50bc2ac48c8b40f1c219b74824/klamcy-tacy-jak-my-fragment.epub",
+        "updated_at": "2026-10-02T08:03:00Z"
+      },
+      "after": {
+        "id": 366961,
+        "file_type": "epub_excerpt",
+        "file_size": 412906,
+        "md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+        "link": "https://www.elibri.com.pl/excerpt/366961/45c48cce2e2d7fbdea1afc51c7c6ad26/klamcy-tacy-jak-my-fragment.epub",
+        "updated_at": "2026-10-19T10:00:00Z"
+      }
+    }
+  ]
+}

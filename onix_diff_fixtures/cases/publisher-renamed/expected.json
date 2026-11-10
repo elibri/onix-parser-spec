@@ -1,0 +1,95 @@
+{
+  "id": "publisher-renamed",
+  "title": "Publisher renamed",
+  "description": "The publisher changes its name. The book is under the publisher's Default Imprint, which is renamed with it and keeps its id, so imprint_name changes and imprint_id stays. The new name is also in publisher_name and in the supplier of the supply detail.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "imprint_name.changed",
+      "before": "REBIS",
+      "after": "REBIS Dom Wydawniczy"
+    },
+    {
+      "type": "publisher_name.changed",
+      "before": "REBIS",
+      "after": "REBIS Dom Wydawniczy"
+    },
+    {
+      "type": "supply_details.changed",
+      "changed_fields": [
+        "supplier.name"
+      ],
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL7790000847",
+          "name": "REBIS",
+          "website": null
+        },
+        "product_availability": "21",
+        "product_availability_name": "IN_STOCK",
+        "supplier_own_coding": null,
+        "on_hand": 500,
+        "proximity": "07",
+        "proximity_name": "MORE_THAN",
+        "pack_quantity": 10,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 99.0,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": "02",
+            "printed_on_product_name": "YES",
+            "position_on_product": "00",
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      },
+      "after": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL7790000847",
+          "name": "REBIS Dom Wydawniczy",
+          "website": null
+        },
+        "product_availability": "21",
+        "product_availability_name": "IN_STOCK",
+        "supplier_own_coding": null,
+        "on_hand": 500,
+        "proximity": "07",
+        "proximity_name": "MORE_THAN",
+        "pack_quantity": 10,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 99.0,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": "02",
+            "printed_on_product_name": "YES",
+            "position_on_product": "00",
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "table-of-contents-added",
+  "title": "Table of contents added",
+  "description": "A table of contents is added (table_of_contents).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "table_of_contents.added",
+      "after": {
+        "id": 900000001,
+        "text": "<p>1. Kamyk</p> <p>2. Rzeka</p> <p>3. Morze</p>",
+        "text_eng": null
+      }
+    }
+  ]
+}

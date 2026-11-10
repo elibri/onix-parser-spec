@@ -1,0 +1,31 @@
+{
+  "id": "exclusive-retailer-extended",
+  "title": "Retailer exclusivity extended",
+  "description": "The exclusivity for Empik is extended from 2026-12-31 to 2027-03-31.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "sales_restrictions_info.changed",
+      "changed_fields": [
+        "end_date"
+      ],
+      "before": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": "Empik",
+        "outlet_identifier": null,
+        "end_date": "20261231"
+      },
+      "after": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": "Empik",
+        "outlet_identifier": null,
+        "end_date": "20270331"
+      }
+    }
+  ]
+}

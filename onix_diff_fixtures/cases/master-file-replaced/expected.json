@@ -1,0 +1,33 @@
+{
+  "id": "master-file-replaced",
+  "title": "EPUB master file replaced",
+  "description": "The publisher uploads a corrected EPUB: its file_infos entry gets a new md5, file_size and updated_at.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "file_infos.changed",
+      "changed_fields": [
+        "file_size",
+        "md5",
+        "updated_at"
+      ],
+      "before": {
+        "id": 366962,
+        "file_type": "epub",
+        "file_size": 2700833,
+        "md5": "d51a4e4c0b81fd67c15945d67657a89d",
+        "updated_at": "2026-10-02T08:03:00Z"
+      },
+      "after": {
+        "id": 366962,
+        "file_type": "epub",
+        "file_size": 2702118,
+        "md5": "c4ca4238a0b923820dcc509a6f75849b",
+        "updated_at": "2026-10-19T10:00:00Z"
+      }
+    }
+  ]
+}

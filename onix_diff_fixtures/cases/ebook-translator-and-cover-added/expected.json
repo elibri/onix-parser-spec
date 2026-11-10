@@ -1,0 +1,109 @@
+{
+  "id": "ebook-translator-and-cover-added",
+  "title": "Translator, author biography, cover and excerpt added",
+  "description": "The publisher completes an e-book: the translator Magdalena Zawadzka is added, the author J. T. Geissinger gets a biography, a new cover is uploaded and a short excerpt is added.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "biographical_note"
+      ],
+      "before": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 515806,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "J. T. Geissinger",
+        "titles_before_names": null,
+        "names_before_key": "J. T.",
+        "prefix_to_key": null,
+        "key_names": "Geissinger",
+        "names_after_key": null,
+        "biographical_note": "<p>J. T. Geissinger jest autorką bestsellerowych romansów, przetłumaczonych na kilkanaście języków.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    },
+    {
+      "type": "contributors.added",
+      "after": {
+        "id": 900000001,
+        "number": 3,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": null,
+        "person_name": "Magdalena Zawadzka",
+        "titles_before_names": null,
+        "names_before_key": "Magdalena",
+        "prefix_to_key": null,
+        "key_names": "Zawadzka",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    },
+    {
+      "type": "excerpts.added",
+      "after": {
+        "id": 900000004,
+        "text": "<p>Kłamstwo było pierwszym, co nas połączyło.</p>",
+        "text_eng": null
+      }
+    },
+    {
+      "type": "front_cover.changed",
+      "changed_fields": [
+        "id",
+        "link",
+        "md5",
+        "file_size"
+      ],
+      "before": {
+        "id": 480045,
+        "link": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg",
+        "md5": "119c3a871ef1e47860f5f9f7b40d3122",
+        "file_size": 660092
+      },
+      "after": {
+        "id": 900000003,
+        "link": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-5f0c3d2a9b8e7f6a1c2d3e4f5a6b7c8d/original.jpg",
+        "md5": "5f0c3d2a9b8e7f6a1c2d3e4f5a6b7c8d",
+        "file_size": 1204331
+      }
+    }
+  ]
+}

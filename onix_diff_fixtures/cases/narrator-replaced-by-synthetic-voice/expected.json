@@ -1,0 +1,62 @@
+{
+  "id": "narrator-replaced-by-synthetic-voice",
+  "title": "Narrator marked as a synthetic voice",
+  "description": "One narrator's part was read by a synthetic voice based on his real voice: the contributor gets unnamed_persons 08, loses his name parts, and the name becomes voice_name.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "person_name",
+        "names_before_key",
+        "key_names",
+        "unnamed_persons",
+        "ai_voice_description",
+        "voice_name"
+      ],
+      "before": {
+        "id": 514510,
+        "number": 5,
+        "role": "E07",
+        "role_name": "READ_BY",
+        "from_language": null,
+        "person_name": "Krzysztof Zatryb",
+        "titles_before_names": null,
+        "names_before_key": "Krzysztof",
+        "prefix_to_key": null,
+        "key_names": "Zatryb",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 514510,
+        "number": 5,
+        "role": "E07",
+        "role_name": "READ_BY",
+        "from_language": null,
+        "person_name": null,
+        "titles_before_names": null,
+        "names_before_key": null,
+        "prefix_to_key": null,
+        "key_names": null,
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": "08",
+        "ai_voice_description": "Głos syntetyzowany - bazujący na głosie aktora",
+        "voice_name": "Krzysztof Zatryb",
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

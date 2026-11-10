@@ -1,0 +1,16 @@
+{
+  "id": "imprint-renamed",
+  "title": "Imprint renamed",
+  "description": "The publisher renames the imprint 'Wydawnictwo NieZwykłe Zagraniczne' to 'NieZwykłe Światy'. It is the same brand, so imprint_name changes and imprint_id stays.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "imprint_name.changed",
+      "before": "Wydawnictwo NieZwykłe Zagraniczne",
+      "after": "NieZwykłe Światy"
+    }
+  ]
+}

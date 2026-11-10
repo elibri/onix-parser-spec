@@ -1,0 +1,24 @@
+{
+  "id": "exclusive-digital-distributor-removed",
+  "title": "E-book exclusivity ended",
+  "description": "The e-book becomes available to all retailers again.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "sales_restrictions_info.removed",
+      "before": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": null,
+        "outlet_identifier": {
+          "type": "03",
+          "value": "EMP"
+        },
+        "end_date": null
+      }
+    }
+  ]
+}

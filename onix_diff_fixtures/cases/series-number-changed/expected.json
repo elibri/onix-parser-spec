@@ -1,0 +1,25 @@
+{
+  "id": "series-number-changed",
+  "title": "Number within series changed",
+  "description": "The volume number within the series 'Joanna Concejo' changes from 8 to 9.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "series.changed",
+      "changed_fields": [
+        "number_within_series"
+      ],
+      "before": {
+        "name": "Joanna Concejo",
+        "number_within_series": "8"
+      },
+      "after": {
+        "name": "Joanna Concejo",
+        "number_within_series": "9"
+      }
+    }
+  ]
+}

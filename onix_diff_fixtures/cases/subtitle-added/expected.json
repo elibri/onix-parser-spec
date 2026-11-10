@@ -1,0 +1,15 @@
+{
+  "id": "subtitle-added",
+  "title": "Subtitle added",
+  "description": "The subtitle 'Opowieść graficzna' is added.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "subtitle.added",
+      "after": "Opowieść graficzna"
+    }
+  ]
+}

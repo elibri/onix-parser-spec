@@ -1,0 +1,48 @@
+{
+  "id": "price-removed",
+  "title": "Price removed",
+  "description": "The price of a pre-order book is cleared until it is set again. Without a price there is no supply detail at all.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "supply_details.removed",
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL7790000847",
+          "name": "REBIS",
+          "website": null
+        },
+        "product_availability": "21",
+        "product_availability_name": "IN_STOCK",
+        "supplier_own_coding": null,
+        "on_hand": 500,
+        "proximity": "07",
+        "proximity_name": "MORE_THAN",
+        "pack_quantity": 10,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 99.0,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": "02",
+            "printed_on_product_name": "YES",
+            "position_on_product": "00",
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mobi-format-dropped",
+  "title": "MOBI format dropped",
+  "description": "The e-book is no longer offered as MOBI: the MOBI master file and MOBI excerpt are removed, only EPUB remains.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "product_form_details.removed",
+      "before": "E127"
+    },
+    {
+      "type": "excerpt_infos.removed",
+      "before": {
+        "id": 366960,
+        "file_type": "mobi_excerpt",
+        "file_size": 4877859,
+        "md5": "92ae53829b2e466a6ff4df06d81951ba",
+        "link": "https://www.elibri.com.pl/excerpt/366960/92ae53829b2e466a6ff4df06d81951ba/klamcy-tacy-jak-my-fragment.mobi",
+        "updated_at": "2026-10-02T08:03:00Z"
+      }
+    },
+    {
+      "type": "file_infos.removed",
+      "before": {
+        "id": 366959,
+        "file_type": "mobi",
+        "file_size": 6014616,
+        "md5": "6b18a0843865095330c207daeb190ccb",
+        "updated_at": "2026-10-02T08:03:00Z"
+      }
+    }
+  ]
+}

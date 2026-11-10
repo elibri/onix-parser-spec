@@ -1,0 +1,15 @@
+{
+  "id": "thickness-removed",
+  "title": "Wrong thickness removed",
+  "description": "The thickness of 1300 mm was obviously wrong; the publisher clears the field.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "thickness.removed",
+      "before": 1300
+    }
+  ]
+}

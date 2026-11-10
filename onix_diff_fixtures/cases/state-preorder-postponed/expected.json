@@ -1,0 +1,16 @@
+{
+  "id": "state-preorder-postponed",
+  "title": "Premiere postponed indefinitely",
+  "description": "The publisher postpones a pre-order book with no new date: its state changes from preorder to indefinitely_postponed.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "preorder",
+      "after": "indefinitely_postponed"
+    }
+  ]
+}

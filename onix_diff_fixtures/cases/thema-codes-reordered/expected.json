@@ -1,0 +1,10 @@
+{
+  "id": "thema-codes-reordered",
+  "title": "Thema codes reordered",
+  "description": "The editor changes the order of the Thema codes in the panel, so thema_subjects come in a different order. The order of a list is never a change, so nothing is reported.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": []
+}

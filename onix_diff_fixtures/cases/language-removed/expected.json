@@ -1,0 +1,20 @@
+{
+  "id": "language-removed",
+  "title": "Original language removed",
+  "description": "Of the two languages (Polish text, French original), the language of the original is removed.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "languages.removed",
+      "before": {
+        "role": "02",
+        "role_name": "LANGUAGE_OF_ORIGINAL",
+        "code": "fre",
+        "language": "francuski"
+      }
+    }
+  ]
+}

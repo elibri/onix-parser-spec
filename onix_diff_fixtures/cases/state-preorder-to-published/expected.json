@@ -1,0 +1,16 @@
+{
+  "id": "state-preorder-to-published",
+  "title": "Pre-order book goes on sale",
+  "description": "On the premiere date a pre-order book goes on sale: its state changes from preorder to published.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "preorder",
+      "after": "published"
+    }
+  ]
+}

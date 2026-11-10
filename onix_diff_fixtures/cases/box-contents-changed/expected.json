@@ -1,0 +1,27 @@
+{
+  "id": "box-contents-changed",
+  "title": "Box contents changed",
+  "description": "The list of what is in the box (list_of_contents) gets an extra item.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "list_of_contents.changed",
+      "changed_fields": [
+        "text"
+      ],
+      "before": {
+        "id": null,
+        "text": "plansza, 55 kart, pionki, kostka, instrukcja",
+        "text_eng": null
+      },
+      "after": {
+        "id": null,
+        "text": "plansza, 55 kart, pionki, kostka, instrukcja, klepsydra",
+        "text_eng": null
+      }
+    }
+  ]
+}

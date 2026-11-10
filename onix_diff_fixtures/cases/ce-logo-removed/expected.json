@@ -1,0 +1,16 @@
+{
+  "id": "ce-logo-removed",
+  "title": "CE logo unmarked",
+  "description": "The 'carries CE logo' box is unticked (carries_ce_logo).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "carries_ce_logo.changed",
+      "before": true,
+      "after": false
+    }
+  ]
+}

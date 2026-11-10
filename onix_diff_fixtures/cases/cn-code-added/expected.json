@@ -1,0 +1,15 @@
+{
+  "id": "cn-code-added",
+  "title": "Customs code added",
+  "description": "The Combined Nomenclature code 4901 (printed books) is filled in (cn_code).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "cn_code.added",
+      "after": "4901"
+    }
+  ]
+}

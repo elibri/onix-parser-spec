@@ -1,0 +1,29 @@
+{
+  "id": "publication-language-changed",
+  "title": "Language of the text changed",
+  "description": "The language of the text changes from Polish to English. The languages entry with role 01 has another code, so it is removed + added.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "languages.removed",
+      "before": {
+        "role": "01",
+        "role_name": "LANGUAGE_OF_TEXT",
+        "code": "pol",
+        "language": "polski"
+      }
+    },
+    {
+      "type": "languages.added",
+      "after": {
+        "role": "01",
+        "role_name": "LANGUAGE_OF_TEXT",
+        "code": "eng",
+        "language": "angielski"
+      }
+    }
+  ]
+}

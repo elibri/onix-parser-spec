@@ -1,0 +1,15 @@
+{
+  "id": "facsimile-linked",
+  "title": "E-book edition linked",
+  "description": "The printed book is linked with its e-book edition as the same work; the e-book's record reference is added to alternative_format_record_references.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "alternative_format_record_references.added",
+      "after": "7d6c25db7d0624eac69b"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "audience-age-changed",
+  "title": "Target age lowered",
+  "description": "The audience age range starts at 6 instead of 7 years.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "reading_age_from.changed",
+      "before": 7,
+      "after": 6
+    }
+  ]
+}

@@ -24,7 +24,7 @@ onix_parser_fixtures/
 ├── code_lists.json         the ONIX code lists behind the *_name fields
 ├── cases.json              index: id, title and source of every case
 └── cases/
-    └── 051-audiobook/
+    └── audiobook/
         ├── onix.xml        the ONIX message
         └── expected.json   what the parser must return
 ```
@@ -55,36 +55,38 @@ The ONIX is produced by the real ONIX generator of elibri, in the dialect the AP
 sends to clients (header `X-eLibri-API-ONIX-dialect: 3.0.2`): ONIX for Books 3.1,
 namespace `http://ns.editeur.org/onix/3.1/reference`, without Elibri extensions.
 
-- **001–047** are synthetic records, one ONIX feature each.
-- **048–086** are real products: a printed picture book, a pre-order history book,
+`source.kind` in `cases.json` says what each case is made from:
+
+- **`example`**: synthetic records, one ONIX feature each (the `example-*` cases).
+- **`record`**: real products: a printed picture book, a pre-order history book,
   an EPUB+MOBI e-book, an MP3 audiobook, a board game, a jigsaw puzzle, a road
-  map and an open-access e-book. Most cases change the product first, to show one feature. Links point to
-  `https://www.elibri.com.pl`.
-- **087–091** are whole messages: three products in one message, the ONIX 3.0
+  map and an open-access e-book. Most cases change the product first, to show one
+  feature. Links point to `https://www.elibri.com.pl`. Among them are
+  contributors with only an ISNI, only a VIAF, or identified in different ways
+  (see also `example-contributor-identifiers` and `contributor-authority`, which
+  have both); cycles, that is the collection level of the title (a part that is
+  not a number, no part number, a cycle next to a series with another name, a
+  cycle name ending with a dot); fields no other case fills (a DOI, a short
+  collection description); and AI voices as narrators (the marker alone,
+  `UnnamedPersons` `07`, a named male voice `05` and a named female voice `06`; a
+  voice cloned from a real person, `08`, is in `example-cloned-ai-voice` and
+  `synthetic-voice-narrator`, a male voice without a name in `example-ai-voice`).
+- **`message`**: whole messages: three products in one message, the ONIX 3.0
   namespace, the same record without indentation and with escaped HTML, elements
   the parser does not know, and a message without products.
-- **092–094** are contributor identifiers on real products: a contributor with
-  only an ISNI, one with only a VIAF, and three contributors each identified
-  differently (see also 027 and 060, which have both).
-- **095–098** are cycles (the collection level of the title): a part that is
-  not a number, no part number, a cycle next to a series with another name, and
-  a cycle name ending with a dot (see also 023, 050, 051 and 074).
-- **099–100** are fields no other case fills: a DOI and a short collection
-  description.
-- **101** is case 097 with the cycle's `PartNumber` in the level `01` element
-  instead of level `02`; its output is the same.
-- **102–104** are AI voices as narrators: the marker alone (`UnnamedPersons` `07`),
-  a named male voice (`05`) and a named female voice (`06`). A voice cloned from a
-  real person (`08`) is in 031 and 062; a male voice without a name is in 030.
-- **105** is case 049 with `ProductRelationCode` `06` instead of `24`; its output
-  is the same.
+
+Two cases differ from another case only in the form of the ONIX and parse the
+same: `cycle-part-in-product-level-element` is `cycle-and-series` with the
+cycle's `PartNumber` in the level `01` element instead of level `02`, and
+`alternative-format-relation-code` is `preorder-book` with `ProductRelationCode`
+`06` instead of `24`.
 
 ## Parsing rules
 
 ### XML
 
 - Parse the XML and **ignore namespaces**: elements are identified by local
-  name. Messages come in the 3.1 namespace, but older ones use 3.0 (case 088).
+  name. Messages come in the 3.1 namespace, but older ones use 3.0 (case `onix-30-namespace`).
 - `message.release` is the `release` attribute of `<ONIXMessage>`.
 - Every `<Product>` that is a direct child of `<ONIXMessage>` becomes one entry of
   `products`, in document order.
@@ -98,10 +100,10 @@ namespace `http://ns.editeur.org/onix/3.1/reference`, without Elibri extensions.
 - **Text value:** the text content of the element (CDATA and escaped text are the
   same thing), with XML whitespace (space, tab, CR, LF) stripped from both
   ends. Inner whitespace and other Unicode spaces are kept. HTML in texts stays
-  as it is (a string, not parsed). Case 089 is case 050 written without
-  indentation and with escaped HTML; the results are the same.
+  as it is (a string, not parsed). Case `reformatted` is case `ebook` written
+  without indentation and with escaped HTML; the results are the same.
 - An element that is not there gives `null`. An empty element gives `""`.
-- Unknown elements are ignored (case 090).
+- Unknown elements are ignored (case `unknown-elements`).
 
 ### Value types
 
@@ -228,7 +230,7 @@ from the description: the text is split at the first `-`, the part before is
 
 ### Collections and titles
 
-A *title detail* is a `TitleDetail` directly in `DescriptiveDetail`: its `TitleType` is its type, and each `TitleElement` has a `level` (`TitleElementLevel`), `title` (`TitleText`), `subtitle` (`Subtitle`), `part_number` (`PartNumber`) and `language` (`language` attribute of `TitleText`). If the element of level `01` has a `PartNumber`, the element of level `02` exists and has none, the number belongs to level `02`: both places parse the same (cases 097 and 101).
+A *title detail* is a `TitleDetail` directly in `DescriptiveDetail`: its `TitleType` is its type, and each `TitleElement` has a `level` (`TitleElementLevel`), `title` (`TitleText`), `subtitle` (`Subtitle`), `part_number` (`PartNumber`) and `language` (`language` attribute of `TitleText`). If the element of level `01` has a `PartNumber`, the element of level `02` exists and has none, the number belongs to level `02`: both places parse the same (cases `cycle-and-series` and `cycle-part-in-product-level-element`).
 
 | field | source / rule |
 |---|---|
@@ -343,7 +345,7 @@ Under `PublishingDetail`.
 **Sales restrictions and premiere** (elibriPHP behaviour, kept on purpose):
 while a book is sold exclusively by one retailer, everyone else gets it when the
 exclusivity ends. So when `sales_restrictions_info.end_date` is set, `premiere`
-is that date. `publishing_date` keeps the real publication date (case 070).
+is that date. `publishing_date` keeps the real publication date (case `printed-book-exclusive-retailer`).
 
 `current_state`:
 
@@ -359,7 +361,7 @@ is that date. `publishing_date` keeps the real publication date (case 070).
 
 | field | source / rule |
 |---|---|
-| `alternative_format_record_references` | the record references of the same book in other formats (e-book, audiobook, printed book): for every `RelatedMaterial/RelatedProduct` with `ProductRelationCode` `06` or `24`, `IDValue` of its `ProductIdentifier`s with `ProductIDType` `01`. Elibri currently sends `24`; both codes parse the same (cases 049 and 105) |
+| `alternative_format_record_references` | the record references of the same book in other formats (e-book, audiobook, printed book): for every `RelatedMaterial/RelatedProduct` with `ProductRelationCode` `06` or `24`, `IDValue` of its `ProductIdentifier`s with `ProductIDType` `01`. Elibri currently sends `24`; both codes parse the same (cases `preorder-book` and `alternative-format-relation-code`) |
 | `file_infos` | every `ProductionDetail/ProductionManifest/BodyManifest/BodyResource` (master files): `id` (`IDValue` of the `ResourceIdentifier` with `ResourceIDType` `01`), `file_type` (extension of `ResourceFileLink`; `zip` → `mp3_in_zip`), `file_size` / `md5` (`ResourceFileFeatureValue` of the `ResourceFileFeature` of type `07` / `06`), `updated_at` (`Date` of the `ResourceFileDate` with role `17`) |
 
 ### Supply and prices
@@ -404,18 +406,18 @@ exists in both, these are the differences:
 
 | what | elibriPHP | fixtures | cases |
 |---|---|---|---|
-| e-book exclusive to a retailer (`SalesOutletIdentifier`, no `EndDate`) | throws | `outlet_identifier`, `end_date` null | 069 |
-| `title`, `original_title` with several title details of a type | the last one | the first one; an English one goes to `title_eng` | 055, 056 |
-| keywords in several languages | first `SubjectHeadingText` only | all of them | 057 |
-| spaces around keywords (`"przebudzenie "`) and heading texts | kept | stripped | 048, 053 … |
-| alternative names of a `CorporateName` subject | lost | read | 059 |
-| identifiers of related products | added to the product's `proprietary_identifiers` | ignored (direct children only) | 041, 049 … |
-| master file in a ZIP | `file_type` null (`==` instead of `=`) | `mp3_in_zip` | 051 … |
-| `PartNumber` of a cycle in the level `01` element | `collection_part` null | `collection_part_number` as if it were in level `02` | 101 |
-| `series` | list of `[title, part]` pairs | list of `{name, number_within_series}` | 024, 048 … |
-| `supporting_resources` | every resource | without front covers (in `front_cover`) and excerpts of e-books and audiobooks (in `excerpt_infos`) | 015, 040, 048 … |
+| e-book exclusive to a retailer (`SalesOutletIdentifier`, no `EndDate`) | throws | `outlet_identifier`, `end_date` null | `ebook-exclusive-retailer` |
+| `title`, `original_title` with several title details of a type | the last one | the first one; an English one goes to `title_eng` | `open-access-book`, `english-title` |
+| keywords in several languages | first `SubjectHeadingText` only | all of them | `english-keywords` |
+| spaces around keywords (`"przebudzenie "`) and heading texts | kept | stripped | `printed-book`, `puzzle` … |
+| alternative names of a `CorporateName` subject | lost | read | `names-as-subject` |
+| identifiers of related products | added to the product's `proprietary_identifiers` | ignored (direct children only) | `example-related-products`, `preorder-book` … |
+| master file in a ZIP | `file_type` null (`==` instead of `=`) | `mp3_in_zip` | `audiobook` … |
+| `PartNumber` of a cycle in the level `01` element | `collection_part` null | `collection_part_number` as if it were in level `02` | `cycle-part-in-product-level-element` |
+| `series` | list of `[title, part]` pairs | list of `{name, number_within_series}` | `example-series-memberships`, `printed-book` … |
+| `supporting_resources` | every resource | without front covers (in `front_cover`) and excerpts of e-books and audiobooks (in `excerpt_infos`) | `example-ebook-with-files`, `example-supporting-resources`, `printed-book` … |
 | `FromLanguage` | read only for translators | read for every role | – |
-| a `SupplyDetail` without a price | `prices` null (PHP warning) | `[]` | 055 |
+| a `SupplyDetail` without a price | `prices` null (PHP warning) | `[]` | `open-access-book` |
 | types | numbers and codes as strings, some codes as ints (`proximity` 3), floats/ints chosen per field, dates as `DateTime` | see [Value types](#value-types) | all |
 
 Fields the fixtures add (elibriPHP does not parse them): `onix_product_form`,

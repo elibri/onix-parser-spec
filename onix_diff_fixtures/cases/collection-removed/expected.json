@@ -1,0 +1,19 @@
+{
+  "id": "collection-removed",
+  "title": "Cycle removed from the title",
+  "description": "The product is taken out of its cycle: collection_title and collection_part_number disappear; the title stays.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "collection_title.removed",
+      "before": "Cukierku, Ty łobuzie"
+    },
+    {
+      "type": "collection_part_number.removed",
+      "before": "1"
+    }
+  ]
+}

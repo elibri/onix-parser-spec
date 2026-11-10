@@ -1,0 +1,15 @@
+{
+  "id": "players-number-made-single",
+  "title": "Range of players replaced by a single value",
+  "description": "The game turns out to be for exactly 2 players: players_number_to disappears and players_number_from stays 2.",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "players_number_to.removed",
+      "before": 5
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "publishing-sheets-added",
+  "title": "Length in publishing sheets added",
+  "description": "The length of the text is given as 12.5 publishing sheets, that is 500 000 characters (number_of_characters).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "number_of_characters.added",
+      "after": 500000
+    }
+  ]
+}

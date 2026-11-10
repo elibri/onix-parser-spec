@@ -1,0 +1,20 @@
+{
+  "id": "thema-code-removed",
+  "title": "Thema qualifier removed",
+  "description": "An editor removes the Thema qualifier 5LK (relating to adulthood) from a children's book.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "thema_subjects.removed",
+      "before": {
+        "code": "5LK",
+        "heading_texts": [
+          "Kwalifikatory grup docelowych i okolicznościowe / Związane z etapami życia / Dotyczący dorosłości"
+        ]
+      }
+    }
+  ]
+}

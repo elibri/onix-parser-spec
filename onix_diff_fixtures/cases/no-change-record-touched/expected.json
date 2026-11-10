@@ -1,0 +1,10 @@
+{
+  "id": "no-change-record-touched",
+  "title": "Record saved without changes",
+  "description": "A contributor and a text are saved without any change in content. Only their datestamps move, and datestamps are not compared.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": []
+}

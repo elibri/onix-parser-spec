@@ -1,0 +1,16 @@
+{
+  "id": "audiobook-duration-changed",
+  "title": "Audiobook duration corrected",
+  "description": "The audiobook duration is corrected from 59 to 61 minutes.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "duration.changed",
+      "before": 59,
+      "after": 61
+    }
+  ]
+}

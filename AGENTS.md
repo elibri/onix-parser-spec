@@ -8,9 +8,10 @@ Build two programs that read the ONIX for Books messages sent by the Elibri API
 - **differ**: two versions of one product's ONIX → the list of changes as JSON.
   Spec: `onix_diff_fixtures/README.md`.
 
-They are independent: the differ compares XML items, never parser output, so
-each can be built, tested and shipped alone. Use the language you were asked
-for, and keep the code outside the two fixture folders.
+The differ is built on the parser: it parses both versions and compares the two
+parsed products, so its changes use the parser's field names and values. Build
+and pass the parser first. Use the language you were asked for, and keep the
+code outside the two fixture folders.
 
 ## The contract
 
@@ -22,13 +23,13 @@ in the README; a case only exercises one.
 | parser | Layout, Using the cases as tests, Parsing rules, Output | Where the data comes from, Differences from elibriPHP |
 | differ | Layout, Comparison rules, Using the cases as tests, Change types in the cases | Where the data comes from |
 
-The code derives everything from the ONIX content and, for the parser,
-`code_lists.json`. It must work on records it has never seen, so case ids,
+The code derives everything from the ONIX content and `code_lists.json`. It must work on records it has never seen, so case ids,
 record references and file names stay out of it.
 
 ## Steps
 
-Do these for each component you were asked to build.
+Do these for each component you were asked to build; for the differ, after the
+parser passes.
 
 1. **Read the normative sections in full** before writing code. Done when you
    can name the rule behind any field of an `expected.json` you open.

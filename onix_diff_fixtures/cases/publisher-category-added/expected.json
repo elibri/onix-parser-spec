@@ -1,0 +1,18 @@
+{
+  "id": "publisher-category-added",
+  "title": "Second publisher's category added",
+  "description": "The publisher puts the book into a second category of its own classification.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "publisher_categories.added",
+      "after": {
+        "code": "869",
+        "name": "Album"
+      }
+    }
+  ]
+}

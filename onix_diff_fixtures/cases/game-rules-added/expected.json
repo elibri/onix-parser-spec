@@ -1,0 +1,26 @@
+{
+  "id": "game-rules-added",
+  "title": "Game rules PDF added",
+  "description": "The rules of the board game are uploaded as a PDF (a supporting_resources entry with content_type 46 and mode 04, text).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "supporting_resources.added",
+      "after": {
+        "id": 900000001,
+        "content_type": "46",
+        "content_type_name": "RULES_OR_INSTRUCTIONS",
+        "mode": "04",
+        "mode_name": "TEXT",
+        "form": "02",
+        "form_name": "DOWNLOADABLE_FILE",
+        "link": "https://www.elibri.com.pl/attachments/e6228c7e53a8c7b48f6c/900000001/original.pdf",
+        "md5": "e4d909c290d0fb1ca068ffaddf22cbd0",
+        "file_size": 233918
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "contributor-re-entered",
+  "title": "Author deleted and entered again",
+  "description": "Contributors are listed in the order they were entered. The editor deletes the author and enters him again, so he moves to the end. He has a new contributor id, so he is removed + added, even though the person is the same; the two others move up in number.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "number"
+      ],
+      "before": {
+        "id": 513211,
+        "number": 2,
+        "role": "A12",
+        "role_name": "ILLUSTRATOR",
+        "from_language": null,
+        "person_name": "Joanna Concejo",
+        "titles_before_names": null,
+        "names_before_key": "Joanna",
+        "prefix_to_key": null,
+        "key_names": "Concejo",
+        "names_after_key": null,
+        "biographical_note": "<p>Joanna Concejo – urodziła się w 1971 roku w Słupsku, studiowała na Akademii Sztuk Pięknych w Poznaniu, na Wydziale Grafiki. W 1998 roku z dyplomem z rysunku i ilustracji w kieszeni osiadła na stałe we Francji. Po raz pierwszy jako artystka została zauważona dzięki instalacjom w 2002 roku, kiedy to została zaproszona do udziału w Busan Biennale w Korei. Rok później pokazała swoje prace na wystawie sztuki współczesnej w Chelles (we Francji). W następnych latach odbyło się kilka wystaw jej prac (w Berlinie, w Paryżu). W 2004 roku wysłała swoje rysunki na Międzynarodowe Targi Książki dla Dzieci w Bolonii i została zakwalifikowana na wystawę ilustratorów – to był początek jej pracy w dziedzinie ilustracji książkowej. Uczestniczyła w wielu wystawach zbiorowych, miała wystawy indywidualne: w Bolonii, w Lizbonie, w Seulu, w Paryżu, w Oxfordzie. Joanna Concejo współpracuje regularnie z Le Petit Atelier de Paris (projektowanie użytkowe, ceramika) oraz ze szkołą ilustracji Fabbrica delle Favole – Macerata/Włochy. Laureatka wyróżnienia Bologna Ragazzi Award. Jej książki ukazały się w ponad 20 krajach.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 513211,
+        "number": 1,
+        "role": "A12",
+        "role_name": "ILLUSTRATOR",
+        "from_language": null,
+        "person_name": "Joanna Concejo",
+        "titles_before_names": null,
+        "names_before_key": "Joanna",
+        "prefix_to_key": null,
+        "key_names": "Concejo",
+        "names_after_key": null,
+        "biographical_note": "<p>Joanna Concejo – urodziła się w 1971 roku w Słupsku, studiowała na Akademii Sztuk Pięknych w Poznaniu, na Wydziale Grafiki. W 1998 roku z dyplomem z rysunku i ilustracji w kieszeni osiadła na stałe we Francji. Po raz pierwszy jako artystka została zauważona dzięki instalacjom w 2002 roku, kiedy to została zaproszona do udziału w Busan Biennale w Korei. Rok później pokazała swoje prace na wystawie sztuki współczesnej w Chelles (we Francji). W następnych latach odbyło się kilka wystaw jej prac (w Berlinie, w Paryżu). W 2004 roku wysłała swoje rysunki na Międzynarodowe Targi Książki dla Dzieci w Bolonii i została zakwalifikowana na wystawę ilustratorów – to był początek jej pracy w dziedzinie ilustracji książkowej. Uczestniczyła w wielu wystawach zbiorowych, miała wystawy indywidualne: w Bolonii, w Lizbonie, w Seulu, w Paryżu, w Oxfordzie. Joanna Concejo współpracuje regularnie z Le Petit Atelier de Paris (projektowanie użytkowe, ceramika) oraz ze szkołą ilustracji Fabbrica delle Favole – Macerata/Włochy. Laureatka wyróżnienia Bologna Ragazzi Award. Jej książki ukazały się w ponad 20 krajach.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    },
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "number"
+      ],
+      "before": {
+        "id": 513212,
+        "number": 3,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "fre",
+        "person_name": "Dorota Hartwich",
+        "titles_before_names": null,
+        "names_before_key": "Dorota",
+        "prefix_to_key": null,
+        "key_names": "Hartwich",
+        "names_after_key": null,
+        "biographical_note": "<p>Dorota Hartwich</p>\n<p>Autorka, Tłumaczka</p>\n<p>Z wykształcenia romanistka, studiowała literaturę francuską i filozofię na Uniwersytecie Wrocławskim oraz na Uniwersytecie Charles’a de Gaulle’a w Lille, we Francji. Redaktorka, wydawczyni, tłumaczka, krytyczka sztuki. Autorka kilku książek dla dzieci oraz powieści biograficznej \\\"\"Gattora. Życie Leonor Fini\\\"\". Z francuskiego przełożyła m.in. powieści Emmanuelle Pagano, Sophie Daull, Gaëlle Josse, Isabelle Wéry, teksty Tomiego Ungerera, Bernarda Friota, Laëtitii Bourget, Jeana-François Martina. Członkini The International Association of Art Critics (AICA), mianowana przez Ministra Kultury Francji Kawalerem Orderu Sztuki i Literatury.‍</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 513212,
+        "number": 2,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "fre",
+        "person_name": "Dorota Hartwich",
+        "titles_before_names": null,
+        "names_before_key": "Dorota",
+        "prefix_to_key": null,
+        "key_names": "Hartwich",
+        "names_after_key": null,
+        "biographical_note": "<p>Dorota Hartwich</p>\n<p>Autorka, Tłumaczka</p>\n<p>Z wykształcenia romanistka, studiowała literaturę francuską i filozofię na Uniwersytecie Wrocławskim oraz na Uniwersytecie Charles’a de Gaulle’a w Lille, we Francji. Redaktorka, wydawczyni, tłumaczka, krytyczka sztuki. Autorka kilku książek dla dzieci oraz powieści biograficznej \\\"\"Gattora. Życie Leonor Fini\\\"\". Z francuskiego przełożyła m.in. powieści Emmanuelle Pagano, Sophie Daull, Gaëlle Josse, Isabelle Wéry, teksty Tomiego Ungerera, Bernarda Friota, Laëtitii Bourget, Jeana-François Martina. Członkini The International Association of Art Critics (AICA), mianowana przez Ministra Kultury Francji Kawalerem Orderu Sztuki i Literatury.‍</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    },
+    {
+      "type": "contributors.removed",
+      "before": {
+        "id": 513210,
+        "number": 1,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "Gilles Baum",
+        "titles_before_names": null,
+        "names_before_key": "Gilles",
+        "prefix_to_key": null,
+        "key_names": "Baum",
+        "names_after_key": null,
+        "biographical_note": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    },
+    {
+      "type": "contributors.added",
+      "after": {
+        "id": 900000001,
+        "number": 3,
+        "role": "A01",
+        "role_name": "AUTHOR",
+        "from_language": null,
+        "person_name": "Gilles Baum",
+        "titles_before_names": null,
+        "names_before_key": "Gilles",
+        "prefix_to_key": null,
+        "key_names": "Baum",
+        "names_after_key": null,
+        "biographical_note": "<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francji. Po ukończeniu studiów matematycznych rozpoczął pracę nauczyciela w szkole podstawowej. Swoje pierwsze teksty dla dzieci pisał po kryjomu, w zaciszu własnej kuchni. Jest autorem ponad trzydziestu książek obrazkowych, dwóch powieści oraz czterech sztuk teatralnych. Za książkę<strong>„Fechamos”</strong>(z ilustracjami Régisa Lejonca), otrzymał wyróżnienie jury Targów Książki Dziecięcej w Bolonii w 2022 roku. „Dokąd wędrują kamyki” to pierwsza książka stworzona z Joanną Concejo, a zarazem pierwsza książka autora wydana w Polsce.</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

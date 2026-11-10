@@ -1,0 +1,27 @@
+{
+  "id": "short-description-changed",
+  "title": "Short description edited",
+  "description": "The short description is rewritten (short_description.text).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "short_description.changed",
+      "changed_fields": [
+        "text"
+      ],
+      "before": {
+        "id": 320205,
+        "text": "<p><strong>Tim Weiner, laureat Nagrody Pulitzera, przedstawia fascynującą historię CIA w XXI wieku</strong></p>",
+        "text_eng": null
+      },
+      "after": {
+        "id": 320205,
+        "text": "<p>Najnowsza historia CIA od zamachów z 11 września do wojny w Ukrainie.</p>",
+        "text_eng": null
+      }
+    }
+  ]
+}

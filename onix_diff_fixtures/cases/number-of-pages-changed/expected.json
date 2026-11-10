@@ -1,0 +1,16 @@
+{
+  "id": "number-of-pages-changed",
+  "title": "Number of pages changed",
+  "description": "The page count is corrected from 64 to 72.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "number_of_pages.changed",
+      "before": 64,
+      "after": 72
+    }
+  ]
+}

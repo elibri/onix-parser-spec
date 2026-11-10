@@ -1,0 +1,29 @@
+{
+  "id": "thema-main-code-replaced",
+  "title": "Thema main subject replaced with a more specific one",
+  "description": "The broad Thema category NH (History) is replaced with NHD (European history).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "thema_subjects.removed",
+      "before": {
+        "code": "NH",
+        "heading_texts": [
+          "Historia i archeologia / Historia"
+        ]
+      }
+    },
+    {
+      "type": "thema_subjects.added",
+      "after": {
+        "code": "NHD",
+        "heading_texts": [
+          "Historia i archeologia / Historia / Historia Europy"
+        ]
+      }
+    }
+  ]
+}

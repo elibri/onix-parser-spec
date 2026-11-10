@@ -1,0 +1,16 @@
+{
+  "id": "players-number-changed",
+  "title": "Number of players changed",
+  "description": "A board game is now for 2-6 players instead of 2-5 (players_number_to).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "players_number_to.changed",
+      "before": 5,
+      "after": 6
+    }
+  ]
+}

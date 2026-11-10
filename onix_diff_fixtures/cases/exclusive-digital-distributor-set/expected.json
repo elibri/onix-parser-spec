@@ -1,0 +1,24 @@
+{
+  "id": "exclusive-digital-distributor-set",
+  "title": "E-book made exclusive to one retailer",
+  "description": "The e-book becomes available only through one retailer (exclusive digital distribution).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "sales_restrictions_info.added",
+      "after": {
+        "type": "04",
+        "type_name": "RETAILER_EXCLUSIVE",
+        "outlet_name": null,
+        "outlet_identifier": {
+          "type": "03",
+          "value": "EMP"
+        },
+        "end_date": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "open-access-licence-changed",
+  "title": "Open-access licence changed",
+  "description": "The Creative Commons licence of an open-access book changes from CC BY 4.0 to CC BY-NC 4.0 (epub_license).",
+  "product": {
+    "kind": "open_access_book",
+    "record_reference": "265a6c79a122a571d996"
+  },
+  "changes": [
+    {
+      "type": "epub_license.changed",
+      "changed_fields": [
+        "name",
+        "link"
+      ],
+      "before": {
+        "name": "Creative Commons Uznanie autorstwa 4.0 (CC BY 4.0)",
+        "link": "https://creativecommons.org/licenses/by/4.0/deed.pl"
+      },
+      "after": {
+        "name": "Creative Commons Uznanie autorstwa - Użycie niekomercyjne 4.0 (CC BY-NC 4.0)",
+        "link": "https://creativecommons.org/licenses/by-nc/4.0/deed.pl"
+      }
+    }
+  ]
+}

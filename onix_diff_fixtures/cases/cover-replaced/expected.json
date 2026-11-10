@@ -1,0 +1,32 @@
+{
+  "id": "cover-replaced",
+  "title": "Cover image replaced",
+  "description": "The publisher uploads a new cover: front_cover gets a new id, link, md5 and file_size.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "front_cover.changed",
+      "changed_fields": [
+        "id",
+        "link",
+        "md5",
+        "file_size"
+      ],
+      "before": {
+        "id": 480045,
+        "link": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg",
+        "md5": "119c3a871ef1e47860f5f9f7b40d3122",
+        "file_size": 660092
+      },
+      "after": {
+        "id": 900000001,
+        "link": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-5f0c3d2a9b8e7f6a1c2d3e4f5a6b7c8d/original.jpg",
+        "md5": "5f0c3d2a9b8e7f6a1c2d3e4f5a6b7c8d",
+        "file_size": 1204331
+      }
+    }
+  ]
+}

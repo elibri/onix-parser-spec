@@ -1,0 +1,15 @@
+{
+  "id": "english-title-added",
+  "title": "English title added",
+  "description": "The English version of the title is filled in (title_eng).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "title_eng.added",
+      "after": "Where Do Pebbles Go"
+    }
+  ]
+}

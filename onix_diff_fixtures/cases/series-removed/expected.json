@@ -1,0 +1,18 @@
+{
+  "id": "series-removed",
+  "title": "Series removed",
+  "description": "The e-book is taken out of the series 'Morally Gray' (volume 1).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "series.removed",
+      "before": {
+        "name": "Morally Gray",
+        "number_within_series": "1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dimensions-changed",
+  "title": "Book dimensions corrected",
+  "description": "Height changes from 225 mm to 215 mm and width from 150 mm to 145 mm.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "height.changed",
+      "before": 225,
+      "after": 215
+    },
+    {
+      "type": "width.changed",
+      "before": 150,
+      "after": 145
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "ebook-metadata-refreshed",
+  "title": "E-book metadata refreshed for a promotion",
+  "description": "Before a promotion the publisher corrects the title, appends a sentence to the description, adds a Thema code (FRH) and a keyword, and raises the price to 49.90 PLN.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "title.changed",
+      "before": "Kłamcy tacy jak my",
+      "after": "Kłamcy, tacy jak my"
+    },
+    {
+      "type": "thema_subjects.added",
+      "after": {
+        "code": "FRH",
+        "heading_texts": [
+          "Proza fabularna / Romans / Romans historyczny"
+        ]
+      }
+    },
+    {
+      "type": "keywords.added",
+      "after": "mafia"
+    },
+    {
+      "type": "description.changed",
+      "changed_fields": [
+        "text"
+      ],
+      "before": {
+        "id": 319378,
+        "text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p>\n<p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p>\n<p>Obsesja tak potężna, że może zniszczyć oboje.</p>\n<p>Seks.</p>\n<p>Kłamstwa.</p>\n<p>Tajemnice.</p>\n<p>Namiętność.</p>\n<p>Callum McCord zawsze dostaje to, czego pragnie.</p>\n<p>Osiąga cele za wszelką cenę.</p>\n<p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p>\n<p>Opis pochodzi od Wydawcy.</p>",
+        "text_eng": null
+      },
+      "after": {
+        "id": 319378,
+        "text": "<p>Młoda kobieta stojąca na skraju bankructwa.</p> <p>Tajemniczy miliarder składający propozycję, która odmieni jej życie.</p> <p>Obsesja tak potężna, że może zniszczyć oboje.</p> <p>Seks.</p> <p>Kłamstwa.</p> <p>Tajemnice.</p> <p>Namiętność.</p> <p>Callum McCord zawsze dostaje to, czego pragnie.</p> <p>Osiąga cele za wszelką cenę.</p> <p>Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia.</p> <p>Opis pochodzi od Wydawcy.</p> <p><strong>Pierwszy tom serii Morally Gray.</strong></p>",
+        "text_eng": null
+      }
+    },
+    {
+      "type": "supply_details.changed",
+      "changed_fields": [
+        "prices.0.amount"
+      ],
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL6762445293",
+          "name": "Wydawnictwo NieZwykłe",
+          "website": null
+        },
+        "product_availability": "20",
+        "product_availability_name": "AVAILABLE",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 46.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      },
+      "after": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL6762445293",
+          "name": "Wydawnictwo NieZwykłe",
+          "website": null
+        },
+        "product_availability": "20",
+        "product_availability_name": "AVAILABLE",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 49.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": null,
+            "price_date_value": null
+          }
+        ]
+      }
+    }
+  ]
+}

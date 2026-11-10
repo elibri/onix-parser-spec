@@ -1,0 +1,29 @@
+{
+  "id": "name-as-subject-added",
+  "title": "People and organisations as subjects added",
+  "description": "The book is about the CIA and about William J. Burns: an organisation (with an alternative name) and a person are added to names_as_subject.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "names_as_subject.added",
+      "after": {
+        "person_name": null,
+        "corporate_name": "Central Intelligence Agency",
+        "alternative_names": [
+          "CIA"
+        ]
+      }
+    },
+    {
+      "type": "names_as_subject.added",
+      "after": {
+        "person_name": "William J. Burns",
+        "corporate_name": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

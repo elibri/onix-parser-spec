@@ -1,0 +1,20 @@
+{
+  "id": "cover-added",
+  "title": "Cover image added",
+  "description": "A product without a cover gets its first cover image.",
+  "product": {
+    "kind": "audiobook",
+    "record_reference": "aa75fe82683a9cdb4b12"
+  },
+  "changes": [
+    {
+      "type": "front_cover.added",
+      "after": {
+        "id": 900000001,
+        "link": "https://www.elibri.com.pl/attachments/aa75fe82683a9cdb4b12/cover-a1b2c3d4e5f60718293a4b5c6d7e8f90/original.jpg",
+        "md5": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+        "file_size": 845112
+      }
+    }
+  ]
+}

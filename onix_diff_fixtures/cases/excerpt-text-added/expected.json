@@ -1,0 +1,19 @@
+{
+  "id": "excerpt-text-added",
+  "title": "Text excerpt added",
+  "description": "A short excerpt from the book is added (excerpts).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "excerpts.added",
+      "after": {
+        "id": 900000001,
+        "text": "<p>Kłamstwo było pierwszym, co nas połączyło.</p>",
+        "text_eng": null
+      }
+    }
+  ]
+}

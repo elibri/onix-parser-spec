@@ -1,0 +1,57 @@
+{
+  "id": "contributor-biography-removed",
+  "title": "Translator biography removed",
+  "description": "The biographical note of the translator is deleted (biographical_note).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "biographical_note"
+      ],
+      "before": {
+        "id": 513212,
+        "number": 3,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "fre",
+        "person_name": "Dorota Hartwich",
+        "titles_before_names": null,
+        "names_before_key": "Dorota",
+        "prefix_to_key": null,
+        "key_names": "Hartwich",
+        "names_after_key": null,
+        "biographical_note": "<p>Dorota Hartwich</p>\n<p>Autorka, Tłumaczka</p>\n<p>Z wykształcenia romanistka, studiowała literaturę francuską i filozofię na Uniwersytecie Wrocławskim oraz na Uniwersytecie Charles’a de Gaulle’a w Lille, we Francji. Redaktorka, wydawczyni, tłumaczka, krytyczka sztuki. Autorka kilku książek dla dzieci oraz powieści biograficznej \\\"\"Gattora. Życie Leonor Fini\\\"\". Z francuskiego przełożyła m.in. powieści Emmanuelle Pagano, Sophie Daull, Gaëlle Josse, Isabelle Wéry, teksty Tomiego Ungerera, Bernarda Friota, Laëtitii Bourget, Jeana-François Martina. Członkini The International Association of Art Critics (AICA), mianowana przez Ministra Kultury Francji Kawalerem Orderu Sztuki i Literatury.‍</p>",
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 513212,
+        "number": 3,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "fre",
+        "person_name": "Dorota Hartwich",
+        "titles_before_names": null,
+        "names_before_key": "Dorota",
+        "prefix_to_key": null,
+        "key_names": "Hartwich",
+        "names_after_key": null,
+        "biographical_note": null,
+        "unnamed_persons": null,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

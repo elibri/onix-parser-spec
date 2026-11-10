@@ -1,0 +1,21 @@
+{
+  "id": "playing-time-changed",
+  "title": "Playing time changed",
+  "description": "The playing time changes from 20-40 minutes to 30-60 minutes (playing_time_from and playing_time_to).",
+  "product": {
+    "kind": "board_game",
+    "record_reference": "e6228c7e53a8c7b48f6c"
+  },
+  "changes": [
+    {
+      "type": "playing_time_from.changed",
+      "before": 20,
+      "after": 30
+    },
+    {
+      "type": "playing_time_to.changed",
+      "before": 40,
+      "after": 60
+    }
+  ]
+}

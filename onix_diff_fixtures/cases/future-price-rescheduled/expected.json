@@ -1,0 +1,114 @@
+{
+  "id": "future-price-rescheduled",
+  "title": "Scheduled price change moved",
+  "description": "A scheduled price change to 39.90 PLN is moved from 2026-11-01 to 2026-12-01: both the end date of the current price and the start date of the new one change.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "supply_details.changed",
+      "changed_fields": [
+        "prices.0.price_date_value",
+        "prices.1.price_date_value"
+      ],
+      "before": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL6762445293",
+          "name": "Wydawnictwo NieZwykłe",
+          "website": null
+        },
+        "product_availability": "20",
+        "product_availability_name": "AVAILABLE",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 46.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": "15",
+            "price_date_value": "2026-10-31"
+          },
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 39.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": "14",
+            "price_date_value": "2026-11-01"
+          }
+        ]
+      },
+      "after": {
+        "supplier": {
+          "role": "01",
+          "role_name": "PUB_TO_RET",
+          "role_description": "sprzedaż wydawnictwa do detalu",
+          "vat_id": "PL6762445293",
+          "name": "Wydawnictwo NieZwykłe",
+          "website": null
+        },
+        "product_availability": "20",
+        "product_availability_name": "AVAILABLE",
+        "supplier_own_coding": null,
+        "on_hand": null,
+        "proximity": null,
+        "proximity_name": null,
+        "pack_quantity": null,
+        "unpriced_item_type": null,
+        "prices": [
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 46.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": "15",
+            "price_date_value": "2026-11-30"
+          },
+          {
+            "type": "02",
+            "type_name": "RRP_WITH_TAX",
+            "qualifier": "05",
+            "amount": 39.9,
+            "tax_type": "01",
+            "vat": 5,
+            "currency_code": "PLN",
+            "printed_on_product": null,
+            "printed_on_product_name": null,
+            "position_on_product": null,
+            "price_date_type": "14",
+            "price_date_value": "2026-12-01"
+          }
+        ]
+      }
+    }
+  ]
+}

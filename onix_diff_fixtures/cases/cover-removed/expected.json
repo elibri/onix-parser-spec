@@ -1,0 +1,20 @@
+{
+  "id": "cover-removed",
+  "title": "Cover image removed",
+  "description": "The front cover image is deleted and no new one is uploaded (front_cover).",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "front_cover.removed",
+      "before": {
+        "id": 480045,
+        "link": "https://www.elibri.com.pl/attachments/260e49e9df9407937371/cover-119c3a871ef1e47860f5f9f7b40d3122/original.jpg",
+        "md5": "119c3a871ef1e47860f5f9f7b40d3122",
+        "file_size": 660092
+      }
+    }
+  ]
+}

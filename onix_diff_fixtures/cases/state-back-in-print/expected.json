@@ -1,0 +1,16 @@
+{
+  "id": "state-back-in-print",
+  "title": "Out-of-print book reissued",
+  "description": "A book that was out of print is available again: its state changes from out_of_print to published.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "current_state.changed",
+      "before": "out_of_print",
+      "after": "published"
+    }
+  ]
+}

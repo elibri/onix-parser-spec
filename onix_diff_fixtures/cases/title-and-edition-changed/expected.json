@@ -1,0 +1,25 @@
+{
+  "id": "title-and-edition-changed",
+  "title": "Title and edition statement changed together",
+  "description": "Before the premiere the title gets an extended form and the edition statement is updated. The e-book edition keeps the old title, so the two records no longer look like the same work and the e-book's record reference leaves alternative_format_record_references.",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "title.changed",
+      "before": "Misja. CIA w XXI wieku",
+      "after": "Misja. CIA w XXI wieku. Wydanie poszerzone"
+    },
+    {
+      "type": "edition_statement.changed",
+      "before": "wydanie 1",
+      "after": "wydanie 1 poszerzone"
+    },
+    {
+      "type": "alternative_format_record_references.removed",
+      "before": "7d6c25db7d0624eac69b"
+    }
+  ]
+}

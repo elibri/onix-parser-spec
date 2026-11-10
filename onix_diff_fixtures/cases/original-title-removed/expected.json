@@ -1,0 +1,15 @@
+{
+  "id": "original-title-removed",
+  "title": "Original title removed",
+  "description": "The original title 'Ricochets' is removed (original_title).",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "original_title.removed",
+      "before": "Ricochets"
+    }
+  ]
+}

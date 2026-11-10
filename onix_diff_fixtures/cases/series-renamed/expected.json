@@ -1,0 +1,25 @@
+{
+  "id": "series-renamed",
+  "title": "Series renamed",
+  "description": "The publisher renames the series 'Morally Gray' to 'Morally Grey'. The product is in only one series, so its entry is changed rather than removed + added.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "series.changed",
+      "changed_fields": [
+        "name"
+      ],
+      "before": {
+        "name": "Morally Gray",
+        "number_within_series": "1"
+      },
+      "after": {
+        "name": "Morally Grey",
+        "number_within_series": "1"
+      }
+    }
+  ]
+}
