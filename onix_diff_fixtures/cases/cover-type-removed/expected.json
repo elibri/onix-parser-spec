@@ -1,0 +1,20 @@
+{
+  "id": "cover-type-removed",
+  "title": "Cover type cleared",
+  "description": "The cover type of the printed book (twarda) is cleared: onix_product_form falls back from BB to BA (book, form not specified) and cover_type disappears.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "onix_product_form.changed",
+      "before": "BB",
+      "after": "BA"
+    },
+    {
+      "type": "cover_type.removed",
+      "before": "twarda"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cover-type-paperback-with-flaps",
+  "title": "Hardback with dust jacket becomes a paperback with flaps",
+  "description": "The cover type changes from a hardback with a dust jacket (twarda z obwolutą, BB + B501) to a paperback with flaps (miękka ze skrzydełkami, BC + B504).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "onix_product_form.changed",
+      "before": "BB",
+      "after": "BC"
+    },
+    {
+      "type": "product_form_details.removed",
+      "before": "B501"
+    },
+    {
+      "type": "product_form_details.added",
+      "after": "B504"
+    },
+    {
+      "type": "cover_type.changed",
+      "before": "twarda z obwolutą",
+      "after": "miękka ze skrzydełkami"
+    }
+  ]
+}

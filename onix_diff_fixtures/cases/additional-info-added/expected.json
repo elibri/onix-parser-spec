@@ -1,7 +1,7 @@
 {
   "id": "additional-info-added",
   "title": "Additional trade info added",
-  "description": "The publisher adds an additional trade note (supplier_own_coding of the supply detail).",
+  "description": "The publisher adds an additional trade note: additional_trade_information, taken from the supplier_own_coding of the supply detail.",
   "product": {
     "kind": "printed_book",
     "record_reference": "c937e645aeb6050c0246"
@@ -80,6 +80,10 @@
           }
         ]
       }
+    },
+    {
+      "type": "additional_trade_information.added",
+      "after": "NOWOŚĆ"
     }
   ]
 }

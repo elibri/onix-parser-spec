@@ -1,7 +1,7 @@
 {
   "id": "new-edition",
   "title": "New edition: edition statement, price and publication date",
-  "description": "The record is reused for the next edition: edition statement 'Wydanie 2', price 79.99 PLN, publication date 2027-02-15.",
+  "description": "The record is reused for the next edition: edition statement 'Wydanie 2', price 79.99 PLN, publication date (and premiere) 2027-02-15.",
   "product": {
     "kind": "printed_book",
     "record_reference": "c937e645aeb6050c0246"
@@ -26,6 +26,11 @@
         "format_name": "YYYYMMDD",
         "date": "20270215"
       }
+    },
+    {
+      "type": "premiere.changed",
+      "before": "2026-10-16",
+      "after": "2027-02-15"
     },
     {
       "type": "supply_details.changed",
@@ -100,6 +105,11 @@
           }
         ]
       }
+    },
+    {
+      "type": "cover_price.changed",
+      "before": 69.99,
+      "after": 79.99
     }
   ]
 }

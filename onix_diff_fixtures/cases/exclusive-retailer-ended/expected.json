@@ -1,12 +1,22 @@
 {
   "id": "exclusive-retailer-ended",
   "title": "Retailer exclusivity ended",
-  "description": "The exclusivity for Empik is lifted early (sales_restrictions_info).",
+  "description": "The exclusivity for Empik is lifted early (sales_restrictions_info); premiere goes back to the publication date and sales_restrictions becomes false.",
   "product": {
     "kind": "printed_book",
     "record_reference": "c937e645aeb6050c0246"
   },
   "changes": [
+    {
+      "type": "premiere.changed",
+      "before": "2026-12-31",
+      "after": "2026-10-16"
+    },
+    {
+      "type": "sales_restrictions.changed",
+      "before": true,
+      "after": false
+    },
     {
       "type": "sales_restrictions_info.removed",
       "before": {

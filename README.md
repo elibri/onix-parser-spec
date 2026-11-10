@@ -14,33 +14,13 @@ authentication, queues) is described in its OpenAPI specification:
 | `onix_diff_fixtures/` | Differ spec (`README.md`) and cases (`before.xml`, `after.xml`, `expected.json`) |
 | `tools/check.py` | Test runner (Python 3, no dependencies) |
 
-## Rust implementation
-
-The two commands build their Rust binaries with Cargo and print JSON to stdout:
-
-```sh
-bin/onix-parse message.xml
-bin/onix-diff before.xml after.xml
-```
-
-Rust and Cargo (edition 2024, Rust 1.88 or newer) are required. The first build
-fetches the dependencies pinned in `Cargo.lock`. Implementation and embedded
-code lists are in `src/`; the differ compares XML independently of the parser.
-
-```sh
-tools/check.py parser -- bin/onix-parse
-tools/check.py diff -- bin/onix-diff
-cargo test
-cargo clippy --all-targets -- -D warnings
-```
-
 ## Example prompt
 
 To build an integration with a coding agent, open it in this repository and
 adjust the language and paths:
 
 ```
-Read AGENTS.md and follow it. Build the ONIX parser and the differ in Python 3.12,
+Read AGENTS.md and follow it. Build the ONIX parser and the differ in <put the name of your programming language>,
 under src/, with two commands: bin/onix-parse and bin/onix-diff. Add no code to
 the fixture folders.
 

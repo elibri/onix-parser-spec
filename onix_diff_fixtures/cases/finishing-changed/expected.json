@@ -1,0 +1,43 @@
+{
+  "id": "finishing-changed",
+  "title": "Cover finishing changed",
+  "description": "The cover is embossed (B421) instead of hot-stamped (B422). Finishings are a list of codes, so the old code is removed and the new one added, in product_form_details, finishings, finishing_names and finishing_name_descriptions.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_form_details.removed",
+      "before": "B422"
+    },
+    {
+      "type": "product_form_details.added",
+      "after": "B421"
+    },
+    {
+      "type": "finishings.removed",
+      "before": "B422"
+    },
+    {
+      "type": "finishings.added",
+      "after": "B421"
+    },
+    {
+      "type": "finishing_names.removed",
+      "before": "FOIL_ON_COVER"
+    },
+    {
+      "type": "finishing_names.added",
+      "after": "EMBOSSED_COVER"
+    },
+    {
+      "type": "finishing_name_descriptions.removed",
+      "before": "folia / złocenie na okładce (hot-stamping)"
+    },
+    {
+      "type": "finishing_name_descriptions.added",
+      "after": "tłoczenie / wytłoczenie (emboss/deboss)"
+    }
+  ]
+}

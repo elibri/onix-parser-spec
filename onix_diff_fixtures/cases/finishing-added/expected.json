@@ -1,7 +1,7 @@
 {
   "id": "finishing-added",
   "title": "Cover finishing added",
-  "description": "The publisher describes the cover finish of the printed book: hot-stamping on the cover (B422) and a soft-touch cover (B214) are added to product_form_details.",
+  "description": "The publisher describes the cover finish of the printed book: hot-stamping on the cover (B422) and a soft-touch cover (B214) are added to product_form_details and to finishings, with their finishing_names and finishing_name_descriptions.",
   "product": {
     "kind": "printed_book",
     "record_reference": "c937e645aeb6050c0246"
@@ -14,6 +14,30 @@
     {
       "type": "product_form_details.added",
       "after": "B214"
+    },
+    {
+      "type": "finishings.added",
+      "after": "B422"
+    },
+    {
+      "type": "finishings.added",
+      "after": "B214"
+    },
+    {
+      "type": "finishing_names.added",
+      "after": "FOIL_ON_COVER"
+    },
+    {
+      "type": "finishing_names.added",
+      "after": "SOFT_TO_TOUCH"
+    },
+    {
+      "type": "finishing_name_descriptions.added",
+      "after": "folia / złocenie na okładce (hot-stamping)"
+    },
+    {
+      "type": "finishing_name_descriptions.added",
+      "after": "okładka soft-touch"
     }
   ]
 }

@@ -1,12 +1,17 @@
 {
   "id": "exclusive-digital-distributor-removed",
   "title": "E-book exclusivity ended",
-  "description": "The e-book becomes available to all retailers again.",
+  "description": "The e-book becomes available to all retailers again: sales_restrictions_info disappears and sales_restrictions becomes false.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
   },
   "changes": [
+    {
+      "type": "sales_restrictions.changed",
+      "before": true,
+      "after": false
+    },
     {
       "type": "sales_restrictions_info.removed",
       "before": {

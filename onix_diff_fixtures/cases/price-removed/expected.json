@@ -1,7 +1,7 @@
 {
   "id": "price-removed",
   "title": "Price removed",
-  "description": "The price of a pre-order book is cleared until it is set again. Without a price there is no supply detail at all.",
+  "description": "The price of a pre-order book is cleared until it is set again. Without a price there is no supply detail at all, and cover_price and vat disappear.",
   "product": {
     "kind": "preorder_book",
     "record_reference": "4b4f4437bd829c14e3ce"
@@ -43,6 +43,14 @@
           }
         ]
       }
+    },
+    {
+      "type": "vat.removed",
+      "before": 5
+    },
+    {
+      "type": "cover_price.removed",
+      "before": 99.0
     }
   ]
 }

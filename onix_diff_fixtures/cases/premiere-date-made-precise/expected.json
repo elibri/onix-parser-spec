@@ -1,7 +1,7 @@
 {
   "id": "premiere-date-made-precise",
   "title": "Premiere date made precise",
-  "description": "Only the premiere month (2026-11) was known; now the exact day (2026-11-10) is set.",
+  "description": "Only the premiere month (2026-11) was known; now the exact day (2026-11-10) is set, so premiere appears.",
   "product": {
     "kind": "preorder_book",
     "record_reference": "4b4f4437bd829c14e3ce"
@@ -24,6 +24,10 @@
         "format_name": "YYYYMMDD",
         "date": "20261110"
       }
+    },
+    {
+      "type": "premiere.added",
+      "after": "2026-11-10"
     }
   ]
 }

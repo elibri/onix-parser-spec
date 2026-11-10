@@ -1,0 +1,20 @@
+{
+  "id": "cover-type-hardback-laminated",
+  "title": "Hardback becomes a laminated hardback",
+  "description": "The reprint has a laminated hardback (twarda lakierowana, BB + B415) instead of a plain hardback (twarda, BB): onix_product_form stays BB, B415 is added to product_form_details and cover_type changes.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_form_details.added",
+      "after": "B415"
+    },
+    {
+      "type": "cover_type.changed",
+      "before": "twarda",
+      "after": "twarda lakierowana"
+    }
+  ]
+}

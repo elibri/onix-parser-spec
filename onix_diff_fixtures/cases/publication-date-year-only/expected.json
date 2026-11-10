@@ -1,7 +1,7 @@
 {
   "id": "publication-date-year-only",
   "title": "Publication date reduced to a year",
-  "description": "Only the year of publication is kept: publishing_date.date becomes 2026 and its format changes from 00 (YYYYMMDD) to 05 (YYYY).",
+  "description": "Only the year of publication is kept: publishing_date.date becomes 2026 and its format changes from 00 (YYYYMMDD) to 05 (YYYY). Without a full date there is no premiere.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -24,6 +24,10 @@
         "format_name": "YYYY",
         "date": "2026"
       }
+    },
+    {
+      "type": "premiere.removed",
+      "before": "2026-10-02"
     }
   ]
 }

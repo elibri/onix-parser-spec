@@ -1,7 +1,7 @@
 {
   "id": "vat-changed",
   "title": "VAT rate changed",
-  "description": "The VAT rate is corrected from 5% to 23%; the price stays the same.",
+  "description": "The VAT rate is corrected from 5% to 23% (vat, and the vat of the price in the supply detail); the price stays the same.",
   "product": {
     "kind": "printed_book",
     "record_reference": "c937e645aeb6050c0246"
@@ -80,6 +80,11 @@
           }
         ]
       }
+    },
+    {
+      "type": "vat.changed",
+      "before": 5,
+      "after": 23
     }
   ]
 }

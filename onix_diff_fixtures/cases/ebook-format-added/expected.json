@@ -1,7 +1,7 @@
 {
   "id": "ebook-format-added",
   "title": "PDF format added to an e-book",
-  "description": "The publisher declares that the e-book is also available as PDF (E107 in product_form_details). No PDF file has been uploaded yet, so file_infos stays the same.",
+  "description": "The e-book is sold as EPUB and MOBI; the publisher declares that it is also available as PDF: E107 is added to product_form_details and PDF to digital_formats. No PDF file has been uploaded yet, so file_infos stays the same.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -10,6 +10,10 @@
     {
       "type": "product_form_details.added",
       "after": "E107"
+    },
+    {
+      "type": "digital_formats.added",
+      "after": "PDF"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "licence-expiry-removed",
   "title": "Licence made perpetual",
-  "description": "The licence expiry date (2031-10-01) is removed - the e-book can be sold without a time limit.",
+  "description": "The licence expiry date (2031-10-01) is removed - the e-book can be sold without a time limit, and unlimited_licence changes from false to true.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -10,6 +10,11 @@
     {
       "type": "licence_limited_to.removed",
       "before": "2031-10-01"
+    },
+    {
+      "type": "unlimited_licence.changed",
+      "before": false,
+      "after": true
     }
   ]
 }

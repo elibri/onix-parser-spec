@@ -1,7 +1,7 @@
 {
   "id": "licence-expiry-set",
   "title": "E-book licence expiry date set",
-  "description": "The publisher's licence for the e-book expires on 2031-10-01; the expiry date is exported.",
+  "description": "The publisher's licence for the e-book expires on 2031-10-01: licence_limited_to is exported and unlimited_licence changes from true to false.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -10,6 +10,11 @@
     {
       "type": "licence_limited_to.added",
       "after": "2031-10-01"
+    },
+    {
+      "type": "unlimited_licence.changed",
+      "before": true,
+      "after": false
     }
   ]
 }

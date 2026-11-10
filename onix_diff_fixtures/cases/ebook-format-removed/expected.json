@@ -1,0 +1,19 @@
+{
+  "id": "ebook-format-removed",
+  "title": "PDF format removed from an e-book",
+  "description": "The e-book was declared as EPUB, MOBI and PDF; the publisher stops offering PDF: E107 is removed from product_form_details and PDF from digital_formats. EPUB and MOBI remain.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "product_form_details.removed",
+      "before": "E107"
+    },
+    {
+      "type": "digital_formats.removed",
+      "before": "PDF"
+    }
+  ]
+}

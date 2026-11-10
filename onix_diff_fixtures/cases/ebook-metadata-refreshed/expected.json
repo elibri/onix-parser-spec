@@ -114,6 +114,11 @@
           }
         ]
       }
+    },
+    {
+      "type": "cover_price.changed",
+      "before": 46.9,
+      "after": 49.9
     }
   ]
 }

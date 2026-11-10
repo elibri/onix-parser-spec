@@ -29,6 +29,11 @@
       }
     },
     {
+      "type": "premiere.changed",
+      "before": "2026-11-10",
+      "after": "2026-11-03"
+    },
+    {
       "type": "distribution_start.changed",
       "before": "2026-11-10",
       "after": "2026-11-03"

@@ -1,7 +1,7 @@
 {
   "id": "future-price-scheduled",
   "title": "Future price change scheduled",
-  "description": "The publisher schedules a price cut to 39.90 PLN from 2026-11-01. The single price becomes two prices with validity dates (until 2026-10-31 and from 2026-11-01).",
+  "description": "The publisher schedules a price cut to 39.90 PLN from 2026-11-01. The single price becomes two prices with validity dates (until 2026-10-31 and from 2026-11-01): current_price_until, future_cover_price and future_price_from appear.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -96,6 +96,18 @@
           }
         ]
       }
+    },
+    {
+      "type": "future_price_from.added",
+      "after": "2026-11-01"
+    },
+    {
+      "type": "future_cover_price.added",
+      "after": 39.9
+    },
+    {
+      "type": "current_price_until.added",
+      "after": "2026-10-31"
     }
   ]
 }

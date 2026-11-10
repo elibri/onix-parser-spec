@@ -1,7 +1,7 @@
 {
   "id": "future-price-cancelled",
   "title": "Scheduled price change cancelled",
-  "description": "A scheduled price change (39.90 PLN from 2026-11-01) is cancelled; one undated price remains.",
+  "description": "A scheduled price change (39.90 PLN from 2026-11-01) is cancelled; one undated price remains, so current_price_until, future_cover_price and future_price_from disappear.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -96,6 +96,18 @@
           }
         ]
       }
+    },
+    {
+      "type": "future_price_from.removed",
+      "before": "2026-11-01"
+    },
+    {
+      "type": "future_cover_price.removed",
+      "before": 39.9
+    },
+    {
+      "type": "current_price_until.removed",
+      "before": "2026-10-31"
     }
   ]
 }

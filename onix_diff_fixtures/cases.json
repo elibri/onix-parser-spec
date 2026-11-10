@@ -82,6 +82,7 @@
     "id": "price-changed",
     "title": "E-book price raised",
     "expected_change_types": [
+      "cover_price.changed",
       "supply_details.changed"
     ]
   },
@@ -89,6 +90,7 @@
     "id": "price-changed-printed-book",
     "title": "Printed book price raised",
     "expected_change_types": [
+      "cover_price.changed",
       "supply_details.changed"
     ]
   },
@@ -96,6 +98,9 @@
     "id": "future-price-scheduled",
     "title": "Future price change scheduled",
     "expected_change_types": [
+      "current_price_until.added",
+      "future_cover_price.added",
+      "future_price_from.added",
       "supply_details.changed"
     ]
   },
@@ -103,6 +108,9 @@
     "id": "future-price-cancelled",
     "title": "Scheduled price change cancelled",
     "expected_change_types": [
+      "current_price_until.removed",
+      "future_cover_price.removed",
+      "future_price_from.removed",
       "supply_details.changed"
     ]
   },
@@ -110,13 +118,15 @@
     "id": "vat-changed",
     "title": "VAT rate changed",
     "expected_change_types": [
-      "supply_details.changed"
+      "supply_details.changed",
+      "vat.changed"
     ]
   },
   {
     "id": "premiere-date-moved",
     "title": "Premiere date moved",
     "expected_change_types": [
+      "premiere.changed",
       "publishing_date.changed"
     ]
   },
@@ -124,6 +134,7 @@
     "id": "premiere-date-made-precise",
     "title": "Premiere date made precise",
     "expected_change_types": [
+      "premiere.added",
       "publishing_date.changed"
     ]
   },
@@ -131,7 +142,8 @@
     "id": "licence-expiry-set",
     "title": "E-book licence expiry date set",
     "expected_change_types": [
-      "licence_limited_to.added"
+      "licence_limited_to.added",
+      "unlimited_licence.changed"
     ]
   },
   {
@@ -145,14 +157,16 @@
     "id": "licence-expiry-embargoed",
     "title": "Licence expiry date hidden (embargo)",
     "expected_change_types": [
-      "licence_limited_to.removed"
+      "licence_limited_to.removed",
+      "unlimited_licence.changed"
     ]
   },
   {
     "id": "licence-expiry-removed",
     "title": "Licence made perpetual",
     "expected_change_types": [
-      "licence_limited_to.removed"
+      "licence_limited_to.removed",
+      "unlimited_licence.changed"
     ]
   },
   {
@@ -265,6 +279,7 @@
     "id": "mobi-format-dropped",
     "title": "MOBI format dropped",
     "expected_change_types": [
+      "digital_formats.removed",
       "excerpt_infos.removed",
       "file_infos.removed",
       "product_form_details.removed"
@@ -310,8 +325,35 @@
     "id": "cover-type-changed",
     "title": "Binding changed from hardback to paperback",
     "expected_change_types": [
+      "cover_type.changed",
       "onix_product_form.changed",
       "product_form_details.removed"
+    ]
+  },
+  {
+    "id": "cover-type-hardback-laminated",
+    "title": "Hardback becomes a laminated hardback",
+    "expected_change_types": [
+      "cover_type.changed",
+      "product_form_details.added"
+    ]
+  },
+  {
+    "id": "cover-type-paperback-with-flaps",
+    "title": "Hardback with dust jacket becomes a paperback with flaps",
+    "expected_change_types": [
+      "cover_type.changed",
+      "onix_product_form.changed",
+      "product_form_details.added",
+      "product_form_details.removed"
+    ]
+  },
+  {
+    "id": "cover-type-removed",
+    "title": "Cover type cleared",
+    "expected_change_types": [
+      "cover_type.removed",
+      "onix_product_form.changed"
     ]
   },
   {
@@ -375,6 +417,7 @@
     "id": "exclusive-digital-distributor-set",
     "title": "E-book made exclusive to one retailer",
     "expected_change_types": [
+      "sales_restrictions.changed",
       "sales_restrictions_info.added"
     ]
   },
@@ -382,6 +425,8 @@
     "id": "exclusive-retailer-set",
     "title": "Printed book made exclusive to one retailer",
     "expected_change_types": [
+      "premiere.changed",
+      "sales_restrictions.changed",
       "sales_restrictions_info.added"
     ]
   },
@@ -389,7 +434,9 @@
     "id": "new-edition",
     "title": "New edition: edition statement, price and publication date",
     "expected_change_types": [
+      "cover_price.changed",
       "edition_statement.added",
+      "premiere.changed",
       "publishing_date.changed",
       "supply_details.changed"
     ]
@@ -409,6 +456,7 @@
     "expected_change_types": [
       "current_state.changed",
       "distribution_start.changed",
+      "premiere.changed",
       "publishing_date.changed"
     ]
   },
@@ -480,8 +528,38 @@
     "id": "finishing-added",
     "title": "Cover finishing added",
     "expected_change_types": [
+      "finishing_name_descriptions.added",
+      "finishing_name_descriptions.added",
+      "finishing_names.added",
+      "finishing_names.added",
+      "finishings.added",
+      "finishings.added",
       "product_form_details.added",
       "product_form_details.added"
+    ]
+  },
+  {
+    "id": "finishing-changed",
+    "title": "Cover finishing changed",
+    "expected_change_types": [
+      "finishing_name_descriptions.added",
+      "finishing_name_descriptions.removed",
+      "finishing_names.added",
+      "finishing_names.removed",
+      "finishings.added",
+      "finishings.removed",
+      "product_form_details.added",
+      "product_form_details.removed"
+    ]
+  },
+  {
+    "id": "finishing-removed",
+    "title": "Cover finishing removed",
+    "expected_change_types": [
+      "finishing_name_descriptions.removed",
+      "finishing_names.removed",
+      "finishings.removed",
+      "product_form_details.removed"
     ]
   },
   {
@@ -506,7 +584,16 @@
     "id": "ebook-format-added",
     "title": "PDF format added to an e-book",
     "expected_change_types": [
+      "digital_formats.added",
       "product_form_details.added"
+    ]
+  },
+  {
+    "id": "ebook-format-removed",
+    "title": "PDF format removed from an e-book",
+    "expected_change_types": [
+      "digital_formats.removed",
+      "product_form_details.removed"
     ]
   },
   {
@@ -651,6 +738,7 @@
       "collection_part_number.removed",
       "collection_title.removed",
       "issn.added",
+      "issn_with_hyphens.added",
       "series.added"
     ]
   },
@@ -928,7 +1016,16 @@
     "id": "preview-widget-removed",
     "title": "Online preview removed",
     "expected_change_types": [
+      "preview_exists.changed",
       "supporting_resources.removed"
+    ]
+  },
+  {
+    "id": "preview-widget-added",
+    "title": "Online preview added",
+    "expected_change_types": [
+      "preview_exists.changed",
+      "supporting_resources.added"
     ]
   },
   {
@@ -1028,6 +1125,7 @@
     "id": "publication-date-year-only",
     "title": "Publication date reduced to a year",
     "expected_change_types": [
+      "premiere.removed",
       "publishing_date.changed"
     ]
   },
@@ -1035,6 +1133,7 @@
     "id": "sale-restricted-to-poland",
     "title": "Sales restricted to Poland",
     "expected_change_types": [
+      "sale_restricted_to_poland.changed",
       "territory_countries.added",
       "territory_regions.removed"
     ]
@@ -1043,6 +1142,7 @@
     "id": "exclusive-retailer-extended",
     "title": "Retailer exclusivity extended",
     "expected_change_types": [
+      "premiere.changed",
       "sales_restrictions_info.changed"
     ]
   },
@@ -1050,6 +1150,8 @@
     "id": "exclusive-retailer-ended",
     "title": "Retailer exclusivity ended",
     "expected_change_types": [
+      "premiere.changed",
+      "sales_restrictions.changed",
       "sales_restrictions_info.removed"
     ]
   },
@@ -1064,6 +1166,7 @@
     "id": "exclusive-digital-distributor-removed",
     "title": "E-book exclusivity ended",
     "expected_change_types": [
+      "sales_restrictions.changed",
       "sales_restrictions_info.removed"
     ]
   },
@@ -1113,6 +1216,7 @@
     "id": "additional-info-added",
     "title": "Additional trade info added",
     "expected_change_types": [
+      "additional_trade_information.added",
       "supply_details.changed"
     ]
   },
@@ -1127,13 +1231,17 @@
     "id": "price-removed",
     "title": "Price removed",
     "expected_change_types": [
-      "supply_details.removed"
+      "cover_price.removed",
+      "supply_details.removed",
+      "vat.removed"
     ]
   },
   {
     "id": "future-price-rescheduled",
     "title": "Scheduled price change moved",
     "expected_change_types": [
+      "current_price_until.changed",
+      "future_price_from.changed",
       "supply_details.changed"
     ]
   },
@@ -1246,6 +1354,7 @@
     "id": "preorder-published-with-final-data",
     "title": "Pre-order published with the final print data",
     "expected_change_types": [
+      "cover_price.changed",
       "current_state.changed",
       "height.changed",
       "number_of_pages.changed",
@@ -1257,6 +1366,7 @@
     "id": "ebook-metadata-refreshed",
     "title": "E-book metadata refreshed for a promotion",
     "expected_change_types": [
+      "cover_price.changed",
       "description.changed",
       "keywords.added",
       "supply_details.changed",
@@ -1269,6 +1379,7 @@
     "title": "Board game updated for its second edition",
     "expected_change_types": [
       "carries_en71_logo.changed",
+      "cover_price.changed",
       "ean.changed",
       "players_number_to.changed",
       "playing_time_from.changed",
@@ -1284,7 +1395,8 @@
       "number_of_pages.changed",
       "subtitle.added",
       "supply_details.changed",
-      "table_of_contents.added"
+      "table_of_contents.added",
+      "vat.changed"
     ]
   },
   {

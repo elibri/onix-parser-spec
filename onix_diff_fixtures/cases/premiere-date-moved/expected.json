@@ -1,7 +1,7 @@
 {
   "id": "premiere-date-moved",
   "title": "Premiere date moved",
-  "description": "The premiere of a pre-order book is moved from 2026-11-10 to 2026-11-24.",
+  "description": "The premiere of a pre-order book is moved from 2026-11-10 to 2026-11-24 (publishing_date and premiere).",
   "product": {
     "kind": "preorder_book",
     "record_reference": "4b4f4437bd829c14e3ce"
@@ -22,6 +22,11 @@
         "format_name": "YYYYMMDD",
         "date": "20261124"
       }
+    },
+    {
+      "type": "premiere.changed",
+      "before": "2026-11-10",
+      "after": "2026-11-24"
     }
   ]
 }

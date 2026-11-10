@@ -1,7 +1,7 @@
 {
   "id": "licence-expiry-embargoed",
   "title": "Licence expiry date hidden (embargo)",
-  "description": "The licence still expires on 2031-10-01, but the publisher hides the date from recipients, so it is no longer exported.",
+  "description": "The licence still expires on 2031-10-01, but the publisher hides the date from recipients, so licence_limited_to is no longer exported. A recipient cannot tell this from a perpetual licence: unlimited_licence changes from false to true.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -10,6 +10,11 @@
     {
       "type": "licence_limited_to.removed",
       "before": "2031-10-01"
+    },
+    {
+      "type": "unlimited_licence.changed",
+      "before": false,
+      "after": true
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "future-price-rescheduled",
   "title": "Scheduled price change moved",
-  "description": "A scheduled price change to 39.90 PLN is moved from 2026-11-01 to 2026-12-01: both the end date of the current price and the start date of the new one change.",
+  "description": "A scheduled price change to 39.90 PLN is moved from 2026-11-01 to 2026-12-01: both the end date of the current price (current_price_until) and the start date of the new one (future_price_from) change.",
   "product": {
     "kind": "ebook",
     "record_reference": "260e49e9df9407937371"
@@ -109,6 +109,16 @@
           }
         ]
       }
+    },
+    {
+      "type": "future_price_from.changed",
+      "before": "2026-11-01",
+      "after": "2026-12-01"
+    },
+    {
+      "type": "current_price_until.changed",
+      "before": "2026-10-31",
+      "after": "2026-11-30"
     }
   ]
 }

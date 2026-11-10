@@ -95,12 +95,7 @@ Every field of the product is compared, except these:
 |---|---|---|
 | `record_reference` | identifies the record, never changes | – |
 | `notification_type`, `publishing_status` | make up the state | `current_state` |
-| `product_form`, `product_form_name`, `cover_type`, `finishings`, `finishing_names`, `finishing_name_descriptions`, `digital_formats` | derived from the form and its details | `onix_product_form`, `product_form_details` |
-| `issn_with_hyphens` | the same ISSN | `issn` |
-| `premiere`, `unlimited_licence` | derived from dates | `publishing_date`, `licence_limited_to`, `sales_restrictions_info` |
-| `sales_restrictions`, `sale_restricted_to_poland` | derived | `sales_restrictions_info`, `territory_countries` |
-| `preview_exists` | derived | `supporting_resources` |
-| `cover_price`, `current_price_until`, `future_cover_price`, `future_price_from`, `vat`, `additional_trade_information` | picked from the supply details | `supply_details` |
+| `product_form`, `product_form_name` | derived from the form and its details | `onix_product_form`, `product_form_details` |
 
 Inside objects, at any depth, three keys are left out as well, so they never
 appear in a change: `datestamp`, `ai_generated_voice` (from `unnamed_persons`)
@@ -110,6 +105,33 @@ The names and descriptions of a code are compared like any other field, so they
 change together with their code: `product_packaging` with
 `product_packaging_name` and `product_packaging_name_description`, `proximity`
 with `proximity_name`, a language's `code` with `language`, and so on.
+
+These fields are compared although the parser derives them, because
+they are what a reader of the record uses:
+
+- `cover_type`, derived from `onix_product_form` and `product_form_details`: a
+  change of binding is reported in those fields and in `cover_type`.
+- `issn_with_hyphens`, the `issn` written with a hyphen: an ISSN added is
+  reported as `issn.added` and `issn_with_hyphens.added`.
+- `premiere`, the full `publishing_date`, or the end of an exclusive sale in
+  `sales_restrictions_info`: it changes with either of them, and disappears
+  when the publishing date loses its day.
+- `sales_restrictions`, true when there is `sales_restrictions_info`.
+- `preview_exists`, true when `supporting_resources` has an online preview
+  (`content_type` 16).
+- `sale_restricted_to_poland`, true when `territory_countries` is just `PL`.
+- `unlimited_licence`, true when there is no `licence_limited_to`: a licence
+  expiry date set is reported as `licence_limited_to.added` and
+  `unlimited_licence.changed`.
+- `digital_formats`, the names of the e-book formats in `product_form_details`:
+  a PDF format added is reported as `product_form_details.added` and
+  `digital_formats.added`.
+- `finishings`, `finishing_names` and `finishing_name_descriptions`, picked from
+  `product_form_details`: a finishing added is reported in all four lists.
+- `cover_price`, `current_price_until`, `future_cover_price`,
+  `future_price_from`, `vat` and `additional_trade_information`, picked from
+  `supply_details`: a price change is reported both as `supply_details.changed`
+  and as a change of these fields.
 
 Two values are equal when they are equal as JSON: strings and numbers by value,
 objects key by key, lists element by element in order.
@@ -172,6 +194,8 @@ replacing one Thema code among several is `thema_subjects.removed` +
 { "type": "map_scale.changed", "before": 700000, "after": 750000 }
 { "type": "current_state.changed", "before": "preorder", "after": "published" }
 { "type": "keywords.added", "after": "mafia" }
+{ "type": "finishings.added", "after": "B422" }
+{ "type": "cover_price.changed", "before": 46.9, "after": 49.9 }
 { "type": "thema_subjects.added", "after": { "code": "FRH", "heading_texts": ["..."] } }
 { "type": "supply_details.changed",
   "changed_fields": ["prices.0.amount"],
@@ -216,19 +240,19 @@ The change types that occur in the cases. `cases.json` lists the types of every
 case.
 
 - `isbn13.*`, `ean.*`, `proprietary_identifiers.changed` (publisher's code, streaming ID)
-- `onix_product_form.*`, `product_form_details.*` (binding, finishing, e-book formats), `product_packaging.*`, `product_packaging_name.*`, `product_packaging_name_description.*`, `technical_protections.*`, `epub_license.*`
+- `onix_product_form.*`, `product_form_details.*` (binding, finishing, e-book formats), `cover_type.*`, `digital_formats.*`, `finishings.*`, `finishing_names.*`, `finishing_name_descriptions.*`, `product_packaging.*`, `product_packaging_name.*`, `product_packaging_name_description.*`, `technical_protections.*`, `epub_license.*`
 - `number_of_pieces.*`, `players_number_to.*`, `playing_time_from.*`, `playing_time_to.*`
 - `carries_ce_logo.changed`, `carries_en71_logo.changed`, `toy_safety_warning.*`, `declaration_of_conformity_url.*` (toy safety)
 - `height.*`, `width.*`, `thickness.*`, `weight.*`, `map_scale.*`, `country_of_manufacture.*`, `cn_code.*`
-- `series.*`, `issn.*`, `title.*`, `subtitle.*`, `collection_title.*`, `collection_part_number.*`, `title_eng.*`, `original_title.*`
+- `series.*`, `issn.*`, `issn_with_hyphens.added`, `title.*`, `subtitle.*`, `collection_title.*`, `collection_part_number.*`, `title_eng.*`, `original_title.*`
 - `contributors.*` (also changes of ISNI / VIAF alone), `no_contributor.changed`
 - `edition_statement.*`, `edition_types.*`, `edition_type_names.*`, `edition_type_descriptions.*`, `languages.*`, `number_of_pages.*`, `duration.*`, `number_of_characters.*`, `number_of_illustrations.*`
 - `thema_subjects.*`, `publisher_categories.*`, `keywords.*`, `names_as_subject.*`, `reading_age_from.*`, `reading_age_to.*`
 - `description.*`, `short_description.*`, `table_of_contents.*`, `list_of_contents.*`, `excerpts.*`
-- `front_cover.*`, `supporting_resources.*` (samples, rules, preview widget), `excerpt_infos.*`, `file_infos.*`
+- `front_cover.*`, `supporting_resources.*` (samples, rules, preview widget), `preview_exists.changed`, `excerpt_infos.*`, `file_infos.*`
 - `imprint_id.*`, `imprint_name.*`, `publisher_name.*`, `publisher_website.*`, `city_of_publication.*`, `safety_contact.*`
 - `current_state.changed` (announced, pre-order, published, postponed, cancelled, out of print, deleted)
-- `publishing_date.*`, `distribution_start.*`, `licence_limited_to.*`
-- `sales_restrictions_info.*`, `territory_countries.*`, `territory_regions.*`, `alternative_format_record_references.*` (facsimile)
-- `supply_details.*` (availability, stock, pack, supplier, prices)
+- `publishing_date.*`, `distribution_start.*`, `licence_limited_to.*`, `unlimited_licence.changed`, `premiere.*`
+- `sales_restrictions_info.*`, `sales_restrictions.changed`, `sale_restricted_to_poland.changed`, `territory_countries.*`, `territory_regions.*`, `alternative_format_record_references.*` (facsimile)
+- `supply_details.*` (availability, stock, pack, supplier, prices), `cover_price.*`, `current_price_until.*`, `future_cover_price.*`, `future_price_from.*`, `vat.*`, `additional_trade_information.*`
 - no change: datestamps, identical, re-serialised, reordered, internal fields, spaces the parser strips

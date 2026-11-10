@@ -1,7 +1,7 @@
 {
   "id": "cover-type-changed",
   "title": "Binding changed from hardback to paperback",
-  "description": "The cover type changes from a hardback with a dust jacket (BB + B501) to a paperback (BC).",
+  "description": "The cover type changes from a hardback with a dust jacket (twarda z obwolutą, BB + B501) to a paperback (miękka, BC).",
   "product": {
     "kind": "preorder_book",
     "record_reference": "4b4f4437bd829c14e3ce"
@@ -15,6 +15,11 @@
     {
       "type": "product_form_details.removed",
       "before": "B501"
+    },
+    {
+      "type": "cover_type.changed",
+      "before": "twarda z obwolutą",
+      "after": "miękka"
     }
   ]
 }

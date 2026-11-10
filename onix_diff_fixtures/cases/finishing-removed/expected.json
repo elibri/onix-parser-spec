@@ -1,0 +1,27 @@
+{
+  "id": "finishing-removed",
+  "title": "Cover finishing removed",
+  "description": "Of the two cover finishes, hot-stamping (B422) and soft-touch (B214), the soft-touch cover is dropped in the reprint: B214 is removed from product_form_details and finishings, with its name and description.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": [
+    {
+      "type": "product_form_details.removed",
+      "before": "B214"
+    },
+    {
+      "type": "finishings.removed",
+      "before": "B214"
+    },
+    {
+      "type": "finishing_names.removed",
+      "before": "SOFT_TO_TOUCH"
+    },
+    {
+      "type": "finishing_name_descriptions.removed",
+      "before": "okładka soft-touch"
+    }
+  ]
+}

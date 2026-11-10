@@ -12,6 +12,10 @@
       "before": "E127"
     },
     {
+      "type": "digital_formats.removed",
+      "before": "MOBI"
+    },
+    {
       "type": "excerpt_infos.removed",
       "before": {
         "id": 366960,

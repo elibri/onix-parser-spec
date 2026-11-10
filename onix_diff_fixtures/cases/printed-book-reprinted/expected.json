@@ -1,7 +1,7 @@
 {
   "id": "printed-book-reprinted",
   "title": "Printed book reprinted with changes",
-  "description": "A reprint gets a subtitle, a table of contents and 8 more pages (72). The new print run raises the stock to 2000 copies, and the VAT rate changes to 23%, both in the supply detail.",
+  "description": "A reprint gets a subtitle, a table of contents and 8 more pages (72). The new print run raises the stock to 2000 copies, and the VAT rate changes to 23% (vat, and both in the supply detail).",
   "product": {
     "kind": "printed_book",
     "record_reference": "c937e645aeb6050c0246"
@@ -98,6 +98,11 @@
           }
         ]
       }
+    },
+    {
+      "type": "vat.changed",
+      "before": 5,
+      "after": 23
     }
   ]
 }
