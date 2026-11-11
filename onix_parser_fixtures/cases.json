@@ -248,6 +248,14 @@
     }
   },
   {
+    "id": "example-ai-authored",
+    "title": "Book written by AI with an AI-designed cover",
+    "source": {
+      "kind": "example",
+      "example": "pl_onix_ai_authored_example"
+    }
+  },
+  {
     "id": "example-edition",
     "title": "Edition statement and edition types",
     "source": {

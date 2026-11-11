@@ -61,7 +61,10 @@ cycles, every part of a contributor, edition, languages, extent, subjects,
 texts, images and widgets, publisher data, dates, sales rights, related
 products, stock and prices. The `contributor-isni-*`, `contributor-viaf-*`,
 `contributor-relinked-to-another-person` and `contributor-marked-misspelled`
-cases change only a contributor's ISNI or VIAF while the name stays the same. Some cases show cascades (renaming the
+cases change only a contributor's ISNI or VIAF while the name stays the same.
+`contributor-made-ai` and `contributor-ai-replaced-by-person` turn a translator
+into AI (`UnnamedPersons` `09`) and back: the same contributor (same `id`) loses or
+gains its name parts, while `from_language` stays. Some cases show cascades (renaming the
 publisher changes three fields; changing the author's name in one edition breaks
 the facsimile relation to the other one). Six cases report no change at all.
 
@@ -98,7 +101,7 @@ Every field of the product is compared, except these:
 | `product_form`, `product_form_name` | derived from the form and its details | `onix_product_form`, `product_form_details` |
 
 Inside objects, at any depth, three keys are left out as well, so they never
-appear in a change: `datestamp`, `ai_generated_voice` (from `unnamed_persons`)
+appear in a change: `datestamp`, `ai_generated_voice` (true exactly when `ai_voice_description` is set)
 and `parsed` (from `publishing_date.date`).
 
 The names and descriptions of a code are compared like any other field, so they

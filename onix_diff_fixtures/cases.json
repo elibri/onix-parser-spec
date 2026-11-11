@@ -234,6 +234,20 @@
     ]
   },
   {
+    "id": "contributor-made-ai",
+    "title": "Translator replaced by AI",
+    "expected_change_types": [
+      "contributors.changed"
+    ]
+  },
+  {
+    "id": "contributor-ai-replaced-by-person",
+    "title": "AI translator replaced by a person",
+    "expected_change_types": [
+      "contributors.changed"
+    ]
+  },
+  {
     "id": "description-changed",
     "title": "Main description edited",
     "expected_change_types": [

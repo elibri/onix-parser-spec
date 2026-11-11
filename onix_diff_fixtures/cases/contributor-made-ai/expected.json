@@ -1,0 +1,62 @@
+{
+  "id": "contributor-made-ai",
+  "title": "Translator replaced by AI",
+  "description": "The translator (B06) Edyta Misiewicz-Hulewska is changed to AI (UnnamedPersons 09): the name parts disappear from the Contributor, FromLanguage stays.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "person_name",
+        "names_before_key",
+        "key_names",
+        "ai"
+      ],
+      "before": {
+        "id": 515807,
+        "number": 2,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "eng",
+        "person_name": "Edyta Misiewicz-Hulewska",
+        "titles_before_names": null,
+        "names_before_key": "Edyta",
+        "prefix_to_key": null,
+        "key_names": "Misiewicz-Hulewska",
+        "names_after_key": null,
+        "biographical_note": null,
+        "various_persons": false,
+        "ai": false,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 515807,
+        "number": 2,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "eng",
+        "person_name": null,
+        "titles_before_names": null,
+        "names_before_key": null,
+        "prefix_to_key": null,
+        "key_names": null,
+        "names_after_key": null,
+        "biographical_note": null,
+        "various_persons": false,
+        "ai": true,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

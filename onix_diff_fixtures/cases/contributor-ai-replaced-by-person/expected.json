@@ -1,0 +1,62 @@
+{
+  "id": "contributor-ai-replaced-by-person",
+  "title": "AI translator replaced by a person",
+  "description": "The second translator (B06) was AI (UnnamedPersons 09) and is changed to a person, Piotr Chojnacki; both translate from English (FromLanguage eng).",
+  "product": {
+    "kind": "preorder_book",
+    "record_reference": "4b4f4437bd829c14e3ce"
+  },
+  "changes": [
+    {
+      "type": "contributors.changed",
+      "changed_fields": [
+        "person_name",
+        "names_before_key",
+        "key_names",
+        "ai"
+      ],
+      "before": {
+        "id": 517130,
+        "number": 3,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "eng",
+        "person_name": null,
+        "titles_before_names": null,
+        "names_before_key": null,
+        "prefix_to_key": null,
+        "key_names": null,
+        "names_after_key": null,
+        "biographical_note": null,
+        "various_persons": false,
+        "ai": true,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      },
+      "after": {
+        "id": 517130,
+        "number": 3,
+        "role": "B06",
+        "role_name": "TRANSLATOR",
+        "from_language": "eng",
+        "person_name": "Piotr Chojnacki",
+        "titles_before_names": null,
+        "names_before_key": "Piotr",
+        "prefix_to_key": null,
+        "key_names": "Chojnacki",
+        "names_after_key": null,
+        "biographical_note": null,
+        "various_persons": false,
+        "ai": false,
+        "ai_voice_description": null,
+        "voice_name": null,
+        "isni": null,
+        "viaf": null,
+        "alternative_names": []
+      }
+    }
+  ]
+}

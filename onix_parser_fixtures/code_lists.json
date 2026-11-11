@@ -283,6 +283,10 @@
     "08": {
       "const_name": "SYNTHESISED_VOICE_BASED_ON_REAL_VOICE",
       "name": "Głos syntetyzowany - bazujący na głosie aktora"
+    },
+    "09": {
+      "const_name": "AI",
+      "name": "AI (Sztuczna Inteligencja)"
     }
   },
   "SupplierRole": {

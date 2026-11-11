@@ -813,7 +813,8 @@
               "key_names",
               "names_after_key",
               "biographical_note",
-              "unnamed_persons",
+              "various_persons",
+              "ai",
               "ai_generated_voice",
               "ai_voice_description",
               "voice_name",
@@ -901,11 +902,11 @@
                   "null"
                 ]
               },
-              "unnamed_persons": {
-                "type": [
-                  "string",
-                  "null"
-                ]
+              "various_persons": {
+                "type": "boolean"
+              },
+              "ai": {
+                "type": "boolean"
               },
               "ai_generated_voice": {
                 "type": "boolean"

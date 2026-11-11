@@ -131,7 +131,8 @@ Authors, translators, narrators and other people involved.
 | `contributors[].key_names` | Surname. | text | `"Baum"` |
 | `contributors[].names_after_key` | Suffix after the surname, such as `Jr.`. | text | `"OP"` |
 | `contributors[].biographical_note` | Biography, as HTML. | text | `"<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francj…` |
-| `contributors[].unnamed_persons` | Set when there is no named person: `04` various authors, `05` male AI voice, `06` female AI voice, `07` AI voice, `08` AI voice based on a real person's voice. | text | `"04"` |
+| `contributors[].various_persons` | Stands for various persons (a collective work) instead of a named person. | yes or no | `true` |
+| `contributors[].ai` | The contributor is AI: an AI voice, or AI as an author, translator, cover designer and so on. Always set when `ai_generated_voice` is. | yes or no | `true` |
 | `contributors[].ai_generated_voice` | The narrator is an AI voice. | yes or no | `true` |
 | `contributors[].ai_voice_description` | Polish description of the AI voice; `null` if this is not one. | text | `"Głos syntetyzowany - męski"` |
 | `contributors[].voice_name` | Name of the AI voice, or of the person it is based on. | text | `"Wojtek"` |
