@@ -292,14 +292,15 @@ Contributor: `id`, `datestamp` (from the attributes); `number`
 (`FromLanguage`, for any role); `person_name`, `titles_before_names`,
 `names_before_key`, `prefix_to_key`, `key_names`, `names_after_key`,
 `biographical_note` (`PersonName`, `TitlesBeforeNames`, …, `BiographicalNote`);
+`unnamed_persons` (the `UnnamedPersons` code, `null` for a named contributor);
 `various_persons` (`UnnamedPersons` is `04`); `ai` (`UnnamedPersons` is
 `05`, `06`, `07`, `08` or `09` - every AI contributor, voice or not);
 `ai_generated_voice` (`UnnamedPersons` is `05`, `06`, `07` or `08`; `09`, AI as
 an author, translator, cover designer and so on, is not a voice and gives
 `false` - so `ai_generated_voice` implies `ai`, not the other way round);
 `ai_voice_description` (when `ai_generated_voice`, the Polish name of the
-`UnnamedPersons` code from list UnnamedPersons, else `null`). The
-`UnnamedPersons` code itself is not in the output; `voice_name` (`PersonName` of the first
+`UnnamedPersons` code from list UnnamedPersons, else `null`);
+`voice_name` (`PersonName` of the first
 `AlternativeName` whose `NameType` is not `00`); `isni` / `viaf` (`IDValue` of
 the `NameIdentifier` with `NameIDType` `16` / `31`); `alternative_names` (the `PersonName` of every `AlternativeName` with
 `NameType` `00`).
@@ -454,7 +455,6 @@ exists in both, these are the differences:
 | `PartNumber` of a series in a level `01` element: of the `Collection`, or of the product's title | the series has no number | `number_within_series` as if it were next to the name of the series | `series-part-in-product-level-element`, `series-part-in-product-title`, `part-in-product-title-with-cycle-and-series`, `part-in-product-title-with-cycle-and-two-series` |
 | `series` | list of `[title, part]` pairs | list of `{name, number_within_series}` | `example-series-memberships`, `printed-book` … |
 | `supporting_resources` | every resource | without front covers (in `front_cover`) and excerpts of e-books and audiobooks (in `excerpt_infos`) | `example-ebook-with-files`, `example-supporting-resources`, `printed-book` … |
-| contributor `unnamed_persons` | the `UnnamedPersons` code, besides `various_persons` and `ai` (since 0.12.0) | not in the output: only `various_persons` (`04`) and `ai` (`05`-`09`) | `example-collective-work`, `example-ai-authored`, `ai-voice-marker` … |
 | `FromLanguage` | read only for translators | read for every role | – |
 | a `SupplyDetail` without a price | `prices` null (PHP warning) | `[]` | `open-access-book` |
 | types | numbers and codes as strings, some codes as ints (`proximity` 3), floats/ints chosen per field, dates as `DateTime` | see [Value types](#value-types) | all |

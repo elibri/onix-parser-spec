@@ -813,6 +813,7 @@
               "key_names",
               "names_after_key",
               "biographical_note",
+              "unnamed_persons",
               "various_persons",
               "ai",
               "ai_generated_voice",
@@ -897,6 +898,12 @@
                 ]
               },
               "biographical_note": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "unnamed_persons": {
                 "type": [
                   "string",
                   "null"

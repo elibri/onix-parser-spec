@@ -13,6 +13,7 @@
         "person_name",
         "names_before_key",
         "key_names",
+        "unnamed_persons",
         "ai"
       ],
       "before": {
@@ -28,6 +29,7 @@
         "key_names": null,
         "names_after_key": null,
         "biographical_note": null,
+        "unnamed_persons": "09",
         "various_persons": false,
         "ai": true,
         "ai_voice_description": null,
@@ -49,6 +51,7 @@
         "key_names": "Chojnacki",
         "names_after_key": null,
         "biographical_note": null,
+        "unnamed_persons": null,
         "various_persons": false,
         "ai": false,
         "ai_voice_description": null,

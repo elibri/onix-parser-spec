@@ -133,6 +133,7 @@ Authors, translators, narrators and other people involved.
 | `contributors[].key_names` | Surname. | text | `"Baum"` |
 | `contributors[].names_after_key` | Suffix after the surname, such as `Jr.`. | text | `"OP"` |
 | `contributors[].biographical_note` | Biography, as HTML. | text | `"<p>Gilles Baum urodził się w 1975 roku w Miluzie, we Francj…` |
+| `contributors[].unnamed_persons` | Code saying who stands in for a named person: `04` various persons (a collective work), `05`-`08` an AI voice, `09` AI in any role; `null` for a named contributor. The four fields below say the same in plain form. | text | `"05"` |
 | `contributors[].various_persons` | Stands for various persons (a collective work) instead of a named person. | yes or no | `true` |
 | `contributors[].ai` | The contributor is AI: an AI voice, or AI as an author, translator, cover designer and so on. Always set when `ai_generated_voice` is. | yes or no | `true` |
 | `contributors[].ai_generated_voice` | The narrator is an AI voice. | yes or no | `true` |

@@ -111,7 +111,9 @@ and `parsed` (from `publishing_date.date`).
 The names and descriptions of a code are compared like any other field, so they
 change together with their code: `product_packaging` with
 `product_packaging_name` and `product_packaging_name_description`, `proximity`
-with `proximity_name`, a language's `code` with `language`, and so on.
+with `proximity_name`, a language's `code` with `language`, a contributor's
+`unnamed_persons` with `various_persons`, `ai` and `ai_voice_description`, and
+so on.
 
 These fields are compared although the parser derives them, because
 they are what a reader of the record uses:

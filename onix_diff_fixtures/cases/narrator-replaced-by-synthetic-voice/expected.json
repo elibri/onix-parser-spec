@@ -13,6 +13,7 @@
         "person_name",
         "names_before_key",
         "key_names",
+        "unnamed_persons",
         "ai",
         "ai_voice_description",
         "voice_name"
@@ -30,6 +31,7 @@
         "key_names": "Zatryb",
         "names_after_key": null,
         "biographical_note": null,
+        "unnamed_persons": null,
         "various_persons": false,
         "ai": false,
         "ai_voice_description": null,
@@ -51,6 +53,7 @@
         "key_names": null,
         "names_after_key": null,
         "biographical_note": null,
+        "unnamed_persons": "08",
         "various_persons": false,
         "ai": true,
         "ai_voice_description": "Głos syntetyzowany - bazujący na głosie aktora",
