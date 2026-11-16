@@ -100,6 +100,9 @@ could count in: `part-in-product-title-with-cycle-and-two-series`,
 `part-in-product-title-with-two-series` (see
 [Where the part number is](#collections-and-titles)).
 
+`excerpt-link-without-id` is `ebook` with one excerpt kept on another server, so
+its link carries no file id.
+
 ## Parsing rules
 
 ### XML
@@ -345,7 +348,7 @@ Only a `TextContent` with `ContentAudience` `00` is read. Each is an object: `id
 | `supporting_resources` | every `SupportingResource` except the front covers (content type `01`) and the excerpts listed in `excerpt_infos`: `id`, `datestamp`; `content_type` (`ResourceContentType`), `mode` (`ResourceMode`) and their names; from its first `ResourceVersion`: `form` (`ResourceForm`), `form_name`, `link` (`ResourceLink`), `md5` / `file_size` (`FeatureValue` of the `ResourceVersionFeature` of type `06` / `07`) |
 | `front_cover` | the first `SupportingResource` with content type `01`, or `null`: `id`, `datestamp`; from its first `ResourceVersion`: `link` (`ResourceLink`), `md5` / `file_size` (`FeatureValue` of the `ResourceVersionFeature` of type `06` / `07`) |
 | `preview_exists` | a resource with content type `16` exists |
-| `excerpt_infos` | only when `product_form` is `EA` or `AJ`: one entry per `ResourceVersion` of every resource with content type `15`: `id` (5th `/`-separated part of `ResourceLink`, e.g. `https://www.elibri.com.pl/excerpt/366213/…` → 366213), `file_type` (text after the last `.` of the link + `_excerpt`), `file_size` / `md5` (`FeatureValue` of the `ResourceVersionFeature` of type `07` / `06`), `link` (`ResourceLink`), `updated_at` (`Date` of the `ContentDate` with role `17`) |
+| `excerpt_infos` | only when `product_form` is `EA` or `AJ`: one entry per `ResourceVersion` of every resource with content type `15`: `id` (5th `/`-separated part of `ResourceLink`, e.g. `https://www.elibri.com.pl/excerpt/366213/…` → 366213; `null` when that part is not a number, as in a link to another server - case `excerpt-link-without-id`), `file_type` (text after the last `.` of the link + `_excerpt`), `file_size` / `md5` (`FeatureValue` of the `ResourceVersionFeature` of type `07` / `06`), `link` (`ResourceLink`), `updated_at` (`Date` of the `ContentDate` with role `17`) |
 
 ### Publishing
 
@@ -445,6 +448,7 @@ exists in both, these are the differences:
 | spaces around keywords (`"przebudzenie "`) and heading texts | kept | stripped | `printed-book`, `puzzle` … |
 | alternative names of a `CorporateName` subject | lost | read | `names-as-subject` |
 | identifiers of related products | added to the product's `proprietary_identifiers` | ignored (direct children only) | `example-related-products`, `preorder-book` … |
+| excerpt link whose fifth part is not a number (a file kept on another server) | that part as `id`, whatever it is | `id` null | `excerpt-link-without-id` |
 | master file in a ZIP | `file_type` null (`==` instead of `=`) | `mp3_in_zip` | `audiobook` … |
 | `PartNumber` of a cycle in the level `01` element | `collection_part` null | `collection_part_number` as if it were in level `02` | `cycle-part-in-product-level-element` |
 | `PartNumber` of a series in a level `01` element: of the `Collection`, or of the product's title | the series has no number | `number_within_series` as if it were next to the name of the series | `series-part-in-product-level-element`, `series-part-in-product-title`, `part-in-product-title-with-cycle-and-series`, `part-in-product-title-with-cycle-and-two-series` |

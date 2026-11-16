@@ -892,5 +892,13 @@
       "kind": "record",
       "product": "printed_book"
     }
+  },
+  {
+    "id": "excerpt-link-without-id",
+    "title": "Excerpt link without an id",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
   }
 ]
