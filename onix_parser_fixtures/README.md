@@ -77,11 +77,28 @@ namespace `http://ns.editeur.org/onix/3.1/reference`, without Elibri extensions.
   namespace, the same record without indentation and with escaped HTML, elements
   the parser does not know, and a message without products.
 
-Two cases differ from another case only in the form of the ONIX and parse the
-same: `cycle-part-in-product-level-element` is `cycle-and-series` with the
-cycle's `PartNumber` in the level `01` element instead of level `02`, and
-`alternative-format-relation-code` is `preorder-book` with `ProductRelationCode`
-`06` instead of `24`.
+Five cases differ from another case only in the form of the ONIX and parse the
+same. Four of them have a `PartNumber` in a product-level element (`01`), where
+the ONIX guide wants it, instead of the collection-level element (`02`), where
+Elibri writes it next to the name of the series or cycle:
+
+- `cycle-part-in-product-level-element` is `cycle-and-series` with the cycle's
+  number in the level `01` element of the title;
+- `series-part-in-product-level-element` is `printed-book` with the number of
+  the series in a level `01` element of its own inside `Collection`;
+- `series-part-in-product-title` is `printed-book` with that number in the
+  product's own title;
+- `part-in-product-title-with-cycle-and-series` is `ebook` with one number in
+  the product's title, for both the cycle and the series of the same name.
+
+The fifth, `alternative-format-relation-code`, is `preorder-book` with
+`ProductRelationCode` `06` instead of `24`.
+
+Three more cases have a number in the product's title and several places it
+could count in: `part-in-product-title-with-cycle-and-two-series`,
+`part-in-product-title-with-cycle-and-other-series` and
+`part-in-product-title-with-two-series` (see
+[Where the part number is](#collections-and-titles)).
 
 ## Parsing rules
 
@@ -232,11 +249,20 @@ from the description: the text is split at the first `-`, the part before is
 
 ### Collections and titles
 
-A *title detail* is a `TitleDetail` directly in `DescriptiveDetail`: its `TitleType` is its type, and each `TitleElement` has a `level` (`TitleElementLevel`), `title` (`TitleText`), `subtitle` (`Subtitle`), `part_number` (`PartNumber`) and `language` (`language` attribute of `TitleText`). If the element of level `01` has a `PartNumber`, the element of level `02` exists and has none, the number belongs to level `02`: both places parse the same (cases `cycle-and-series` and `cycle-part-in-product-level-element`).
+A *title detail* is a `TitleDetail`: its `TitleType` is its type, and each `TitleElement` has a `level` (`TitleElementLevel`), `title` (`TitleText`), `subtitle` (`Subtitle`), `part_number` (`PartNumber`) and `language` (`language` attribute of `TitleText`). The title details of the product are the ones directly in `DescriptiveDetail`; every `Collection` has its own.
+
+**Where the part number is.** A volume number stands either in the collection-level element (`02`), next to the name of the series or cycle - this is what Elibri sends - or in a product-level element (`01`), as the ONIX guide recommends. Both parse the same, by two rules:
+
+1. In every title detail, of the product or of a `Collection`: if the element of level `01` has a `PartNumber`, and the element of level `02` exists and has none, the number belongs to level `02`. In the product's title this is the volume in the cycle (cases `cycle-and-series` and `cycle-part-in-product-level-element`). In a `Collection` it is the number in the series; the level `01` element there holds nothing but the number (cases `printed-book` and `series-part-in-product-level-element`).
+2. The `PartNumber` written in the level `01` element of the product's main title detail (the first of type `01`) is the volume of the product, and it goes where a number is missing. The *candidates* for it are the cycle, when the level `02` element of that title detail has no `PartNumber` of its own, and every series (`Collection`) that has no number after rule 1.
+   - **One candidate** gets the number: the cycle, by rule 1 (case `cycle-part-in-product-level-element`, where the series has a number of its own and keeps it), or the series (case `series-part-in-product-title`).
+   - **Several candidates:** the cycle gets the number by rule 1, because the number stands in the same title detail as its name. Of the series, the one whose `name` is equal to the `title` of the level `02` element gets it as well: a series and a cycle with the same name are the same set of volumes (cases `part-in-product-title-with-cycle-and-series` and `part-in-product-title-with-cycle-and-two-series`). A series with another name stays without a number (cases `part-in-product-title-with-cycle-and-other-series` and `part-in-product-title-with-cycle-and-two-series`). When the title has no level `02` element, there is no name to compare with, so no series gets the number (case `part-in-product-title-with-two-series`).
+
+   Names are compared as text values (see [XML](#xml)), character by character. If several series have that name, the first gets the number.
 
 | field | source / rule |
 |---|---|
-| `series` | per `Collection`: `name` (`TitleText`) and `number_within_series` (`PartNumber`, a string) of the first `TitleElement` of its first `TitleDetail` |
+| `series` | per `Collection`, from its first `TitleDetail`: `name` (`title`) and `number_within_series` (`part_number`, a string) of the collection-level element (`02`), or of the first `TitleElement` when no element has that level; then rule 2 |
 | `issn_with_hyphens` | `IDValue` of the first `CollectionIdentifier` with `CollectionIDType` `02`, in the first `Collection` that has one |
 | `issn` | the same with everything except digits and `X` removed |
 | `title`, `subtitle` | of the product-level element (`level` `01`) of the **first** title detail of type `01` |
@@ -421,6 +447,7 @@ exists in both, these are the differences:
 | identifiers of related products | added to the product's `proprietary_identifiers` | ignored (direct children only) | `example-related-products`, `preorder-book` … |
 | master file in a ZIP | `file_type` null (`==` instead of `=`) | `mp3_in_zip` | `audiobook` … |
 | `PartNumber` of a cycle in the level `01` element | `collection_part` null | `collection_part_number` as if it were in level `02` | `cycle-part-in-product-level-element` |
+| `PartNumber` of a series in a level `01` element: of the `Collection`, or of the product's title | the series has no number | `number_within_series` as if it were next to the name of the series | `series-part-in-product-level-element`, `series-part-in-product-title`, `part-in-product-title-with-cycle-and-series`, `part-in-product-title-with-cycle-and-two-series` |
 | `series` | list of `[title, part]` pairs | list of `{name, number_within_series}` | `example-series-memberships`, `printed-book` … |
 | `supporting_resources` | every resource | without front covers (in `front_cover`) and excerpts of e-books and audiobooks (in `excerpt_infos`) | `example-ebook-with-files`, `example-supporting-resources`, `printed-book` … |
 | contributor `unnamed_persons` | the `UnnamedPersons` code, besides `various_persons` and `ai` (since 0.12.0) | not in the output: only `various_persons` (`04`) and `ai` (`05`-`09`) | `example-collective-work`, `example-ai-authored`, `ai-voice-marker` … |

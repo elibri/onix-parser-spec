@@ -844,5 +844,53 @@
       "kind": "record",
       "product": "preorder_book"
     }
+  },
+  {
+    "id": "series-part-in-product-level-element",
+    "title": "Series number in a product-level element of the collection",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "series-part-in-product-title",
+    "title": "Series number with the product's title",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "part-in-product-title-with-cycle-and-series",
+    "title": "One part number for the cycle and the series of the same name",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "part-in-product-title-with-cycle-and-two-series",
+    "title": "Part number with the product's title, a cycle and two series",
+    "source": {
+      "kind": "record",
+      "product": "ebook"
+    }
+  },
+  {
+    "id": "part-in-product-title-with-cycle-and-other-series",
+    "title": "Part number with the product's title, a cycle and a series with another name",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
+  },
+  {
+    "id": "part-in-product-title-with-two-series",
+    "title": "Part number with the product's title, two series and no cycle",
+    "source": {
+      "kind": "record",
+      "product": "printed_book"
+    }
   }
 ]

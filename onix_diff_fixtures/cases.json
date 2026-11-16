@@ -1422,5 +1422,20 @@
       "excerpts.added",
       "front_cover.changed"
     ]
+  },
+  {
+    "id": "no-change-series-part-in-product-level-element",
+    "title": "Series number moved to a product-level element",
+    "expected_change_types": []
+  },
+  {
+    "id": "no-change-series-part-in-product-title",
+    "title": "Series number moved to the product's title",
+    "expected_change_types": []
+  },
+  {
+    "id": "no-change-cycle-part-in-product-level-element",
+    "title": "Cycle part number moved to the product-level element",
+    "expected_change_types": []
   }
 ]

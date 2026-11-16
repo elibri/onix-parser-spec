@@ -1,0 +1,10 @@
+{
+  "id": "no-change-cycle-part-in-product-level-element",
+  "title": "Cycle part number moved to the product-level element",
+  "description": "Synthetic: in the 'after' file the PartNumber of the cycle 'Morally Gray' (1) is in the product-level element of the title (level 01) instead of the collection-level element (02). It is still volume 1 of the cycle, so no change is reported.",
+  "product": {
+    "kind": "ebook",
+    "record_reference": "260e49e9df9407937371"
+  },
+  "changes": []
+}

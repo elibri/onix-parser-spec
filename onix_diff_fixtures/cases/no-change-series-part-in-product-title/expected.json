@@ -1,0 +1,10 @@
+{
+  "id": "no-change-series-part-in-product-title",
+  "title": "Series number moved to the product's title",
+  "description": "Synthetic: in the 'after' file the <Collection> of the series 'Joanna Concejo' has no PartNumber; the number 8 is in the product-level element of the product's own title. The product is in one series, so it is still volume 8 of it and no change is reported.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": []
+}

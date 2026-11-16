@@ -97,6 +97,8 @@ Filled for board games, puzzles and toys.
 
 A *series* is a publisher's collection, such as a list of school readings. A *cycle* is a set of connected volumes, and is part of the title.
 
+A volume number can stand in several places of the ONIX: next to the name of the series or cycle, or with the title of the product. The parser puts it in `number_within_series` or `collection_part_number` either way. A number written with the title of the product is the volume in the cycle, and in the series when that is the only place it could count in or when the series has the same name as the cycle. The exact rules are in the README, under "Where the part number is".
+
 | Field | Meaning | Type | Example |
 |---|---|---|---|
 | `series` | Series the product belongs to. | list | see below |

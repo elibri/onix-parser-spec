@@ -1,0 +1,10 @@
+{
+  "id": "no-change-series-part-in-product-level-element",
+  "title": "Series number moved to a product-level element",
+  "description": "Synthetic: in the 'after' file the PartNumber of the series 'Joanna Concejo' (8) is not in the element with the name but in a TitleElement of level 01 of its own inside <Collection>. The series and its number are the same, so no change is reported.",
+  "product": {
+    "kind": "printed_book",
+    "record_reference": "c937e645aeb6050c0246"
+  },
+  "changes": []
+}

@@ -66,7 +66,11 @@ cases change only a contributor's ISNI or VIAF while the name stays the same.
 into AI (`UnnamedPersons` `09`) and back: the same contributor (same `id`) loses or
 gains its name parts, while `from_language` stays. Some cases show cascades (renaming the
 publisher changes three fields; changing the author's name in one edition breaks
-the facsimile relation to the other one). Six cases report no change at all.
+the facsimile relation to the other one). Nine cases report no change at all;
+in three of them (`no-change-series-part-in-product-level-element`,
+`no-change-series-part-in-product-title`,
+`no-change-cycle-part-in-product-level-element`) the 'after' file has a volume
+number in another title element, which the parser reads the same.
 
 Five cases change several sections in one edit, as a publisher does in one
 session: `preorder-published-with-final-data`, `ebook-metadata-refreshed`,
@@ -258,4 +262,4 @@ case.
 - `publishing_date.*`, `distribution_start.*`, `licence_limited_to.*`, `unlimited_licence.changed`, `premiere.*`
 - `sales_restrictions_info.*`, `sales_restrictions.changed`, `sale_restricted_to_poland.changed`, `territory_countries.*`, `territory_regions.*`, `alternative_format_record_references.*` (facsimile)
 - `supply_details.*` (availability, stock, pack, supplier, prices), `cover_price.*`, `current_price_until.*`, `future_cover_price.*`, `future_price_from.*`, `vat.*`, `additional_trade_information.*`
-- no change: datestamps, identical, re-serialised, reordered, internal fields, spaces the parser strips
+- no change: datestamps, identical, re-serialised, reordered, internal fields, spaces the parser strips, a part number moved to another title element
